@@ -1,6 +1,5 @@
 import React from "react";
 import ApproachSection from "./ApproachSection";
-import { motion } from "framer-motion";
 import { Gem, ShieldCheck, RefreshCcw , ArrowUpRight , Monitor, Users, TrendingUp, Settings, Server, UserCheck } from "lucide-react";
 
 const approachData = [

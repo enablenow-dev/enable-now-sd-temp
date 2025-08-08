@@ -4,7 +4,6 @@ import Value from './_components/Value'
 import OurExpertise from './_components/OurExpertise'
 import Approach from './_components/Approach'
 import Cta from '@/app/_components/Cta'
-import { motion } from 'framer-motion'
 
 function page() {
   return (

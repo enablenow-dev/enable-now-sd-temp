@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const Value: React.FC = () => {
   return (
@@ -8,13 +7,7 @@ const Value: React.FC = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left side - Image */}
-          <motion.div 
-            className="order-2 lg:order-1"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true }}
-          >
+          <div className="order-2 lg:order-1">
             <div className="relative">
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop&crop=faces"
@@ -22,35 +15,17 @@ const Value: React.FC = () => {
                 className="w-full h-[470px] object-cover rounded-lg shadow-lg"
               />
             </div>
-          </motion.div>
+          </div>
 
           {/* Right side - Content */}
-          <motion.div 
-            className="order-1 lg:order-2 space-y-8"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            viewport={{ once: true }}
-          >
+          <div className="order-1 lg:order-2 space-y-8">
             {/* Value heading */}
-            <motion.div 
-              className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2]"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
-              viewport={{ once: true }}
-            >
+            <div className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2]">
               Value
-            </motion.div>
+            </div>
 
             {/* Description text */}
-            <motion.div 
-              className="space-y-6"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.7, ease: "easeOut", delay: 0.3 }}
-              viewport={{ once: true }}
-            >
+            <div className="space-y-6">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed">
                 EnableNow specializes in 
                 delivering transformative solutions that revolutionize 
@@ -67,26 +42,18 @@ const Value: React.FC = () => {
                 Partner with us to revolutionize your processes and propel your 
                 business forward faster with ServiceNow.
               </p>
-            </motion.div>
+            </div>
 
             {/* CTA Button */}
-            <motion.div 
-              className="pt-4"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
-              viewport={{ once: true }}
-            >
-              <motion.button
-                className="bg-[#007ba8] hover:bg-[#006ba8] text-gray-50 font-semibold px-8 py-4 rounded-md transition duration-300"
-                onClick={() => console.log('Let Us Talk clicked')}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                LET US TALK
-              </motion.button>
-            </motion.div>
-          </motion.div>
+            <div className="pt-4">
+                <button
+            className="bg-[#007ba8] hover:bg-[#006ba8] text-gray-50 font-semibold px-8 py-4 rounded-md transition duration-300"
+            onClick={() => console.log('Let Us Talk clicked')}
+          >
+            LET US TALK
+          </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

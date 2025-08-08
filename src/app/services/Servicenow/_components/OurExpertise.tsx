@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import { motion } from 'framer-motion';
 import {
   ArrowUpRight,
   Monitor,
@@ -31,7 +30,7 @@ const ServiceCard: React.FC<ServiceProps> = ({
   const isLight = variant === 'light';
 
   return (
-    <motion.div
+    <div
       className={`
         relative p-6 md:p-8 rounded-lg shadow-sm border transition-all duration-300 hover:shadow-md cursor-pointer group h-48 md:h-56 lg:h-64
         ${isLight
@@ -40,29 +39,12 @@ const ServiceCard: React.FC<ServiceProps> = ({
         }
       `}
       onClick={onClick}
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-      viewport={{ once: true }}
-      whileHover={{ y: -5 }}
     >
-      <motion.div 
-        className={`mb-6 ${isLight ? 'text-[#007ba8]' : 'text-white'}`}
-        initial={{ scale: 0.8, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.3, delay: 0.2 }}
-        viewport={{ once: true }}
-      >
+      <div className={`mb-6 ${isLight ? 'text-[#007ba8]' : 'text-white'}`}>
         <div className="w-12 h-12">{icon}</div>
-      </motion.div>
+      </div>
 
-      <motion.div 
-        className="mb-4"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.3, delay: 0.3 }}
-        viewport={{ once: true }}
-      >
+      <div className="mb-4">
         <h3 className={`text-lg md:text-xl font-medium leading-tight ${isLight ? 'text-gray-900' : 'text-white'}`}>
           {title}
         </h3>
@@ -71,15 +53,9 @@ const ServiceCard: React.FC<ServiceProps> = ({
             {subtitle}
           </p>
         )}
-      </motion.div>
+      </div>
 
-      <motion.div 
-        className="absolute bottom-6 right-6"
-        initial={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.3, delay: 0.4 }}
-        viewport={{ once: true }}
-      >
+      <div className="absolute bottom-6 right-6">
         <div className={`
           w-8 h-8 rounded-full border flex items-center justify-center transition-all duration-300 group-hover:scale-110
           ${isLight
@@ -89,8 +65,8 @@ const ServiceCard: React.FC<ServiceProps> = ({
         `}>
           <ArrowUpRight size={16} />
         </div>
-      </motion.div>
-    </motion.div>
+      </div>
+    </div>
   );
 };
 
@@ -222,87 +198,39 @@ const ServicesExample: React.FC = () => {
   return (
     <div className="bg-gray-50 py-16 lg:py-24">
       <div className="container mx-auto px-4 lg:px-8">
-        <motion.div 
-          className="text-center max-w-4xl mx-auto mb-12"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          viewport={{ once: true }}
-        >
-          <motion.div 
-            className="text-black font-medium text-[28px] md:text-[32px] lg:text-[36px] xl:text-[40px] leading-[1.2] mb-8"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            viewport={{ once: true }}
-          >
+        <div className="text-center max-w-4xl mx-auto mb-12">
+          <div className="text-black font-medium text-[28px] md:text-[32px] lg:text-[36px] xl:text-[40px] leading-[1.2] mb-8">
             Expertise
-          </motion.div>
-          <motion.p 
-            className="text-gray-700 text-base md:text-lg lg:text-[18px] leading-relaxed font-normal mb-8"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
-            viewport={{ once: true }}
-          >
+          </div>
+          <p className="text-gray-700 text-base md:text-lg lg:text-[18px] leading-relaxed font-normal mb-8">
             EnableNow boasts extensive expertise in ServiceNow, spanning various areas within the platform. Our 
             team of certified ServiceNow professionals has deep knowledge and hands-on experience in 
             implementing, customizing, and optimizing ServiceNow solutions to meet diverse business needs.
-          </motion.p>
-          <motion.div 
-            className="text-gray-800 font-medium text-base md:text-lg lg:text-[18px] mb-12"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
-            viewport={{ once: true }}
-          >
+          </p>
+          <div className="text-gray-800 font-medium text-base md:text-lg lg:text-[18px] mb-12">
             Our Platform expertise includes:
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
 
         <ServicesGrid services={servicesData} />
 
         {/* End Section */}
-        <motion.div 
-          className="text-center max-w-4xl mx-auto mt-16"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          viewport={{ once: true }}
-        >
-          <motion.p 
-            className="text-gray-900 text-lg md:text-xl leading-relaxed mb-6"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            viewport={{ once: true }}
-          >
+        <div className="text-center max-w-4xl mx-auto mt-16">
+          <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-6">
             Additionally, our proficiency extends to ServiceNow's advanced capabilities. We excel in deploying
             end-to-end solutions that streamline workflows, enhance collaboration, and drive digital transformation.
-          </motion.p>
-          <motion.p 
-            className="text-gray-900 text-lg md:text-xl leading-relaxed mb-10"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
-            viewport={{ once: true }}
-          >
+          </p>
+          <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-10">
             SYSUSA is your trusted partner for harnessing the full potential of ServiceNow. Our expertise, dedication,
             and commitment to excellence will help you achieve your business objectives.
-          </motion.p>
-          <motion.button
+          </p>
+          <button
             className="bg-[#007ba8] hover:bg-[#006ba8] text-gray-50 font-semibold px-8 py-4 rounded-md transition duration-300"
             onClick={() => console.log('Let Us Talk clicked')}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
-            viewport={{ once: true }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
           >
             LET US TALK
-          </motion.button>
-        </motion.div>
+          </button>
+        </div>
       </div>
     </div>
   );
