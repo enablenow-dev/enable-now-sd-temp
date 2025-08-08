@@ -101,17 +101,7 @@ const NavbarStyleTwo: React.FC = () => {
                         Software Development Services
                       </Link>
                     </li>
-                    <li className="py-[7px] px-[22px]">
-                      <Link
-                        href="/services/proposal-development-and-delivery-services"
-                        className={`block font-medium text-[17px] transition-all hover:text-[#007ba8] ${currentRoute === "/services/proposal-development-and-delivery-services"
-                          ? "text-[#007ba8]"
-                          : "text-black"
-                          }`}
-                      >
-                        Proposal Development & Management Services
-                      </Link>
-                    </li>
+                   
                     <li className="py-[7px] px-[22px]">
                       <Link
                         href="/services/strategic-it-and-security-consulting"
@@ -125,15 +115,16 @@ const NavbarStyleTwo: React.FC = () => {
                     </li>
                     <li className="py-[7px] px-[22px]">
                       <Link
-                        href="/services/recruitment-and-staffing-solutions"
-                        className={`block font-medium text-[17px] transition-all hover:text-[#007ba8] ${currentRoute === "/services/recruitment-and-staffing-solutions"
+                        href="/services/Servicenow"
+                        className={`block font-medium text-[17px] transition-all hover:text-[#007ba8] ${currentRoute === "/services/ServiceNow"
                           ? "text-[#007ba8]"
                           : "text-black"
                           }`}
                       >
-                        Recruitment & Staffing Solutions
+                        Service Now
                       </Link>
                     </li>
+                    
                   </ul>
                 </li>
 
