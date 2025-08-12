@@ -1,8 +1,15 @@
+"use client"
 import React from "react";
-import ServiceHero from "../_components/ServiceHero";
-import ServiceSection from "../_components/ServiceSection";
-import ServicesGrid from "../_components/ServicesGrid";
-
+import ServiceHero from "../../_components/ServiceHero";
+import ServiceSection from "../../_components/ServiceSection";
+import ServicesGrid from "../../_components/ServicesGrid";
+import ServiceNowSPMChallenges from "../../_components/ServiceNowSPMChallenges";
+import ServiceNowSPMBenefits from "../../_components/ServiceNowSPMBenefits";
+import Considerations from "../../_components/Considerations";
+import BestPractices from "../../_components/BestPractices";
+import FAQ from "../../_components/FAQ";
+import PortfolioManagementExcellence from "../../_components/PortfolioManagementExcellence";
+import Cta from "@/app/_components/Cta";
 
 const Page: React.FC = () => {
   return (
@@ -19,6 +26,13 @@ const Page: React.FC = () => {
         imageSrc="/images/software1.avif"
       />
       <ServicesGrid />
+      <ServiceNowSPMChallenges />
+      <ServiceNowSPMBenefits />
+      <Considerations />
+      <BestPractices />
+      <FAQ />
+      <PortfolioManagementExcellence/>
+      <Cta/>
     </>
   );
 };
