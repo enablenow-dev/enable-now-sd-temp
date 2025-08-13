@@ -55,7 +55,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
           }}
         >
           <div className="flex-1 flex flex-col justify-center">
-            <h3 className="text-lg font-semibold mb-4">{title}</h3>
+            {/* <h3 className="text-lg font-semibold mb-4">{title}</h3> */}
             <p className="text-sm leading-relaxed text-gray-100">
               {description}
             </p>

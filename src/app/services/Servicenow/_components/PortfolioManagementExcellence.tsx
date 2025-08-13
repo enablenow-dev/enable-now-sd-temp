@@ -1,7 +1,11 @@
 import React from "react";
 import { MessageCircle } from "lucide-react";
 
-const PortfolioManagementExcellence: React.FC = () => {
+
+
+  export const PortfolioManagementExcellence = ( content : any) => {
+
+
   return (
     <section className="w-full bg-gray-50 py-20 md:py-24 relative">
       <div className="max-w-7xl mx-auto px-8 md:px-12 lg:px-16">
@@ -10,41 +14,34 @@ const PortfolioManagementExcellence: React.FC = () => {
           <div className="lg:col-span-2 space-y-8 pr-0 lg:pr-8">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 leading-tight">
-                Unlock Portfolio Management
-                <br />
-                Excellence with ServiceNow SPM
+                {content.title}
               </h1>
             </div>
-            
+                        
             <div className="space-y-6 text-gray-700">
               <p className="text-lg md:text-xl leading-relaxed font-light">
-                With the implementation of ServiceNow SPM, you are not merely adopting a portfolio 
-                management tool; you are embracing a comprehensive approach to achieving strategic 
-                portfolio excellence. The automation, visibility, and scalability feature of ServiceNow 
-                SPM enable organizations to enhance project execution, allocate resources effectively, 
-                and make more informed decisions.
+                {content.paragraph1}
               </p>
-              
+                            
               <p className="text-lg md:text-xl leading-relaxed font-light">
-                Let us partner with you to unlock the full potential of ServiceNow SPM and elevate your 
-                portfolio management to a new standard of excellence.
+                {content.paragraph2}
               </p>
             </div>
           </div>
-          
+                    
           {/* Right Image */}
           <div className="lg:col-span-1 relative">
             <div className="relative w-full h-[300px] md:h-[350px] lg:h-[400px] rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e078c58224e6a4018_pregnant-woman-having-business-meeting.png"
-                alt="Team collaborating on portfolio management strategies in a modern office setting"
+                src={content.imageSrc}
+                alt={`Visual representation for ${content.title}`}
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
         </div>
       </div>
-      
+            
       {/* Chat Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <button
@@ -58,5 +55,3 @@ const PortfolioManagementExcellence: React.FC = () => {
     </section>
   );
 };
-
-export default PortfolioManagementExcellence;

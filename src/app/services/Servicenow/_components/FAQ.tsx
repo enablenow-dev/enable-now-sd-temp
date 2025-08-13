@@ -11,46 +11,11 @@ interface FaqItem {
   imageSrc: string;
 }
 
-const faqs: FaqItem[] = [
-  {
-    id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
-    answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
-    imageSrc: "/images/services-details.jpg",
-  },
-  {
-    id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
-    answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
-    imageSrc: "/images/collaboration_image.jpg",
-  },
-  {
-    id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
-    answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
-    imageSrc: "/images/success-stories6.jpg",
-  },
-  {
-    id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
-    answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
-    imageSrc: "/images/services-details.jpg",
-  },
-  {
-    id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
-    answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
-    imageSrc: "/images/collaboration_image.jpg",
-  },
- 
-];
+interface FAQProps {
+  faqs: FaqItem[];
+}
 
-const FAQ: React.FC = () => {
+const FAQ: React.FC<FAQProps> = ({ faqs }) => {
   const [openId, setOpenId] = useState<string | null>(null);
   const [heights, setHeights] = useState<{ [key: string]: number }>({});
   const contentRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
@@ -68,7 +33,7 @@ const FAQ: React.FC = () => {
       }
     });
     setHeights(newHeights);
-  }, []);
+  }, [faqs]); // Added faqs dependency
 
   return (
     <section className="w-full bg-[#1e3a5f] min-h-screen py-20">

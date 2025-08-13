@@ -1,19 +1,27 @@
-// File 1: Considerations.tsx Component
 import React from 'react';
 import ServiceCard from './ServiceCard';
+import { ConsiderationItem } from '../data/servicesData';
 
+interface ConsiderationsSectionProps {
+  title: string;
+  subtitle?: string;
+  considerations: ConsiderationItem[];
+}
 
-function Considerations(considerations) {
+function ConsiderationsSection({ 
+  title, 
+  subtitle = "If you are ready to start your ServiceNow journey to enhance your operations and ensure business alignment, it is crucial to plan carefully. Keep the following in mind:", 
+  considerations 
+}: ConsiderationsSectionProps) {
   return (
     <section className="w-full bg-gray-50 py-16 md:py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center max-w-4xl mx-auto mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 font-outfit text-gray-900">
-            Considerations when Implementing ServiceNow SPM
+            {title}
           </h2>
           <p className="text-lg text-gray-600 font-figtree">
-            If you are ready to start a ServiceNow SPM journey to enhance your portfolio management and ensure business alignment,
-            it is crucial to plan carefully. Keep the following in mind:
+            {subtitle}
           </p>
         </div>
 
@@ -42,4 +50,4 @@ function Considerations(considerations) {
   );
 }
 
-export default Considerations;
+export default ConsiderationsSection;
