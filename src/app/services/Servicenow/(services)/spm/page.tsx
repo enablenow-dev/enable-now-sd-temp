@@ -11,7 +11,7 @@ import BestPractices from "../../_components/BestPractices";
 import FAQ from "../../_components/FAQ";
 import{ PortfolioManagementExcellence }from "../../_components/PortfolioManagementExcellence";
 import Cta from "@/app/_components/Cta";
-import { spmServices, spmBenefits, spmChallenges, spmconsiderations , spmfaqs , spmPortfolio} from "../../data/servicesData";
+import { spmServices, spmBenefits, spmChallenges, spmconsiderations, spmFaqs, spmPortfolio, spmPractices} from "../../data/servicesData";
 import ChallengesSection from "../../_components/ChallengesSection";
 
 const Page: React.FC = () => {
@@ -38,8 +38,12 @@ const Page: React.FC = () => {
         title="Considerations when Implementing ServiceNow SPM" 
         considerations={spmconsiderations} 
       />
-      <BestPractices />
-      <FAQ faqs={spmfaqs} />
+      <BestPractices 
+        title="Best Practices for SPM Implementation in ServiceNow"
+        subtitle="To successfully implement ServiceNow Strategic Portfolio Management (SPM), consider these best practices"
+        practices={spmPractices}
+      />
+      <FAQ faqs={spmFaqs} />
       <PortfolioManagementExcellence content={spmPortfolio}/>
       <Cta/>
     </>

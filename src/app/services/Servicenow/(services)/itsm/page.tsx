@@ -4,14 +4,16 @@ import ServiceSection from "../../_components/ServiceSection";
 
 import ServiceHero from "../../_components/ServiceHero";
 import ServicesGrid from '../../_components/ServicesGrid';
-import { itsmServices, itsmBenefits, itsmChallenges , itsmfaqs } from '../../data/servicesData';
+import { itsmServices, itsmBenefits, itsmChallenges, itsmConsiderations, itsmFaqs, itsmPractices } from '../../data/servicesData';
 import BenefitsSection from '../../_components/BenefitsSection';
-import { itsmConsiderations } from '../../data/servicesData';
 import ConsiderationsSection from '../../_components/ConsiderationsSection';
-import FAQ from '../../_components/FAQ';
-
+import FAQSection from '../../_components/FAQSection';
 
 import Cta from '@/app/_components/Cta';
+import BestPractices from '../../_components/BestPractices';
+import { PortfolioManagementExcellence } from '../../_components/PortfolioManagementExcellence';
+import { itsmPortfolio } from '../../data/servicesData'; 
+
 function page() {
   return (
     <>
@@ -30,6 +32,11 @@ function page() {
         title="ServiceNow ITSM Key capabilities include"
         services={itsmServices}
       />
+      <ConsiderationsSection 
+        title="Challenges Addressed by ServiceNow ITSM" 
+        subtitle=""
+        considerations={itsmConsiderations} 
+      />
         <BenefitsSection title="ServiceNow ITSM Benefits" benefits={itsmBenefits} />
       
       <ConsiderationsSection 
@@ -37,8 +44,17 @@ function page() {
         subtitle="If you are ready to start your ServiceNow journey to enhance your operations and ensure business alignment, it is crucial to plan carefully. Keep the following in mind:"
         considerations={itsmConsiderations} 
       />
-      
-      <FAQ faqs={itsmfaqs} />
+      <BestPractices 
+        title="Best Practices for ITSM Implementation in ServiceNow"
+        subtitle="To successfully implement ServiceNow IT Service Management (ITSM), consider these best practices"
+        practices={itsmPractices}
+      />
+      <FAQSection 
+        title="Frequently Asked Questions about ServiceNow ITSM"
+        subtitle="Get answers to common questions about implementing and using ServiceNow ITSM to streamline your IT service management processes."
+        faqs={itsmFaqs}
+      />
+      <PortfolioManagementExcellence content={itsmPortfolio}/>
       <Cta/>
       
     </>

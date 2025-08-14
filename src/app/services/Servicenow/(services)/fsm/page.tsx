@@ -1,0 +1,52 @@
+"use client"
+import React from 'react'
+import ServiceHero from '@/app/services/Servicenow/_components/ServiceHero'
+import ServiceSection from '@/app/services/Servicenow/_components/ServiceSection'
+import ConsiderationsSection from '@/app/services/Servicenow/_components/ConsiderationsSection'
+import { fsmChallenges, fsmCustomerBenefits, fsmfaqs, fsmOfferings, fsmPortfolio } from '../../data/servicesData'
+import FAQSection from '@/app/services/Servicenow/_components/FAQSection'
+import{ PortfolioManagementExcellence } from '@/app/services/Servicenow/_components/PortfolioManagementExcellence'
+import Cta from '@/app/_components/Cta'
+
+function page() {
+  return (
+    <>
+
+    <ServiceHero 
+        title="ServiceNow Field Service Management" 
+        subtitle="Elevate your On-Site Service with Intelligent and Efficient ServiceNow Digital Workflow Automation Engine" 
+        backgroundImage="/images/software1.avif"
+      />
+      <ServiceSection
+        heading="ServiceNow Field Service Management (FSM) provides intelligent scheduling, real-time visibility, and mobile-friendly tools for technicians in the field to deliver efficient, high-quality on-site service.."
+        paragraph1="FSM empowers organizations to enhance team coordination and scheduling automation capabilities to improve customer satisfaction by streamlining workflows for faster and more effective service delivery."
+        paragraph2=""
+        imageSrc="/images/software1.avif"
+      />
+      <ConsiderationsSection 
+        title="Challenges Addressed by ServiceNow Field Service Management" 
+        subtitle=""
+        considerations={fsmChallenges} 
+      />
+      <ConsiderationsSection 
+        title="Benefits of ServiceNow Field Service Management" 
+        subtitle=""
+        considerations={fsmCustomerBenefits} 
+      />
+      <ConsiderationsSection 
+        title="ServiceNow FSM Offerings" 
+        subtitle="ServiceNow FSM includes a range of tools designed to optimize on-site service delivery, improve technician productivity, and enhance the customer experience"
+        considerations={fsmOfferings} 
+      />
+      <FAQSection 
+        title="ServiceNow FSM Offerings" 
+        subtitle="ServiceNow FSM includes a range of tools designed to optimize on-site service delivery, improve technician productivity, and enhance the customer experience"
+        faqs={fsmfaqs} 
+      />
+       <PortfolioManagementExcellence content={fsmPortfolio}/>
+       <Cta/>
+    </>
+  )
+}
+
+export default page

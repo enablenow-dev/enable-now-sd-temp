@@ -3,7 +3,16 @@ import { MessageCircle } from "lucide-react";
 
 
 
-  export const PortfolioManagementExcellence = ( content : any) => {
+interface PortfolioManagementExcellenceProps {
+  content: {
+    title: string;
+    paragraph1: string;
+    paragraph2: string;
+    imageSrc: string;
+  };
+}
+
+export const PortfolioManagementExcellence: React.FC<PortfolioManagementExcellenceProps> = ({ content }) => {
 
 
   return (
