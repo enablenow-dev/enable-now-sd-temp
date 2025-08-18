@@ -372,26 +372,26 @@ export const itsmChallenges: ChallengeItem[] = [
   {
     id: 'downtime',
     icon: 'AlertTriangle',
-    title: 'Minimizing Service Downtime',
-    description: 'Reduce unplanned outages and restore services quickly to maintain business continuity.'
+    title: 'Fragmented Systems and Data Silos',
+    description: 'ServiceNow ITSM consolidates data and workflows in a unified platform, breaking down silos and ensuring seamless operations across departments.'
   },
   {
     id: 'efficiency',
     icon: 'Settings',
-    title: 'Operational Efficiency',
-    description: 'Streamline IT processes and eliminate manual tasks to improve team productivity.'
+    title: 'Manual, Error-Prone Processes',
+    description: 'ServiceNow ITSM automated workflows reduce manual workloads and accelerate service resolution so your team can focus on higher-value initiatives.'
   },
   {
     id: 'visibility',
     icon: 'Target',
-    title: 'Service Visibility and Control',
-    description: 'Gain complete visibility into IT services and infrastructure for better decision making.'
+    title: 'Risk of Downtime and Service Disruptions',
+    description: 'ServiceNow ITSM provides a structured process for incidents and problems to help quickly address and resolve issues and minimize downtime.'
   },
   {
     id: 'compliance',
     icon: 'Shield',
-    title: 'Compliance and Governance',
-    description: 'Ensure IT operations meet regulatory requirements and internal governance standards.'
+    title: 'Scaling IT with Business Growth',
+    description: 'ServiceNow ITSM spans everything from foundational IT functions to advanced service management, evolving seamlessly with your business.'
   }
 ];
 
@@ -602,6 +602,60 @@ export const wsdChallenges: ChallengeItem[] = [
     icon: 'Shield',
     title: 'Lack of Asset Visibility and Utilization Insights',
     description: 'Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.'
+  }
+];
+
+export const itsmCapabilities: ChallengeItem[] = [
+  {
+    id: 'asaw',
+    icon: 'AlertTriangle',
+    title: 'Incident Management',
+    description: 'Efficiently manage and resolve IT issues to restore normal service operations.'
+  },
+  {
+    id: 'CLM',
+    icon: 'Settings',
+    title: 'Change Management',
+    description: 'Ensure controlled and smooth implementation of IT changes with minimal impact.'
+  },
+  {
+    id: 'CALM',
+    icon: 'Target',
+    title: 'Service Catalog',
+    description: 'A centralized platform automates IT service requests for more efficiency.'
+  },
+  {
+    id: 'LAVUI',
+    icon: 'Shield',
+    title: 'Configuration Management (CMDB)',
+    description: 'Maintain a single source of truth for your enterprise IT infrastructure and services.'
+  },
+  {
+    id: 'pbm',
+    icon: 'Shield',
+    title: 'Problem Management',
+    description: 'Identify and handle root causes of repeat incidents to minimize service disruptions.'
+  }
+  ,
+  {
+    id: 'rm',
+    icon: 'Shield',
+    title: 'Request Management',
+    description: 'Simplify service requests with standardized workflows and approvals.'
+  }
+   ,
+  {
+    id: 'pbm',
+    icon: 'Shield',
+    title: 'Knowledge Management',
+    description: 'Share and reuse knowledge to resolve issues faster and enhance user experience.'
+  }
+     ,
+  {
+    id: 'amc',
+    icon: 'Shield',
+    title: 'Asset Management Core',
+    description: 'Make informed decisions with real-time visibility into assets across the enterprise.'
   }
 ];
 export const itomCapabilities: ChallengeItem[] = [
@@ -856,43 +910,43 @@ export const spmconsiderations = considerations;
 export const itsmConsiderations: ConsiderationItem[] = [
   {
     icon: '/icons/stakeholder.png',
-    title: 'Service Strategy Alignment',
-    description: 'Align ITSM implementation with business objectives and ensure IT services support organizational goals and priorities.'
+    title: 'Defining Clear Objectives',
+    description: 'What is driving the adoption of ITSM, and what are the expected key results?'
   },
   {
     icon: '/icons/strategy.png',
-    title: 'Process Standardization',
-    description: 'Establish standardized ITIL-based processes for incident, problem, change, and request management across the organization.'
+    title: 'Process Alignment',
+    description: 'Are your IT processes aligned with ITIL best practices? What are the gaps?'
   },
   {
     icon: '/icons/data.png',
-    title: 'CMDB Data Quality',
-    description: 'Ensure accurate and up-to-date configuration management database with proper CI relationships and data governance.'
+    title: 'Governance Model',
+    description: 'Do you have a governance structure to maintain the platform?'
   },
   {
     icon: '/icons/customization.png',
-    title: 'Workflow Automation Balance',
-    description: 'Balance automation with human oversight to maintain service quality while improving efficiency and response times.'
+    title: 'Business Impact Analysis',
+    description: 'How will adopting ServiceNow ITSM impact the various departments or business groups?'
   },
   {
     icon: '/icons/resource.png',
-    title: 'Team Skills and Capacity',
-    description: 'Assess current team capabilities and plan for skill development to effectively manage and operate ITSM processes.'
+    title: 'Data Accuracy',
+    description: 'Do you have accurate data to create an efficient and effective CMDB?.'
   },
   {
     icon: '/icons/training.png',
-    title: 'User Adoption and Training',
-    description: 'Provide comprehensive training for IT staff and end-users to ensure successful adoption of new ITSM processes and tools.'
+    title: 'Scalability',
+    description: 'Do you need to consider scalability to support your organization’s growth?'
   },
   {
     icon: '/icons/improvement.png',
-    title: 'Metrics and KPI Framework',
-    description: 'Define clear KPIs and metrics to measure ITSM performance, service quality, and continuous improvement opportunities.'
+    title: 'Integration Needs',
+    description: 'Do you have third-party tools or legacy systems that need integration with ServiceNow?'
   },
   {
     icon: '/icons/risk.png',
-    title: 'Change Management Strategy',
-    description: 'Implement robust change management processes to minimize service disruption and ensure controlled deployment of changes.'
+    title: 'User Training',
+    description: 'Do you need end-users and IT staff training to adopt and effectively use ITSM?'
   }
 ];
 export const hrsdConsiderations: ConsiderationItem[] = [
@@ -1248,38 +1302,45 @@ export interface FaqItem {
 export const itsmFaqs: FaqItem[] = [
   {
     id: "incident-management",
-    question: "How does ServiceNow ITSM streamline incident management?",
+    question: "Discovery and Tailored Strategy",
     answer:
-      "ServiceNow ITSM provides automated incident routing, priority-based escalation, and real-time collaboration tools to reduce mean time to resolution and minimize business impact.",
+      "We begin with your current IT environment by understanding key pain points, identifying areas for improvement to develop a tailored strategy, and aligning ServiceNow’s capabilities with your unique requirements.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "service-catalog",
-    question: "What benefits does the ServiceNow service catalog provide?",
+    question: "Solution Design",
     answer:
-      "The service catalog offers self-service capabilities, standardized request processes, and automated fulfillment workflows that improve user experience and reduce IT workload.",
-    imageSrc: "/images/collaboration_image.jpg",
+      "Our experts design a solution blueprint for configuration and integration with your existing systems and workflows. Every element is meticulously planned to ensure seamless adoption and long-term success..",
+    imageSrc: "/solutionfaq.jpg",
   },
   {
-    id: "change-management",
-    question: "How does ServiceNow ITSM handle change management?",
+    id: "Implementation and Testing",
+    question: "Implementation and Testing",
     answer:
-      "ServiceNow provides comprehensive change management with risk assessment, approval workflows, and automated testing to ensure changes are implemented safely and efficiently.",
-    imageSrc: "/images/success-stories6.jpg",
+      "Our team manages all implementation aspects, from configuring modules to setting up the CMDB and integrating necessary applications. We rigorously test each component to ensure reliability and readiness for launch.",
+    imageSrc: "/implementation.png",
   },
   {
     id: "knowledge-base",
-    question: "How does knowledge management improve service delivery?",
+    question: "User Training and Engagement",
     answer:
-      "ServiceNow's knowledge management captures solutions, enables self-service, and provides AI-powered recommendations to accelerate problem resolution and reduce repeat incidents.",
-    imageSrc: "/images/services-details.jpg",
+      "Our training ensures your team fully understands and benefits from the platform’s features, driving high adoption rates. We also provide role-based training sessions to empower your team.",
+    imageSrc: "/testing.jpg",
   },
   {
     id: "sla-management",
-    question: "How does ServiceNow ITSM ensure SLA compliance?",
+    question: "Go-Live Support and Continuous Optimization",
     answer:
-      "ServiceNow provides real-time SLA monitoring, automated escalations, and performance analytics to ensure service level commitments are met consistently.",
-    imageSrc: "/images/collaboration_image.jpg",
+      "We support your team as they transition to the new platform with a smooth go-live process. Our post-implementation services include troubleshooting, guidance, and optimization recommendations.",
+    imageSrc: "/livesupport.jpg",
+  },
+  {
+    id: "lifecycle-management",
+    question: "Long-Term Partnership",
+    answer:
+      "As business grows, so do IT needs. As a trusted partner, we are committed to help you adjust, scale, and optimize ServiceNow ITSM so it continues to deliver measurable business value.",
+    imageSrc: "/ltmpartnersip.jpg",
   },
 ];
 
@@ -1790,7 +1851,7 @@ export const itamfaqs: FaqItem[] = [
 
 export interface Practice {
   id: string;
-  icon: LucideIcon;
+  icon: string;
   title: string;
   description: string;
 }
@@ -1798,61 +1859,61 @@ export interface Practice {
 export const itsmPractices: Practice[] = [
   {
     id: 'alignment',
-    icon: BriefcaseBusiness,
-    title: 'Portfolio Alignment with Strategic Goals',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755f4fbd2d7fbbbac3f_Frame%2032%20(38).svg',
+    title: 'Start Small, Then Scale',
     description:
-      "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
+      "Begin with core modules before expanding to advanced capabilities.",
   },
   {
     id: 'agile',
-    icon: ClipboardList,
-    title: 'Agile Portfolio Management',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755498f6c737cf53327_Frame%2032%20(39).svg',
+    title: 'Engage Stakeholders',
     description:
-      'Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.',
+      'Establish regular communication with stakeholders throughout the lifecycle.',
   },
   {
-    id: 'financial',
-    icon: ReceiptText,
-    title: 'Enhanced Financial Management and Budgeting',
+    id: 'ux',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68271705ca166033dc20d63f_Frame%2032%20(2).svg',
+    title: 'Focuson User Experience',
     description:
-      'Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.',
+      'Prioritize usability and accessibility for end-users and IT teams for higher adoption.',
   },
   
   {
     id: 'governance',
-    icon: Workflow,
-    title: 'Automation of Governance and Approval Workflows',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682717050e18441750036e61_Frame%2032%20(3).svg',
+    title: 'Automate Repetitive Tasks',
     description:
-      'Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.',
+      'Maximize efficiency with automated workflows for routine tasks.',
   },
   {
-    id: 'change',
-    icon: RefreshCw,
-    title: 'Change Management and Adoption Strategy',
+    id: 'data-quality',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755617322f52fbe6ff6_Frame%2032%20(40).svg',
+    title: 'Prioritize Data Quality',
     description:
-      'Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.',
+      'Regularly audit and update data in the CMDB to ensure consistency and data accuracy.',
   },
   {
     id: 'risk',
-    icon: ShieldAlert,
-    title: 'Risk Assessment and Mitigation Frameworks',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755c3c225525665f4ac_Frame%2032%20(41).svg',
+    title: 'Adopt Agile Methods',
     description:
-      'Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.',
+      'Use iterative agile approaches to develop and deploy for continuous improvements.',
   },
  
   {
     id: 'performance',
-    icon: ShieldAlert,
-    title: 'Performance Analytics and Reporting',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755c3c225525665f4ac_Frame%2032%20(41).svg',
+    title: 'Emphasize Change Management',
     description:
-      'Create proactive frameworks that actively identify, evaluate, and reduce risks at the portfolio, program, and project levels to ensure successful results.',
+      'Adopt robust change management for seamless implementation.',
   },
   {
     id: 'collaboration',
-    icon: ShieldAlert,
-    title: 'Cross-Functional Collaboration and Communication',
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
+    title: 'Monitor and Optimize',
     description:
-      'Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.',
+      'Leverage Performance Analytics to track KPIs andspot areas for improvements.',
   },
 ];
 
@@ -1860,21 +1921,21 @@ export const itsmPractices: Practice[] = [
 export const itomPractices: Practice[] = [
   {
     id: 'alignment',
-    icon: BriefcaseBusiness,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Portfolio Alignment with Strategic Goals',
     description:
       "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
   },
   {
     id: 'agile',
-    icon: ClipboardList,
+    icon: '',
     title: 'Agile Portfolio Management',
     description:
       'Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.',
   },
   {
     id: 'financial',
-    icon: ReceiptText,
+    icon: '',
     title: 'Enhanced Financial Management and Budgeting',
     description:
       'Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.',
@@ -1882,21 +1943,21 @@ export const itomPractices: Practice[] = [
   
   {
     id: 'governance',
-    icon: Workflow,
+    icon: '',
     title: 'Automation of Governance and Approval Workflows',
     description:
       'Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.',
   },
   {
     id: 'change',
-    icon: RefreshCw,
+    icon: '',
     title: 'Change Management and Adoption Strategy',
     description:
       'Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.',
   },
   {
     id: 'risk',
-    icon: ShieldAlert,
+    icon: '',
     title: 'Risk Assessment and Mitigation Frameworks',
     description:
       'Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.',
@@ -1904,14 +1965,14 @@ export const itomPractices: Practice[] = [
  
   {
     id: 'performance',
-    icon: ShieldAlert,
+    icon: '',
     title: 'Performance Analytics and Reporting',
     description:
       'Create proactive frameworks that actively identify, evaluate, and reduce risks at the portfolio, program, and project levels to ensure successful results.',
   },
   {
     id: 'collaboration',
-    icon: ShieldAlert,
+    icon: '',
     title: 'Cross-Functional Collaboration and Communication',
     description:
       'Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.',
@@ -1920,21 +1981,21 @@ export const itomPractices: Practice[] = [
 export const csmBestPractices: Practice[] = [
   {
     id: 'alignment',
-    icon: BriefcaseBusiness,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Portfolio Alignment with Strategic Goals',
     description:
       "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
   },
   {
     id: 'agile',
-    icon: ClipboardList,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Agile Portfolio Management',
     description:
       'Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.',
   },
   {
     id: 'financial',
-    icon: ReceiptText,
+    icon: '',
     title: 'Enhanced Financial Management and Budgeting',
     description:
       'Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.',
@@ -1942,21 +2003,21 @@ export const csmBestPractices: Practice[] = [
   
   {
     id: 'governance',
-    icon: Workflow,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Automation of Governance and Approval Workflows',
     description:
       'Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.',
   },
   {
     id: 'change',
-    icon: RefreshCw,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Change Management and Adoption Strategy',
     description:
       'Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.',
   },
   {
     id: 'risk',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Risk Assessment and Mitigation Frameworks',
     description:
       'Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.',
@@ -1964,14 +2025,14 @@ export const csmBestPractices: Practice[] = [
  
   {
     id: 'performance',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Performance Analytics and Reporting',
     description:
       'Create proactive frameworks that actively identify, evaluate, and reduce risks at the portfolio, program, and project levels to ensure successful results.',
   },
   {
     id: 'collaboration',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Cross-Functional Collaboration and Communication',
     description:
       'Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.',
@@ -1980,21 +2041,21 @@ export const csmBestPractices: Practice[] = [
 export const hrsdBestPractices: Practice[] = [
   {
     id: 'alignment',
-    icon: BriefcaseBusiness,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Portfolio Alignment with Strategic Goals',
     description:
       "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
   },
   {
     id: 'agile',
-    icon: ClipboardList,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Agile Portfolio Management',
     description:
       'Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.',
   },
   {
     id: 'financial',
-    icon: ReceiptText,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Enhanced Financial Management and Budgeting',
     description:
       'Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.',
@@ -2002,21 +2063,21 @@ export const hrsdBestPractices: Practice[] = [
   
   {
     id: 'governance',
-    icon: Workflow,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Automation of Governance and Approval Workflows',
     description:
       'Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.',
   },
   {
     id: 'change',
-    icon: RefreshCw,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Change Management and Adoption Strategy',
     description:
       'Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.',
   },
   {
     id: 'risk',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Risk Assessment and Mitigation Frameworks',
     description:
       'Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.',
@@ -2024,14 +2085,14 @@ export const hrsdBestPractices: Practice[] = [
  
   {
     id: 'performance',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Performance Analytics and Reporting',
     description:
       'Create proactive frameworks that actively identify, evaluate, and reduce risks at the portfolio, program, and project levels to ensure successful results.',
   },
   {
     id: 'collaboration',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Cross-Functional Collaboration and Communication',
     description:
       'Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.',
@@ -2043,42 +2104,42 @@ export const hrsdBestPractices: Practice[] = [
 export const spmPractices: Practice[] = [
   {
     id: 'alignment',
-    icon: BriefcaseBusiness,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg' ,
     title: 'Portfolio Alignment with Strategic Goals',
     description:
       "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
   },
   {
     id: 'agile',
-    icon: ClipboardList,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg' ,
     title: 'Agile Portfolio Management',
     description:
       'Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.',
   },
   {
     id: 'financial',
-    icon: ReceiptText,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Enhanced Financial Management and Budgeting',
     description:
       'Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.',
   },
   {
     id: 'governance',
-    icon: Workflow,
+    icon : 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg',
     title: 'Automation of Governance and Approval Workflows',
     description:
       'Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.',
   },
   {
     id: 'change',
-    icon: RefreshCw,
+    icon : 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg' ,
     title: 'Change Management and Adoption Strategy',
     description:
       'Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.',
   },
   {
     id: 'risk',
-    icon: ShieldAlert,
+    icon: 'https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg' ,
     title: 'Risk Assessment and Mitigation Frameworks',
     description:
       'Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.',

@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Image from "next/image";
 
@@ -12,15 +11,24 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped);
+  const handleMouseEnter = () => {
+    setIsFlipped(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsFlipped(false);
   };
 
   return (
-    <div className="w-full h-64" style={{ perspective: '1000px' }}>
+    <div 
+      className="w-full h-64" 
+      style={{ perspective: '1000px' }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <div 
         className="relative w-full h-full transition-transform duration-500"
-        style={{ 
+        style={{
           transformStyle: 'preserve-3d',
           transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)'
         }}
@@ -31,41 +39,26 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
           style={{ backfaceVisibility: 'hidden' }}
         >
           <Image 
-            src='https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0b80811f58c5bc247_Frame%2032%20(44).svg' 
-            alt={title} 
-            width={50} 
-            height={50} 
-            className="mb-4" 
+            src='https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0b80811f58c5bc247_Frame%2032%20(44).svg'
+            alt={title}
+            width={50}
+            height={50}
+            className="mb-4"
           />
           <h3 className="text-lg font-medium mb-4">{title}</h3>
-          <button 
-            className="mt-auto border border-gray-400 rounded-full p-2 hover:bg-gray-100 transition-colors duration-200"
-            onClick={handleFlip}
-          >
-            <span className="text-xl font-bold text-gray-600">+</span>
-          </button>
         </div>
 
         {/* Back of the card */}
         <div 
-          className="absolute inset-0 w-full h-full bg-[#007ba8] text-white rounded-lg p-6 flex flex-col items-center text-center shadow-md"
-          style={{ 
+          className="absolute inset-0 w-full h-full bg-[#007ba8] text-white rounded-lg p-6 flex flex-col items-center justify-center text-center shadow-md"
+          style={{
             backfaceVisibility: 'hidden',
             transform: 'rotateY(180deg)'
           }}
         >
-          <div className="flex-1 flex flex-col justify-center">
-            {/* <h3 className="text-lg font-semibold mb-4">{title}</h3> */}
-            <p className="text-sm leading-relaxed text-gray-100">
-              {description}
-            </p>
-          </div>
-          <button 
-            className="mt-4 border border-white rounded-full p-2 hover:bg-white hover:text-[#007ba8] transition-colors duration-200"
-            onClick={handleFlip}
-          >
-            <span className="text-xl font-bold">×</span>
-          </button>
+          <p className="text-sm leading-relaxed text-gray-100">
+            {description}
+          </p>
         </div>
       </div>
     </div>

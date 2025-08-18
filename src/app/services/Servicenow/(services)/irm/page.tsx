@@ -1,5 +1,6 @@
-"use client"
+"use client";
 import React from 'react'
+import { motion } from "framer-motion";
 import ServiceHero from "../../_components/ServiceHero";
 import ServiceSection from "../../_components/ServiceSection";
 import ConsiderationsSection from '../../_components/ConsiderationsSection';
@@ -7,45 +8,96 @@ import { irmChallenges, irmCustomerBenefits, irmFaqs, irmOfferings, irmPortfolio
 import FAQSection from '../../_components/FAQSection';
 import { PortfolioManagementExcellence } from '../../_components/PortfolioManagementExcellence';
 import Cta from '@/app/_components/Cta';
+
 function page() {
+  // Define container variants for staggered animations
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        delayChildren: 0.1
+      },
+    },
+  };
+
+  // Define item variants for individual section animations
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+      },
+    },
+  };
+
   return (
-    <>
-    <ServiceHero 
-        title="ServiceNow IRM" 
-        subtitle="ServiceNow Integrated Risk Management: Proactive and Intelligent Risk Management" 
-        backgroundImage="/images/software1.avif"
-      />
-      <ServiceSection
-        heading="By automating workflows and consolidating risk data, IRM empowers businesses to make informed, data-driven decisions to protect and enhance their organization’s operational and strategic objectives."
-        paragraph1="ServiceNow Integrated Risk Management (IRM) offers a centralized platform to streamline risk, compliance, and audit management, enabling organizations to proactively manage risks, maintain compliance, and strengthen their resilience."
-        paragraph2=""
-        imageSrc="/images/software1.avif"
-      />
-      <ConsiderationsSection 
-        title="Challenges Addressed by ServiceNow IRM" 
-        subtitle=""
-        considerations={irmChallenges} 
-      />
-       <ConsiderationsSection 
-        title="Benefits to Customers" 
-        subtitle=""
-        considerations={irmCustomerBenefits} 
-      />
+    <motion.div 
+      variants={containerVariants} 
+      initial="hidden" 
+      animate="visible"
+      className="overflow-hidden"
+    >
+      <motion.div variants={itemVariants}>
+        <ServiceHero 
+          title="ServiceNow IRM" 
+          subtitle="ServiceNow Integrated Risk Management: Proactive and Intelligent Risk Management" 
+          backgroundImage="/images/software1.avif"
+        />
+      </motion.div>
 
-<ConsiderationsSection 
-        title="ServiceNow IRM Offerings" 
-        subtitle="ServiceNow IRM includes a suite of modules designed to help organizations manage risk, compliance, and audit processes more effectively"
-        considerations={irmOfferings} 
-      />
+      <motion.div variants={itemVariants}>
+        <ServiceSection
+          heading="By automating workflows and consolidating risk data, IRM empowers businesses to make informed, data-driven decisions to protect and enhance their organization's operational and strategic objectives."
+          paragraph1="ServiceNow Integrated Risk Management (IRM) offers a centralized platform to streamline risk, compliance, and audit management, enabling organizations to proactively manage risks, maintain compliance, and strengthen their resilience."
+          paragraph2=""
+          imageSrc="/images/software1.avif"
+        />
+      </motion.div>
 
-      <FAQSection 
-        title="Frequently Asked Questions about ServiceNow IRM"
-        subtitle="Get answers to common questions about implementing and using ServiceNow IRM to streamline your risk management processes."
-        faqs={irmFaqs}
-      />
-      <PortfolioManagementExcellence content={irmPortfolio}/>
-      <Cta/>
-    </>
+      <motion.div variants={itemVariants}>
+        <ConsiderationsSection 
+          title="Challenges Addressed by ServiceNow IRM" 
+          subtitle=""
+          considerations={irmChallenges} 
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <ConsiderationsSection 
+          title="Benefits to Customers" 
+          subtitle=""
+          considerations={irmCustomerBenefits} 
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <ConsiderationsSection 
+          title="ServiceNow IRM Offerings" 
+          subtitle="ServiceNow IRM includes a suite of modules designed to help organizations manage risk, compliance, and audit processes more effectively"
+          considerations={irmOfferings} 
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <FAQSection 
+          title="Frequently Asked Questions about ServiceNow IRM"
+          subtitle="Get answers to common questions about implementing and using ServiceNow IRM to streamline your risk management processes."
+          faqs={irmFaqs}
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <PortfolioManagementExcellence content={irmPortfolio}/>
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <Cta/>
+      </motion.div>
+    </motion.div>
   )
 }
 

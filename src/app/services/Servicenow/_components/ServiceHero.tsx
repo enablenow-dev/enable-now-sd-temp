@@ -10,7 +10,7 @@ interface ServiceHeroProps {
 
 const ServiceHero: React.FC<ServiceHeroProps> = ({ title, subtitle, backgroundImage }) => {
   return (
-    <div className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center text-center">
+    <div className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center text-center" style={{ zIndex: 1 }}>
       <Image
         src={backgroundImage}
         alt={title}

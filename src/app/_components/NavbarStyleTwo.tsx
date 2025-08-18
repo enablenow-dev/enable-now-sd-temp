@@ -13,6 +13,51 @@ const NavbarStyleTwo: React.FC = () => {
   const [isServiceNowOpen, setServiceNowOpen] = useState(false);
 
   const dropdownRef = useRef<HTMLUListElement>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // ServiceNow items with display names and routes
+  const serviceNowItems = [
+    {
+      name: "IT Service Management",
+      route: "/services/Servicenow/itsm" // or whatever your actual route is
+    },
+    {
+      name: "IT Asset Management",
+      route: "/services/Servicenow/itam"
+    },
+    {
+      name: "IT Operations Management",
+      route: "/services/Servicenow/itom"
+    },
+    {
+      name: "Integrated Risk Management",
+      route: "/services/Servicenow/irm"
+    },
+    {
+      name: "Security Operations Management",
+      route: "/services/Servicenow/secops"
+    },
+    {
+      name: "Strategic Portfolio Management",
+      route: "/services/Servicenow/spm"
+    },
+    {
+      name: "Customer Service Management",
+      route: "/services/Servicenow/csm"
+    },
+    {
+      name: "Human Resources Management",
+      route: "/services/Servicenow/hrsd"
+    },
+    {
+      name: "Field Service Management",
+      route: "/services/Servicenow/fsm"
+    },
+    {
+      name: "Workplace Service Delivery",
+      route: "/services/Servicenow/wsd"
+    }
+  ];
 
   useEffect(() => {
     let elementId = document.getElementById("navbar");
@@ -28,6 +73,27 @@ const NavbarStyleTwo: React.FC = () => {
   }, []);
 
   const handleToggleSearchModal = () => setActive(!isActive);
+
+  const handleServiceNowEnter = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    setServiceNowOpen(true);
+  };
+
+  const handleServiceNowLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setServiceNowOpen(false);
+    }, 300);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
 
   return (
     <div
@@ -113,56 +179,46 @@ const NavbarStyleTwo: React.FC = () => {
                   {/* Service Now */}
                   <li
                     className="py-[7px] px-[22px] relative"
-                    onMouseEnter={() => setServiceNowOpen(true)}
-                    onMouseLeave={() => setServiceNowOpen(false)}
+                    onMouseEnter={handleServiceNowEnter}
+                    onMouseLeave={handleServiceNowLeave}
+                    style={{ paddingBottom: "12px" }}
                   >
                     <Link
-                      href="/services/ServiceNow"
+                      href="/services/Servicenow"
                       className={`block font-medium text-[17px] hover:text-[#007ba8] ${
                         currentRoute === "/services/ServiceNow"
                           ? "text-[#007ba8]"
                           : "text-black"
                       }`}
-                      onClick={(e) => e.preventDefault()}
+                     
                     >
                       Service Now
                     </Link>
 
-                    {/* Nested Dropdown */}
+                    {/* Nested Dropdown - Updated mapping */}
                     <ul
                       ref={dropdownRef}
-                      className={`absolute bg-white border shadow-dropdown py-[15px] w-[600px] max-w-[95vw] grid grid-cols-3 gap-x-6  transition-opacity duration-200 ${
+                      className={`absolute bg-white border shadow-dropdown py-[15px] w-[600px] max-w-[95vw] grid grid-cols-3 gap-x-6 transition-opacity duration-300 ${
                         isServiceNowOpen ? "opacity-100 visible" : "opacity-0 invisible"
                       }`}
                       style={{
-                        top: "100%", // appear below parent
-                        marginTop: "2px", // small gap to prevent flicker
+                        top: "calc(100% - 5px)",
                         left: "50%",
                         transform: "translateX(-50%)",
+                        zIndex: 1000,
                       }}
-                      onMouseEnter={() => setServiceNowOpen(true)}
-                      onMouseLeave={() => setServiceNowOpen(false)}
+                      onMouseEnter={handleServiceNowEnter}
+                      onMouseLeave={handleServiceNowLeave}
                     >
-                      {[
-                        "IT Service Management",
-                        "IT Asset Management",
-                        "IT Operations Management",
-                        "Integrated Risk Management",
-                        "Security Operations Management",
-                        "Strategic Portfolio Management",
-                        "Customer Service Management",
-                        "Human Resources Management",
-                        "Field Service Management",
-                        "Workplace Service Delivery",
-                      ].map((name, index) => (
+                      {serviceNowItems.map((item, index) => (
                         <li key={index} className="py-[7px] px-[20px]">
                           <Link
-                            href={`/services/ServiceNow/${name
-                              .toLowerCase()
-                              .replace(/\s+/g, "-")}`}
-                            className="block text-[16px] text-black hover:text-[#007ba8]"
+                            href={item.route}
+                            className={`block text-[16px] hover:text-[#007ba8] ${
+                              currentRoute === item.route ? "text-[#007ba8]" : "text-black"
+                            }`}
                           >
-                            {name}
+                            {item.name}
                           </Link>
                         </li>
                       ))}
@@ -200,7 +256,7 @@ const NavbarStyleTwo: React.FC = () => {
                 <Link
                   href="/announcements/"
                   className={`uppercase text-[16px] font-medium hover:text-[#007ba8] ${
-                    currentRoute === "/announcements/" ? "text-[#007ba8]" : "text-black"
+                    currentRoute === "/announcements/" ? "text-[#007ba8]" : "text-[#007ba8]"
                   }`}
                 >
                   Resources
