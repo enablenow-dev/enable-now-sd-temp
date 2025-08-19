@@ -46,7 +46,7 @@ function page() {
       <motion.div variants={itemVariants}>
         <ServiceHero 
           title="ServiceNow ITAM" 
-          subtitle="Elevate Your IT Operations with Integrated Service Management" 
+          subtitle="Optimize IT Assets for Efficiency and Cost Savings" 
           backgroundImage="/images/software1.avif"
         />
       </motion.div>
@@ -87,7 +87,7 @@ function page() {
       <motion.div variants={itemVariants}>
         <FAQSection 
           title="Our Approach: Comprehensive ServiceNow ITAM Implementation"
-          subtitle="Our method for implementing ServiceNow ITAM follows a structured, best-practice approach that ensures successful deployment and long-term value. We work closely with your team to translate your requirements into a tailored ITAM solution that aligns with your business objectives and operational needs."
+          subtitle="Our ServiceNow ITAM implementation approach focuses on creating a tailored solution that aligns with your asset management goals and operational requirements. Here’s our process"
           faqs={itamFaqs}
         />
       </motion.div>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ServiceHero from "../../_components/ServiceHero";
 import ServiceSection from "../../_components/ServiceSection";
 import ConsiderationsSection from "../../_components/ConsiderationsSection";
-import { itomBenefits, itomCapabilities, itomChallenges, itomfaqs, itomOfferings, itomPortfolio, itomPractices } from '../../data/servicesData';
+import { itomBenefits, itomCapabilities, itomChallenges, itomConsiderations, itomfaqs, itomOfferings, itomPortfolio, itomPractices } from '../../data/servicesData';
 import BenefitsSection from '../../_components/BenefitsSection';
 import BestPractices from '../../_components/BestPractices';
 import FAQSection from '../../_components/FAQSection';
@@ -46,7 +46,7 @@ function page() {
       <motion.div variants={itemVariants}>
         <ServiceHero 
           title="ServiceNow ITOM" 
-          subtitle="Elevate Your IT Operations with Integrated Service Management" 
+          subtitle="Elevate IT Operations with Seamless Automation and Intelligent Visibility" 
           backgroundImage="/images/software1.avif"
         />
       </motion.div>
@@ -83,8 +83,8 @@ function page() {
       <motion.div variants={itemVariants}>
         <ConsiderationsSection 
           title="Considerations when Implementing ServiceNow ITOM" 
-          subtitle="If you are ready to start your ServiceNow journey to enhance your operations and ensure business alignment, it is crucial to plan carefully. Keep the following in mind:"
-          considerations={itomOfferings} 
+          subtitle="If you’re ready to implement ServiceNow ITOM to optimize your IT operations, keep the following considerations in mind"
+          considerations={itomConsiderations} 
         />
       </motion.div>
 
@@ -98,8 +98,8 @@ function page() {
 
       <motion.div variants={itemVariants}>
         <FAQSection 
-          title="Frequently Asked Questions about ServiceNow ITOM"
-          subtitle="Get answers to common questions about implementing and using ServiceNow ITOM to streamline your IT operations processes."
+          title="Our Approach to ServiceNow ITOM Delivery"
+          subtitle="Our approach to ServiceNow ITOM implementation focuses on delivering value from day one. We use the ServiceNow NowCreate methodology to tailor solutions to your organization’s needs and ensure a smooth deployment"
           faqs={itomfaqs}
         />
       </motion.div>
