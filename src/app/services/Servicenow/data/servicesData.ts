@@ -192,15 +192,15 @@ export const spmBenefits: BenefitItem[] = [
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e7930bfb64f45eab0_group-people-working-team.png",
   },
   {
-    title: "Improved Portfolio Visibility",
+    title: "Accelerated Service Delivery",
     description:
-      "Gain a complete view of initiatives and investments to ensure alignment with business goals and maximize value delivery.",
+      "SPM accelerates service delivery and improvements by automating workflows and offering predefined models.",
     imageSrc: "/images/services-details.jpg",
   },
   {
-    title: "Smarter Resource Utilization",
+    title: "Improved Decision-Making",
     description:
-      "Allocate the right people to the right work at the right time with capacity insights and strategic prioritization.",
+      "With data-driven insights and dashboards, SPM aids in the strategic planning and prioritization of service investments.",
     imageSrc:
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e6d9f2a101e11a252_medium-shot-people-sticking-post-its.png",
   },
@@ -272,37 +272,49 @@ export const itamBenefits: ConsiderationItem[] = [
 export const itomBenefits: BenefitItem[] = [
   {
     title: "Enhanced Operational Efficiency",
-    description: "Automate routine operational tasks, allowing your team to focus on more strategic initiatives while maintaining high-quality service.",
-    imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    description:
+      "Automate routine operational tasks, allowing your team to focus on more strategic initiatives while maintaining high-quality service.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
   },
   {
     title: "Faster Problem Resolution",
-    description: "Due to monitoring, event correlation, and automation, ServiceNow ITOM helps to identify and resolve issues quickly, reducing downtime.",
-    imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    description:
+      "Due to monitoring, event correlation, and automation, ServiceNow ITOM helps to identify and resolve issues quickly, reducing downtime.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
   },
   {
     title: "Smarter Resource Allocation",
-    description: "Provide your team with deeper insights into infrastructure health, enabling better resource management and significantly reducing wastage.",
-    imageSrc: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    description:
+      "Provide your team with deeper insights into infrastructure health, enabling better resource management and significantly reducing wastage.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
   },
   {
     title: "Increased Agility",
-    description: "Quickly adapt to IT changes through automatic provisioning of cloud resources or rapid response to infrastructure events.",
-    imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    description:
+      "Quickly adapt to IT changes through automatic provisioning of cloud resources or rapid response to infrastructure events.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
   },
   {
     title: "Data-Driven Decisions",
-    description: "Real-time insights from performance metrics, analytics, and dashboards help optimize IT operations and drive continuous improvement.",
-    imageSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80",
+    description:
+      "Real-time insights from performance metrics, analytics, and dashboards help optimize IT operations and drive continuous improvement.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80",
   },
   {
     title: "Cost Efficiency",
-    description: "Reduce operational costs by eliminating manual interventions, optimizing resource utilization, and streamlining IT processes.",
-    imageSrc: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1511&q=80",
+    description:
+      "Reduce operational costs by eliminating manual interventions, optimizing resource utilization, and streamlining IT processes.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1511&q=80",
   },
 ];
 
-export const csmBenefits: BenefitItem[] = [
+export const hsrdBenefits: BenefitItem[] = [
   {
     title: "Efficiency that Drives Growth",
     description:
@@ -331,31 +343,31 @@ export const csmBenefits: BenefitItem[] = [
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e04268b8df2579206_colleagues-work(2).png",
   },
 ];
-export const hrsdBenefits: BenefitItem[] = [
+export const csmBenefits: BenefitItem[] = [
   {
-    title: "Efficiency that Drives Growth",
+    title: "Improved Customer Satisfaction",
     description:
-      "Automate routine tasks and enable your IT team to prioritize strategic projects.",
+      "Enhance customer satisfaction with prompt, intimate, and individualized service experiences.",
     imageSrc:
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e7930bfb64f45eab0_group-people-working-team.png",
   },
   {
-    title: "Enhanced End-User Experience",
+    title: "Operational Efficiency",
     description:
-      "Transform IT into a proactive, responsive function with quality service.",
+      "Simplify procedures to enhance service performance and reduce operating costs.",
     imageSrc: "/images/services-details.jpg",
   },
   {
-    title: "Data-Driven Insights for Continuous Improvement",
+    title: "Proactive Issue Resolution",
     description:
-      "Real-time reporting and analytics optimize resources and drive improvement.",
+      "Enhance customer experience and reduce issues with proactive issues detection and resolution.",
     imageSrc:
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e6d9f2a101e11a252_medium-shot-people-sticking-post-its.png",
   },
   {
-    title: "Cost Savings through Operational Efficiency",
+    title: "Enhanced Customer Retention",
     description:
-      "Reduce manual workload to optimize service delivery with high service quality.",
+      "Foster customer loyalty by consistently surpassing their expectations with quality service.",
     imageSrc:
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e04268b8df2579206_colleagues-work(2).png",
   },
@@ -526,30 +538,30 @@ export const csmChallenges: ChallengeItem[] = [
   {
     id: "downtime",
     icon: "AlertTriangle",
-    title: "Minimizing Service Downtime",
+    title: "Fragmented Customer Data Silos and Systems",
     description:
-      "Reduce unplanned outages and restore services quickly to maintain business continuity.",
+      "Enhance service delivery by integrating customer data and workflows into a single platform.",
   },
   {
     id: "efficiency",
     icon: "Settings",
-    title: "Operational Efficiency",
+    title: "Slow Resolution Times",
     description:
-      "Streamline IT processes and eliminate manual tasks to improve team productivity.",
+      "Resolve cases faster with automated workflows so agents can focus on client interactions.",
   },
   {
     id: "visibility",
     icon: "Target",
-    title: "Service Visibility and Control",
+    title: "Absence of Proactive Service",
     description:
-      "Gain complete visibility into IT services and infrastructure for better decision making.",
+      "Anticipate challenges and proactively address them with built-in AI and predictive analytics.",
   },
   {
     id: "compliance",
     icon: "Shield",
-    title: "Compliance and Governance",
+    title: "Scaling Customer Service with Business Growth",
     description:
-      "Ensure IT operations meet regulatory requirements and internal governance standards.",
+      "Scale at the speed of light to address your company's growing needs and shifting customer demands.",
   },
 ];
 export const hrsdChallenges: ChallengeItem[] = [
@@ -584,32 +596,32 @@ export const hrsdChallenges: ChallengeItem[] = [
 ];
 export const secOpsChallenges: ChallengeItem[] = [
   {
-    id: "asaw",
+    id: "siloed",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Siloed Security and IT Teams",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "In many organizations, security and IT teams work in isolation, resulting in delayed responses and a lack of coordination. SecOps bridges these silos, enabling seamless collaboration to reduce response times and improve overall security posture",
   },
   {
-    id: "CLM",
+    id: "manual",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Manual Incident Response Processes",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "Traditional incident response processes are often time-consuming and involve manual steps, leading to delayed resolutions and increased risk. SecOps automates repetitive tasks, freeing up resources and allowing security teams to focus on critical incidents.",
   },
   {
-    id: "CALM",
+    id: "overwhelming",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Overwhelming Volume of Security Alerts",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "With the growing number of security tools and alerts, security teams are often overwhelmed, which can lead to alert fatigue. ServiceNow SecOps prioritizes alerts based on threat level, reducing noise and ensuring that high-priority threats are addressed quickly.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Difficulty in Threat Intelligence Integration",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "Integrating threat intelligence from various sources can be challenging, impacting the accuracy and speed of threat detection. ServiceNow SecOps consolidates threat intelligence within a single platform, allowing for rapid, data-driven responses to emerging threats.",
   },
 ];
 export const fsmChallenges: ChallengeItem[] = [
@@ -849,32 +861,60 @@ export const hrsdCapabilities: ChallengeItem[] = [
 ];
 export const csmCapabilities: ChallengeItem[] = [
   {
-    id: "asaw",
+    id: "cm",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Case Management",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "Refine processes to direct requests quickly and effectively.",
   },
   {
-    id: "CLM",
+    id: "km",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Knowledge Management",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "Relevant information for faster analysis and better experience.",
   },
   {
-    id: "CALM",
+    id: "omni",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Omnichannel Engagement",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "Deliver a consistent experience over the phone and email.",
   },
   {
-    id: "LAVUI",
+    id: "pbm",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Proactive Operations for Customer Service",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "Leverage insights to stop problems before they are reported.",
+  },
+  {
+    id: "pbm",
+    icon: "Shield",
+    title: "Customer Self-Service",
+    description:
+      "Empower clients with the knowledge base, virtual agent, and self-service portal..",
+  },
+   {
+    id: "pbm",
+    icon: "Shield",
+    title: "Field Service Management",
+    description:
+      "Use intelligent scheduling to manage resources and schedule.",
+  },
+   {
+    id: "pbm",
+    icon: "Shield",
+    title: "Workforce Optimization",
+    description:
+      "Increase productivity with real-time resource allocation and skill routing.",
+  },
+  {
+    id: "pbm",
+    icon: "Shield",
+    title: "Performance Analytics",
+    description:
+      "Track metrics to drive improvement and customer satisfaction.",
   },
 ];
 export const irmCustomerBenefits: ChallengeItem[] = [
@@ -909,32 +949,32 @@ export const irmCustomerBenefits: ChallengeItem[] = [
 ];
 export const secopsCustomerBenefits: ChallengeItem[] = [
   {
-    id: "asaw",
+    id: "actr",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Accelerated Threat Response",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "By automating incident response and prioritizing threats based on risk, SecOps helps security teams respond faster, minimizing the potential impact of attacks.",
   },
   {
-    id: "CLM",
+    id: "collab",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Enhanced Collaboration between Security and IT",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "ServiceNow SecOps connects security and IT teams, fostering collaboration to manage and resolve security incidents more effectively.",
   },
   {
-    id: "CALM",
+    id: "ctv",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Reduced Alert Fatigue",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "With intelligent alert prioritization, SecOps helps teams focus on the most critical threats, reducing noise and improving focus on high-risk incidents.",
   },
   {
-    id: "LAVUI",
-    icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    id: "ctv",
+    icon: "Target",
+    title: "Comprehensive Threat Visibility",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "ServiceNow SecOps consolidates threat intelligence and integrates with existing security tools, giving teams a holistic view of security incidents and enabling faster, data-driven decision-making.",
   },
 ];
 export const fsmCustomerBenefits: ChallengeItem[] = [
@@ -1416,101 +1456,101 @@ export const wsdOfferings: ConsiderationItem[] = [
 export const secopsOfferings: ConsiderationItem[] = [
   {
     icon: "/icons/stakeholder.png",
-    title: "Hardware Asset Management (HAM)",
+    title: "Security Incident Response (SIR)",
     description:
-      "Track and manage hardware assets from acquisition through disposal. HAM provides visibility into asset location, usage, condition, and value, ensuring optimal utilization and planning for future asset needs.",
+      "Streamline and automate the entire security incident lifecycle, from detection to resolution. SIR enables rapid investigation, prioritization, and response to incidents, improving overall efficiency.",
   },
   {
     icon: "/icons/strategy.png",
-    title: "Software Asset Management (SAM)",
+    title: "Vulnerability Response (VR)",
     description:
-      "Manage software licenses, usage, and compliance with ServiceNow’s SAM tools. SAM helps you control software costs, stay compliant with vendor agreements, and reduce the risk of license audits.",
+      "Identify, prioritize, and remediate vulnerabilities across your environment. Vulnerability Response integrates with IT asset management and threat intelligence sources to enable risk-based prioritization and timely remediation.",
   },
   {
     icon: "/icons/data.png",
-    title: "Cloud Insights",
+    title: "Threat Intelligence",
     description:
-      "Gain visibility into cloud-based resources and optimize cloud spending. Cloud Insights within ITAM helps you track cloud usage, identify cost-saving opportunities, and prevent over-provisioning..",
+      "Aggregate and analyze threat intelligence from multiple sources in one platform. ServiceNow Threat Intelligence enriches security incidents with relevant data, enabling teams to respond faster and more effectively.",
   },
   {
     icon: "/icons/customization.png",
-    title: "Contract Management",
+    title: "Security Orchestration, Automation, and Response (SOAR)",
     description:
-      "Maintain and track contracts related to assets, such as maintenance agreements and vendor contracts. Contract Management enables you to monitor renewal dates, compliance terms, and spend against contracts to avoid unnecessary expenses..",
+      "Leverage automation and orchestration capabilities to streamline incident response workflows. SOAR enables your team to automate common tasks, such as data enrichment, containment, and remediation, reducing the need for manual intervention.",
   },
   {
     icon: "/icons/resource.png",
-    title: "Asset Request Management",
+    title: "Risk Management Integration",
     description:
-      "Simplify and streamline asset requests through a self-service portal. Asset Request Management ensures that users receive the right assets quickly while maintaining oversight of asset allocation.",
+      "Integrate SecOps with ServiceNow Risk Management to assess and manage security risks within a broader risk framework. This integration ensures that security initiatives are aligned with organizational risk management strategies.",
   },
   {
     icon: "/icons/training.png",
     title: "Configuration Management Database (CMDB) Integration",
     description:
-      "Integrate ITAM with the CMDB to keep an accurate, real-time record of asset dependencies and relationships. CMDB integration ensures that all asset data is up-to-date and linked to relevant services, improving visibility and management..",
+      "Link SecOps with the CMDB to understand the relationships between security incidents and assets. CMDB integration provides context on affected assets and services, enabling faster impact analysis and response.",
   },
   {
     icon: "/icons/improvement.png",
-    title: "Depreciation and Financial Management",
+    title: "Threat Hunting",
     description:
-      "Track the financial impact of asset usage and calculate depreciation accurately. ITAM's financial management features provide insights into the total cost of ownership and asset value over time.",
+      "Enable proactive threat detection through custom threat hunting capabilities. ServiceNow’s threat hunting tools help identify potential threats before they evolve into critical incidents.",
   },
   {
     icon: "/icons/risk.png",
-    title: "Asset Disposal Management",
+    title: "Performance Analytics for Security",
     description:
-      "Automate end-of-life processes for assets, ensuring secure, compliant disposal. Asset Disposal Management helps mitigate security risks, maintain environmental compliance, and streamline the disposal process.",
+      "Track and measure the performance of security operations with real-time dashboards and reporting. Performance Analytics provides visibility into incident response times, vulnerability closure rates, and overall security posture.",
   },
 ];
 export const csmConsiderations: ConsiderationItem[] = [
   {
     icon: "/icons/stakeholder.png",
-    title: "Hardware Asset Management (HAM)",
+    title: "Defining Objectives",
     description:
-      "Track and manage hardware assets from acquisition through disposal. HAM provides visibility into asset location, usage, condition, and value, ensuring optimal utilization and planning for future asset needs.",
+      "cTransform customer service and define success metrics with established goals.",
   },
   {
     icon: "/icons/strategy.png",
-    title: "Software Asset Management (SAM)",
+    title: "Understanding Customer Journeys",
     description:
-      "Manage software licenses, usage, and compliance with ServiceNow’s SAM tools. SAM helps you control software costs, stay compliant with vendor agreements, and reduce the risk of license audits.",
+      "Map customer interactions to find challenges and areas for improvement.",
   },
   {
     icon: "/icons/data.png",
-    title: "Cloud Insights",
+    title: "Integration with Existing Systems",
     description:
-      "Gain visibility into cloud-based resources and optimize cloud spending. Cloud Insights within ITAM helps you track cloud usage, identify cost-saving opportunities, and prevent over-provisioning..",
+      "Ensure seamless ServiceNow CSM integration with your tools.",
   },
   {
     icon: "/icons/customization.png",
-    title: "Contract Management",
+    title: "Data Quality and Accuracy",
     description:
-      "Maintain and track contracts related to assets, such as maintenance agreements and vendor contracts. Contract Management enables you to monitor renewal dates, compliance terms, and spend against contracts to avoid unnecessary expenses..",
+      "Assess data quality for efficient, individualized service delivery.",
   },
   {
     icon: "/icons/resource.png",
-    title: "Asset Request Management",
+    title: "Scalability",
     description:
-      "Simplify and streamline asset requests through a self-service portal. Asset Request Management ensures that users receive the right assets quickly while maintaining oversight of asset allocation.",
+      "Identify future business needs and plan platform development accordingly.",
   },
   {
     icon: "/icons/training.png",
-    title: "Configuration Management Database (CMDB) Integration",
+    title: "Employee Training",
     description:
-      "Integrate ITAM with the CMDB to keep an accurate, real-time record of asset dependencies and relationships. CMDB integration ensures that all asset data is up-to-date and linked to relevant services, improving visibility and management..",
+      "Ensure employees are adequately trained to leverage the power of platform in serving customer.",
   },
   {
     icon: "/icons/improvement.png",
-    title: "Depreciation and Financial Management",
+    title: "Compliance and Security",
     description:
-      "Track the financial impact of asset usage and calculate depreciation accurately. ITAM's financial management features provide insights into the total cost of ownership and asset value over time.",
+      "Identify compliance requirements and ensure legal adherence during development.",
   },
   {
     icon: "/icons/risk.png",
-    title: "Asset Disposal Management",
+    title: "Omnichannel Strategy",
     description:
-      "Automate end-of-life processes for assets, ensuring secure, compliant disposal. Asset Disposal Management helps mitigate security risks, maintain environmental compliance, and streamline the disposal process.",
+      "Plan and create communication strategies to leverage the full power of omnichannel.",
   },
 ];
 export const itomConsiderations: ConsiderationItem[] = [
@@ -1605,42 +1645,48 @@ export const itamFaqs: FaqItem[] = [
     question: "Discovery and Requirement Assessment",
     answer:
       "We begin by evaluating your organization's current asset management practices, identifying gaps, and understanding your business needs. This assessment helps us design a solution that fully aligns ITAM's capabilities with your objectives.",
-    imageSrc: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80", // business analysis
+    imageSrc:
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80", // business analysis
   },
   {
     id: "solution-design",
     question: "Solution Design and Customization",
     answer:
       "Based on our assessment, we design a ServiceNow ITAM solution that meets your specific needs. This includes configuring modules, defining workflows, and setting up integrations with your existing systems for a seamless asset management experience",
-    imageSrc: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80", // blueprint / design
+    imageSrc:
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80", // blueprint / design
   },
   {
     id: "implementation-testing",
     question: "Implementation and Configuration",
     answer:
       "Our team manages the end-to-end deployment, including configuring key ITAM modules such as HAM, SAM, and Contract Management. We ensure the CMDB integration is optimized to maintain accurate asset relationships and dependencies.",
-    imageSrc: "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // server setup / configuration
+    imageSrc:
+      "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // server setup / configuration
   },
   {
     id: "user-training",
     question: "User Training and Adoption Support",
     answer:
       "We provide targeted training sessions to equip your team with the knowledge to manage ITAM effectively. Our training ensures that all stakeholders can leverage ITAM's functionalities, driving high adoption and smooth operations.",
-    imageSrc: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80", // team training
+    imageSrc:
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80", // team training
   },
   {
     id: "go-live-support",
     question: "Go-Live and Support",
     answer:
       "Our go-live support ensures a smooth transition to ServiceNow ITAM, with continuous guidance as your team begins using the platform. We provide post-implementation support to address any challenges and help optimize performance.",
-    imageSrc: "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // IT support team
+    imageSrc:
+      "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // IT support team
   },
   {
     id: "ongoing-optimization",
     question: "Ongoing Optimization and Partnership",
     answer:
       "As your organization evolves, our partnership extends to continuous improvement, offering support to scale, optimize, and adapt ServiceNow ITAM to meet new requirements, ensuring sustained value from your asset management investment.",
-    imageSrc: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80", // business growth / partnership
+    imageSrc:
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80", // business growth / partnership
   },
 ];
 
@@ -1680,6 +1726,13 @@ export const spmFaqs: FaqItem[] = [
       "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
     imageSrc: "/images/collaboration_image.jpg",
   },
+   {
+    id: "end-to-end",
+    question: "End-to-End Portfolio Lifecycle Management",
+    answer:
+      "End-to-End Portfolio Lifecycle Management spans from idea generation to execution, focusing on project prioritization, resource optimization, and continuous portfolio reviews to ensure alignment with evolving business objectives and sustained value delivery.",
+    imageSrc: "/images/collaboration_image.jpg",
+  },
 ];
 
 export const irmFaqs: FaqItem[] = [
@@ -1692,35 +1745,40 @@ export const irmFaqs: FaqItem[] = [
   },
   {
     id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
+    question: "Solution Design and Configuration",
     answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
+      "Based on our analysis, we design a customized IRM solution. This includes configuring core modules like Risk Management, Compliance, and Vendor Risk Management, and defining workflows to streamline your organization’s risk and compliance practices.",
     imageSrc: "/images/collaboration_image.jpg",
   },
   {
     id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
+    question: "Implementation and Integration",
     answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
+      "Our team oversees the complete implementation, ensuring seamless integration with your existing IT ecosystem. We set up key modules, connect with external regulatory sources, and ensure all risk data flows accurately for optimal performance.",
     imageSrc: "/images/success-stories6.jpg",
   },
   {
     id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
+    question: "Training and Knowledge Transfer",
     answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
+      "We conduct tailored training sessions to help your team effectively manage risks using ServiceNow IRM. Training covers platform features, best practices, and incident response, ensuring your team is well-prepared to leverage the platform.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
+    question: "Go-Live and Support",
     answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
+      "We provide full support during the go-live phase, ensuring that all modules function smoothly and users are confident in using the system. Our team remains on standby for troubleshooting and guidance, ensuring a successful transition.",
+    imageSrc: "/images/collaboration_image.jpg",
+  },
+  {
+    id: "long-term-partnership",
+    question: "Ongoing Optimization and Strategic Partnership",
+    answer:
+      "As risk management needs evolve, we partner with your organization to optimize and scale ServiceNow IRM. Our continuous support ensures your IRM solution remains agile, effective, and aligned with regulatory changes.",
     imageSrc: "/images/collaboration_image.jpg",
   },
 ];
-
-
 
 export const hrsdfaqs: FaqItem[] = [
   {
@@ -1766,80 +1824,92 @@ export const itomfaqs: FaqItem[] = [
     question: "Discovery and Strategy",
     answer:
       "We begin by understanding your current IT environment, identifying pain points, and aligning ServiceNow ITOM features to your organization’s objectives.",
-    imageSrc: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80",
+    imageSrc:
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "solution-design",
     question: "Solution Design",
     answer:
       "We work with you to design a solution that integrates with existing systems, aligns with best practices, and prepares your organization for scalable success.",
-    imageSrc: "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80", // sticky-notes/UX planning
+    imageSrc:
+      "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?auto=format&fit=crop&w=1200&q=80", // sticky-notes/UX planning
   },
   {
     id: "implementationtesting",
     question: "Implementation and Testing",
     answer:
       "Our team manages all implementation aspects, from configuring modules to setting up the CMDB and integrating necessary applications. We rigorously test each component to ensure reliability and readiness for launch.",
-    imageSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80", // coding/testing on monitors
+    imageSrc:
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80", // coding/testing on monitors
   },
   {
     id: "ute",
     question: "User Training and Engagement",
     answer:
       "Our training ensures your team fully understands and benefits from the platform’s features, driving high adoption rates. We also provide role-based training sessions to empower your team.",
-    imageSrc: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80",
+    imageSrc:
+      "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "gls&co",
     question: "Go-Live Support and Continuous Optimization",
     answer:
       "We support your team as they transition to the new platform with a smooth go-live process. Our post-implementation services include troubleshooting, guidance, and optimization recommendations.",
-    imageSrc: "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=1200&q=80",
+    imageSrc:
+      "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=1200&q=80",
   },
   {
     id: "LTP",
     question: "Long-Term Partnership",
     answer:
       "As business grows, so do IT needs. As a trusted partner, we are committed to help you adjust, scale, and optimize ServiceNow ITSM so it continues to deliver measurable business value.",
-    imageSrc: "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1200&q=80",
+    imageSrc:
+      "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1200&q=80",
   },
 ];
 
-
 export const secopsfaqs: FaqItem[] = [
   {
-    id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
+    id: "assessment",
+    question: "Assessment and Requirements Gathering",
     answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
+      "We begin by conducting a thorough assessment of your current security processes, identifying gaps and understanding your organization’s risk landscape. This assessment forms the foundation for configuring SecOps to meet your unique security needs.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
+    question: "Solution Design and Customization",
     answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
+      "Based on our assessment, we design a ServiceNow SecOps solution tailored to your requirements. This includes configuring modules such as Security Incident Response, Vulnerability Response, and Threat Intelligence, and integrating with existing security tools for a cohesive security environment.",
     imageSrc: "/images/collaboration_image.jpg",
   },
   {
-    id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
+    id: "implementationtesting",
+    question: "Implementation and Integration",
     answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
+      "Our team oversees the implementation process, including setting up SecOps modules, integrating with threat intelligence feeds, and connecting to the CMDB. We ensure that all components are tested and optimized for seamless performance.",
     imageSrc: "/images/success-stories6.jpg",
   },
   {
-    id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
+    id: "training",
+    question: "User Training and Knowledge Transfer",
     answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
+      "To empower your team, we provide in-depth training on ServiceNow SecOps modules, incident response workflows, and best practices. Our training sessions are tailored to different roles, ensuring that security and IT teams are well-prepared to leverage SecOps effectively.",
     imageSrc: "/images/services-details.jpg",
   },
   {
-    id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
+    id: "go-live-support",
+    question: "Go-Live and Ongoing Support",
     answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
+      "We support your team through the go-live process, providing guidance on initial SecOps use and troubleshooting. Our post-implementation support ensures a smooth transition and helps optimize your SecOps environment for ongoing success.",
+    imageSrc: "/images/collaboration_image.jpg",
+  },
+  {
+    id: "continuous-optimization",
+    question: "Continuous Optimization and Partnership",
+    answer:
+      "As new security challenges emerge, we remain a strategic partner, offering continuous optimization services to adapt SecOps capabilities. Our partnership helps you stay ahead of threats and ensures that SecOps aligns with your evolving security requirements.",
     imageSrc: "/images/collaboration_image.jpg",
   },
 ];
@@ -1971,7 +2041,8 @@ export const spmPortfolio: PortfolioContentItem = {
     "ServiceNow Strategic Portfolio Management (SPM) transforms how organizations manage their project portfolios by providing comprehensive visibility, strategic alignment, and data-driven decision making capabilities.",
   paragraph2:
     "With SPM, you can optimize resource allocation, track portfolio performance in real-time, and ensure every project contributes to your strategic objectives. The platform enables seamless collaboration across teams while maintaining governance and compliance standards.",
-  imageSrc: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80", // strategy / planning meeting
+  imageSrc:
+    "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80", // strategy / planning meeting
 };
 
 export const hrsdPortfolio: PortfolioContentItem = {
@@ -1980,10 +2051,9 @@ export const hrsdPortfolio: PortfolioContentItem = {
     "ServiceNow HRSD streamlines HR processes and employee experiences by automating workflows, centralizing services, and enabling faster case resolutions.",
   paragraph2:
     "Empower your workforce with self-service, AI-driven HR support, and consistent employee engagement while reducing manual HR workload.",
-  imageSrc: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80", // HR / teamwork
+  imageSrc:
+    "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80", // HR / teamwork
 };
-
-
 
 export const itsmPortfolio: PortfolioContentItem = {
   title: "Unlock IT Service Excellence with ServiceNow ITSM",
@@ -1991,38 +2061,36 @@ export const itsmPortfolio: PortfolioContentItem = {
     "With ServiceNow ITSM implementation, you’re not just adopting a service management tool but embracing a fully integrated approach to IT excellence. ServiceNow ITSM automation, visibility, and scalability capabilities empower organizations to reduce downtime, improve efficiency, and enhance customer satisfaction.",
   paragraph2:
     "Let us partner with you to unlock the full potential of ServiceNow ITSM and elevate your IT operations to a new standard of service excellence.",
-  imageSrc: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80", // IT service desk
+  imageSrc:
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80", // IT service desk
 };
-
-
 
 export const itomPortfolio: PortfolioContentItem = {
   title: "Unlock IT Operations Excellence with ServiceNow ITOM ",
   paragraph1:
     "ServiceNow ITOM delivers intelligent automation, real-time insights, and proactive management, enabling your IT operations to stay ahead of issues and deliver top-tier performance. By reducing downtime, increasing operational efficiency, and enhancing service delivery, ServiceNow ITOM helps transform your IT organization into a highly responsive, data-driven function that drives business success. Partner with us to unlock the full potential of ServiceNow ITOM and elevate your IT operations to new heights.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=80", // servers / IT operations
+  imageSrc:
+    "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=80", // servers / IT operations
 };
-
-
-
 
 export const wsdPortfolio: PortfolioContentItem = {
   title: "Workplace Service Delivery (WSD)",
   paragraph1:
     "ServiceNow WSD simplifies workplace operations by enabling employees to request workplace services, manage facilities, and improve workplace experiences.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1581091870620-e97d7fa71a79?auto=format&fit=crop&w=1200&q=80", // office workplace / smart workplace
+  imageSrc:
+    "https://images.unsplash.com/photo-1581091870620-e97d7fa71a79?auto=format&fit=crop&w=1200&q=80", // office workplace / smart workplace
 };
 
 export const secopsPortfolio: PortfolioContentItem = {
-  title: "Security Operations (SecOps)",
+  title: "Strengthen Your Security Posture with ServiceNow Security Operations",
   paragraph1:
-    "ServiceNow SecOps strengthens enterprise security posture by orchestrating and automating threat response, vulnerability management, and incident handling.",
+    "ServiceNow SecOps empowers your organization with proactive threat detection, automated response, and end-to-end visibility across security and IT operations. By implementing SecOps, you enhance collaboration, improve response times, and reduce the impact of security incidents, protecting your business from potential threats. Let us partner with you to implement and optimize ServiceNow SecOps, transforming your approach to security operations and building a resilient, proactive defense strategy for your organization.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80", // cybersecurity / security operations
+  imageSrc:
+    "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80", // cybersecurity / security operations
 };
-
 
 export const fsmPortfolio: PortfolioContentItem = {
   title: "Field Service Management (FSM)",
@@ -2030,7 +2098,8 @@ export const fsmPortfolio: PortfolioContentItem = {
     "ServiceNow FSM enables organizations to optimize field operations, assign tasks efficiently, and provide real-time visibility into field activities.",
   paragraph2:
     "Deliver exceptional service experiences by empowering field agents with mobile tools, scheduling automation, and predictive insights.",
-  imageSrc: "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=1200&q=80", // field engineer on site
+  imageSrc:
+    "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=1200&q=80", // field engineer on site
 };
 
 export const itamPortfolio: PortfolioContentItem = {
@@ -2038,7 +2107,8 @@ export const itamPortfolio: PortfolioContentItem = {
   paragraph1:
     "By implementing ServiceNow ITAM, your organization gains the visibility, control, and automation needed to manage assets more efficiently, reduce costs, and maintain compliance. With streamlined asset lifecycle management and real-time insights, ITAM empowers your team to make data-driven decisions, improve resource utilization, and align IT assets with business goals.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80", // IT hardware assets (laptops, equipment)
+  imageSrc:
+    "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80", // IT hardware assets (laptops, equipment)
 };
 
 export const irmPortfolio: PortfolioContentItem = {
@@ -2046,7 +2116,7 @@ export const irmPortfolio: PortfolioContentItem = {
   paragraph1:
     "ServiceNow IRM empowers organizations to identify, assess, and mitigate risks proactively while ensuring compliance with industry regulations.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1556741533-f6acd647d2fb?auto=format&fit=crop&w=1200&q=80", // risk management / compliance dashboard
+  imageSrc: "/testing.jpg", // risk management / compliance dashboard
 };
 
 export const csmPortfolio: PortfolioContentItem = {
@@ -2054,15 +2124,9 @@ export const csmPortfolio: PortfolioContentItem = {
   paragraph1:
     "ServiceNow CSM enhances customer satisfaction by delivering connected, proactive, and personalized service experiences across all channels.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1200&q=80", // customer support team working
+  imageSrc:
+    "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1200&q=80", // customer support team working
 };
-
-
-
-
-
-
-
 
 export const itamfaqs: FaqItem[] = [
   {
@@ -2205,13 +2269,6 @@ export const itomPractices: Practice[] = [
     title: "Ensure Data Accuracy",
     description:
       "Maintain an accurate and up-to-date Configuration Management Database (CMDB) for better decision-making and service mapping.",
-  },
-  {
-    id: "risk",
-    icon: "",
-    title: "Risk Assessment and Mitigation Frameworks",
-    description:
-      "Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.",
   },
 
   {
@@ -2384,6 +2441,19 @@ export const spmPractices: Practice[] = [
     id: "risk",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
     title: "Risk Assessment and Mitigation Frameworks",
+    description:
+      "Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.",
+  },
+  {
+    id: "risk",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4cf18f27ac039c64d84c_Frame%2032%20(49).svg",
+    title: "Cross-Functional Collaboration and Communication",
+    description:
+      "Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.",
+  },{
+    id: "risk",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4cf1eda85a5c4e515474_Frame%2032%20(50).svg",
+    title: "Performance Analytics and Reporting",
     description:
       "Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.",
   },

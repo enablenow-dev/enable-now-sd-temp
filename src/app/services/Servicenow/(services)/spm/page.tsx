@@ -63,9 +63,9 @@ const Page: React.FC = () => {
         />
       </motion.div>
       <motion.div variants={itemVariants}>
-        <ServicesGrid 
+        <ConsiderationsSection
           title="ServiceNow SPM Key capabilities include"
-          services={spmServices}
+          considerations={spmServices}
         />
       </motion.div>
       <motion.div variants={itemVariants}>
