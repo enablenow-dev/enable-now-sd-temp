@@ -209,35 +209,36 @@ const NavbarStyleTwo: React.FC = () => {
                         onMouseLeave={handleServiceNowLeave}
                       >
                         {/* Responsive Grid Layout */}
-                        <div className="grid gap-3 px-4
-                          grid-cols-1
-                          sm:grid-cols-2 sm:gap-2 sm:px-3
-                          md:grid-cols-3 md:gap-3 md:px-4
+                        <div className="grid px-4
+                          grid-cols-1 gap-1
+                          sm:grid-cols-2 sm:gap-1.5 sm:px-2
+                          md:grid-cols-3 md:gap-2 md:px-0
                           lg:grid-cols-3">
                           {serviceNowItems.map((item, index) => (
                             <Link
                               key={index}
                               href={item.route}
-                              className={`block py-2 px-3 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-cyan-50 transition-all duration-200 border border-transparent hover:border-blue-200 group
-                                sm:py-1.5 sm:px-2
-                                md:py-2 md:px-3
+                              className={`block rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-cyan-50 transition-all duration-200 border border-transparent hover:border-blue-200 group
+                                py-1.5 px-2
+                                sm:py-1 sm:px-1.5
+                                md:py-1.5 md:px-2
                                 ${
                                 currentRoute === item.route ? "bg-gradient-to-br from-blue-50 to-cyan-50 border-blue-200" : ""
                               }`}
                             >
-                              <h4 className={`font-semibold mb-1 transition-colors duration-200
-                                text-[13px]
-                                sm:text-[12px] sm:mb-0.5
-                                md:text-[13px] md:mb-1
+                              <h4 className={`font-semibold transition-colors duration-200
+                                text-[13px] mb-0.5
+                                sm:text-[12px] sm:mb-0
+                                md:text-[13px] md:mb-0.5
                                 ${
                                 currentRoute === item.route ? "text-[#007ba8]" : "text-gray-800 group-hover:text-[#007ba8]"
                               }`}>
                                 {item.name}
                               </h4>
-                              <p className="text-gray-600 leading-relaxed
-                                text-xs
+                              <p className="text-gray-600
+                                text-xs leading-snug
                                 sm:text-[10px] sm:leading-tight
-                                md:text-xs md:leading-relaxed">
+                                md:text-xs md:leading-snug">
                                 {item.description}
                               </p>
                             </Link>
