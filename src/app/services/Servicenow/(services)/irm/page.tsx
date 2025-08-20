@@ -84,8 +84,8 @@ function page() {
 
       <motion.div variants={itemVariants}>
         <FAQSection 
-          title="Frequently Asked Questions about ServiceNow IRM"
-          subtitle="Get answers to common questions about implementing and using ServiceNow IRM to streamline your risk management processes."
+          title="Our Approach: Tailored ServiceNow IRM Implementation"
+          subtitle="Our approach to implementing ServiceNow IRM focuses on aligning your organization’s risk and compliance needs with the platform’s capabilities, creating a robust framework that adapts to evolving risks and regulatory demands. Here’s how we deliver a tailored IRM solution"
           faqs={irmFaqs}
         />
       </motion.div>

@@ -496,30 +496,30 @@ export const irmChallenges: ChallengeItem[] = [
   {
     id: "asaw",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Siloed Risk and Compliance Processes",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "Many organizations struggle with fragmented risk and compliance practices, leading to inefficiencies and a lack of visibility. ServiceNow IRM centralizes and standardizes these processes, improving coordination and providing a unified view of enterprise risk..",
   },
   {
     id: "CLM",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Manual Risk Management and Compliance",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "Traditional methods of managing risk and compliance are often resource-intensive, time-consuming, and prone to errors. IRM automates routine tasks, enabling teams to identify, assess, and mitigate risks more efficiently.",
   },
   {
     id: "CALM",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Inability to Proactively Manage Risks",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "Without real-time insights and proactive monitoring, organizations may only respond to risks after they become issues. ServiceNow IRM provides predictive analytics and monitoring capabilities, allowing teams to address potential risks before they impact operations.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Complex Regulatory Compliance Requirements",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "With evolving regulations, staying compliant can be challenging and costly. IRM helps organizations streamline compliance tracking, assess regulatory impact, and maintain a continuous state of compliance with minimal effort.",
   },
 ];
 export const csmChallenges: ChallengeItem[] = [
@@ -879,32 +879,32 @@ export const csmCapabilities: ChallengeItem[] = [
 ];
 export const irmCustomerBenefits: ChallengeItem[] = [
   {
-    id: "asaw",
+    id: "erv",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Enhanced Risk Visibility and Control",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "By centralizing risk and compliance data, ServiceNow IRM provides comprehensive visibility, enabling organizations to better understand and control their risk landscape.",
   },
   {
-    id: "CLM",
+    id: "iew",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Improved Efficiency with Automated Workflows",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "IRM automates key risk management processes, freeing up resources and allowing teams to focus on strategic initiatives rather than manual compliance tasks.",
   },
   {
-    id: "CALM",
+    id: "ddpm",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Data-Driven, Proactive Decision Makin",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "With real-time risk insights and predictive analytics, IRM allows organizations to make informed, proactive decisions that align with their risk tolerance and business objectives.",
   },
   {
-    id: "LAVUI",
+    id: "streamlined",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Streamlined Compliance Management",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "ServiceNow IRM simplifies regulatory compliance with continuous monitoring, automated assessments, and real-time compliance tracking, reducing the risk of non-compliance and associated penalties.",
   },
 ];
 export const secopsCustomerBenefits: ChallengeItem[] = [
@@ -1264,51 +1264,51 @@ export const itomOfferings: ConsiderationItem[] = [
 export const irmOfferings: ConsiderationItem[] = [
   {
     icon: "/icons/stakeholder.png",
-    title: "Hardware Asset Management (HAM)",
+    title: "Risk Management",
     description:
-      "Track and manage hardware assets from acquisition through disposal. HAM provides visibility into asset location, usage, condition, and value, ensuring optimal utilization and planning for future asset needs.",
+      "Identify, assess, and monitor risks across your organization with a centralized risk management solution. Risk Management helps prioritize risks based on impact, providing insights into potential threats and enabling effective risk mitigation.",
   },
   {
     icon: "/icons/strategy.png",
-    title: "Software Asset Management (SAM)",
+    title: "Policy and Compliance Management",
     description:
-      "Manage software licenses, usage, and compliance with ServiceNow’s SAM tools. SAM helps you control software costs, stay compliant with vendor agreements, and reduce the risk of license audits.",
+      "Maintain, update, and enforce policies to ensure regulatory compliance. Policy and Compliance Management enables organizations to automate policy distribution, track compliance, and monitor the effectiveness of controls.",
   },
   {
     icon: "/icons/data.png",
-    title: "Cloud Insights",
+    title: "Audit Management",
     description:
-      "Gain visibility into cloud-based resources and optimize cloud spending. Cloud Insights within ITAM helps you track cloud usage, identify cost-saving opportunities, and prevent over-provisioning..",
+      "Streamline audit processes with a centralized platform for planning, conducting, and reporting audits. Audit Management helps organizations reduce audit preparation time and improve audit accuracy and effectiveness.",
   },
   {
     icon: "/icons/customization.png",
-    title: "Contract Management",
+    title: "Vendor Risk Management (VRM)",
     description:
-      "Maintain and track contracts related to assets, such as maintenance agreements and vendor contracts. Contract Management enables you to monitor renewal dates, compliance terms, and spend against contracts to avoid unnecessary expenses..",
+      "Identify and mitigate risks associated with third-party vendors. Vendor Risk Management assesses vendor compliance, tracks performance, and provides a framework for managing vendor-related risks effectively.",
   },
   {
     icon: "/icons/resource.png",
-    title: "Asset Request Management",
+    title: "Business Continuity Management (BCM)",
     description:
-      "Simplify and streamline asset requests through a self-service portal. Asset Request Management ensures that users receive the right assets quickly while maintaining oversight of asset allocation.",
+      "Ensure operational resilience with a business continuity plan that addresses potential disruptions. BCM provides a structured approach to disaster recovery, helping organizations remain resilient in the face of unexpected events.",
   },
   {
     icon: "/icons/training.png",
-    title: "Configuration Management Database (CMDB) Integration",
+    title: "Operational Risk Management",
     description:
-      "Integrate ITAM with the CMDB to keep an accurate, real-time record of asset dependencies and relationships. CMDB integration ensures that all asset data is up-to-date and linked to relevant services, improving visibility and management..",
+      "Manage operational risks within a unified platform. Operational Risk Management allows organizations to assess risk exposure across operations and respond quickly to prevent disruptions.",
   },
   {
     icon: "/icons/improvement.png",
-    title: "Depreciation and Financial Management",
+    title: "Continuous Control Monitoring (CCM)",
     description:
-      "Track the financial impact of asset usage and calculate depreciation accurately. ITAM's financial management features provide insights into the total cost of ownership and asset value over time.",
+      "Automate the testing and monitoring of controls, ensuring they operate effectively. CCM provides real-time data to help teams identify control weaknesses and address them promptly.",
   },
   {
     icon: "/icons/risk.png",
-    title: "Asset Disposal Management",
+    title: "Regulatory Change Management",
     description:
-      "Automate end-of-life processes for assets, ensuring secure, compliant disposal. Asset Disposal Management helps mitigate security risks, maintain environmental compliance, and streamline the disposal process.",
+      "Track and respond to regulatory changes with ease. Regulatory Change Management enables organizations to keep up with evolving regulations and ensure that policies and controls remain aligned.",
   },
 ];
 
@@ -1604,43 +1604,43 @@ export const itamFaqs: FaqItem[] = [
     id: "asset-discovery",
     question: "Discovery and Requirement Assessment",
     answer:
-      "We begin by evaluating your organization’s current asset management practices, identifying gaps, and understanding your business needs. This assessment helps us design a solution that fully aligns ITAM’s capabilities with your objectives.",
-    imageSrc: "/images/services-details.jpg",
+      "We begin by evaluating your organization's current asset management practices, identifying gaps, and understanding your business needs. This assessment helps us design a solution that fully aligns ITAM's capabilities with your objectives.",
+    imageSrc: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80", // business analysis
   },
   {
     id: "solution-design",
     question: "Solution Design and Customization",
     answer:
       "Based on our assessment, we design a ServiceNow ITAM solution that meets your specific needs. This includes configuring modules, defining workflows, and setting up integrations with your existing systems for a seamless asset management experience",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80", // blueprint / design
   },
   {
     id: "implementation-testing",
     question: "Implementation and Configuration",
     answer:
       "Our team manages the end-to-end deployment, including configuring key ITAM modules such as HAM, SAM, and Contract Management. We ensure the CMDB integration is optimized to maintain accurate asset relationships and dependencies.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // server setup / configuration
   },
   {
     id: "user-training",
     question: "User Training and Adoption Support",
     answer:
-      "We provide targeted training sessions to equip your team with the knowledge to manage ITAM effectively. Our training ensures that all stakeholders can leverage ITAM’s functionalities, driving high adoption and smooth operations.",
-    imageSrc: "/images/services-details.jpg",
+      "We provide targeted training sessions to equip your team with the knowledge to manage ITAM effectively. Our training ensures that all stakeholders can leverage ITAM's functionalities, driving high adoption and smooth operations.",
+    imageSrc: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80", // team training
   },
   {
     id: "go-live-support",
     question: "Go-Live and Support",
     answer:
       "Our go-live support ensures a smooth transition to ServiceNow ITAM, with continuous guidance as your team begins using the platform. We provide post-implementation support to address any challenges and help optimize performance.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // IT support team
   },
   {
     id: "ongoing-optimization",
     question: "Ongoing Optimization and Partnership",
     answer:
       "As your organization evolves, our partnership extends to continuous improvement, offering support to scale, optimize, and adapt ServiceNow ITAM to meet new requirements, ensuring sustained value from your asset management investment.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80", // business growth / partnership
   },
 ];
 
@@ -1685,9 +1685,9 @@ export const spmFaqs: FaqItem[] = [
 export const irmFaqs: FaqItem[] = [
   {
     id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
+    question: "Initial Assessment and Requirement Analysis",
     answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
+      "We begin by assessing your current risk and compliance landscape, identifying key challenges, and understanding your objectives. This enables us to design an IRM solution tailored to meet your organization’s specific needs.",
     imageSrc: "/images/services-details.jpg",
   },
   {
@@ -2038,7 +2038,7 @@ export const itamPortfolio: PortfolioContentItem = {
   paragraph1:
     "By implementing ServiceNow ITAM, your organization gains the visibility, control, and automation needed to manage assets more efficiently, reduce costs, and maintain compliance. With streamlined asset lifecycle management and real-time insights, ITAM empowers your team to make data-driven decisions, improve resource utilization, and align IT assets with business goals.",
   paragraph2: "",
-  imageSrc: "https://images.unsplash.com/photo-1580894908361-9671950336a2?auto=format&fit=crop&w=1200&q=80", // IT hardware assets (laptops, equipment)
+  imageSrc: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80", // IT hardware assets (laptops, equipment)
 };
 
 export const irmPortfolio: PortfolioContentItem = {
