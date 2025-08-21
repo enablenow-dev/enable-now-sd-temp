@@ -1,5 +1,4 @@
 import React from "react";
-import { MessageCircle } from "lucide-react";
 
 
 
@@ -51,16 +50,6 @@ export const PortfolioManagementExcellence: React.FC<PortfolioManagementExcellen
         </div>
       </div>
             
-      {/* Chat Button */}
-      <div className="fixed bottom-6 right-6 z-50">
-        <button
-          className="bg-[#1e3a5f] hover:bg-[#2d4f73] text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105"
-          onClick={() => console.log("Open chat")}
-          aria-label="Open chat"
-        >
-          <MessageCircle className="w-6 h-6" />
-        </button>
-      </div>
     </section>
   );
 };
