@@ -15,49 +15,49 @@ export interface Service {
 
 export const spmServices: Service[] = [
   {
-    icon: "/icons/demand.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0b80811f58c5bc247_Frame%2032%20(44).svg",
     title: "Demand Management",
     description:
       "Streamline demand intake, prioritization, and approval processes. Centralize all project requests and align them with strategic objectives for better resource allocation and decision-making.",
   },
   {
-    icon: "/icons/ppm.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea040fedc94b03264b6_Frame%2032%20(45).svg",
     title: "Project Portfolio Management (PPM)",
     description:
       "Comprehensive project oversight with real-time dashboards, milestone tracking, and portfolio optimization. Manage multiple projects simultaneously while ensuring strategic alignment and delivery excellence.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0790d05b4b1f037cd_Frame%2032%20(46).svg",
     title: "Resource Management",
     description:
       "Optimize resource allocation across projects and teams. Track capacity, skills, and availability to ensure the right resources are assigned to the right projects at the right time.",
   },
   {
-    icon: "/icons/extra1.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0881a187e41234433_Frame%2032%20(47).svg",
     title: "Application Portfolio Management (APM)",
     description:
       "Manage your entire application landscape with lifecycle tracking, dependency mapping, and optimization recommendations. Reduce technical debt and improve application performance.",
   },
   {
-    icon: "/icons/extra2.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea1b80811f58c5bc25b_Frame%2032%20(48).svg",
     title: "Financial Management",
     description:
       "Track project budgets, costs, and ROI in real-time. Integrate financial planning with project execution for better cost control and financial transparency across your portfolio.",
   },
   {
-    icon: "/icons/extra1.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0484d12006e019407_Frame%2032%20(49).svg",
     title: "Scenario Planning",
     description:
       "Create and compare multiple portfolio scenarios to optimize resource allocation and strategic outcomes. Make data-driven decisions with what-if analysis and impact assessment.",
   },
   {
-    icon: "/icons/extra1.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea07a1075b3cb906810_Frame%2032%20(50).svg",
     title: "Agile Development",
     description:
       "Support agile methodologies with sprint planning, backlog management, and team collaboration tools. Integrate agile practices seamlessly with traditional project management approaches.",
   },
   {
-    icon: "/icons/extra1.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0674c5a6cbd51b1e8_Icon%20(6).svg",
     title: "Performance Analytics",
     description:
       "Advanced reporting and analytics to measure portfolio performance, track KPIs, and identify improvement opportunities. Gain insights into project health, resource utilization, and strategic alignment.",
@@ -248,25 +248,25 @@ export const itamBenefits: ConsiderationItem[] = [
     title: "Cost Savings through Optimized Asset Usage",
     description:
       "With a comprehensive view of asset utilization, ServiceNow ITAM helps you avoid redundant purchases, reduce maintenance costs, and maximize asset life.",
-    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e7930bfb64f45eab0_group-people-working-team.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862239e6a807206c184c0df_Frame%2032%20(55).svg",
   },
   {
     title: "Improved Compliance and Reduced Audit Risk",
     description:
       "ServiceNow ITAM provides visibility into license compliance and usage, reducing the risk of non-compliance, audit penalties, and unexpected costs.",
-    icon: "/images/services-details.jpg",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862239d9d8274bdb16ee96f_Icon%20(6).svg",
   },
   {
     title: "Enhanced Decision-Making with Real-Time Data",
     description:
       "Accurate, real-time data on asset status and utilization empowers stakeholders to make informed decisions, whether optimizing software usage or planning future hardware acquisitions.",
-    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e6d9f2a101e11a252_medium-shot-people-sticking-post-its.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862239d0d52fc2fb3a5b2cf_Frame%203465873%20(4).svg",
   },
   {
     title: "Streamlined Asset Lifecycle Management",
     description:
       "Automated workflows across the asset lifecycle—from procurement to disposal—ensure efficient, transparent, and cost-effective asset management practices.",
-    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e04268b8df2579206_colleagues-work(2).png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68621fae26ee7d55e51b829e_Frame%2032%20(53).svg",
   },
 ];
 export const itomBenefits: BenefitItem[] = [
@@ -370,7 +370,7 @@ export const csmBenefits: BenefitItem[] = [
 // Challenge data interfaces and arrays
 export interface ChallengeItem {
   id: string;
-  icon: string; // Using string for icon names to be more flexible
+  icon: string; // URL to the icon image
   title: string;
   description: string;
 }
@@ -378,28 +378,28 @@ export interface ChallengeItem {
 export const spmChallenges: ChallengeItem[] = [
   {
     id: "portfolio",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ff8ed9ced1d33ea9536_Frame%2032%20(44).svg",
     title: "Portfolio Visibility and Alignment",
     description:
       "Provides a complete view of projects, portfolios, and business objectives.",
   },
   {
     id: "resource",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ff8765ff6562c3a7d77_Icon%20(6).svg",
     title: "Resource Optimization",
     description:
       "Ensures the best use of available resources across various projects.",
   },
   {
     id: "risk",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ff856c82ad5ffe6ee92_Frame%203465873%20(4).svg",
     title: "Risk and Issue Management",
     description:
       "Proactively identifies and addresses risks to ensure project success.",
   },
   {
     id: "value",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ff88a5c065df60c0aa4_Frame%203465874%20(4).svg",
     title: "Value Realization and Measurement",
     description:
       "Tracks and measures the value delivered by portfolio execution.",
@@ -409,28 +409,28 @@ export const spmChallenges: ChallengeItem[] = [
 export const itsmChallenges: ChallengeItem[] = [
   {
     id: "downtime",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755feeb4659a4ae5ee4_Frame%2032%20(33).svg",
     title: "Fragmented Systems and Data Silos",
     description:
       "ServiceNow ITSM consolidates data and workflows in a unified platform, breaking down silos and ensuring seamless operations across departments.",
   },
   {
     id: "efficiency",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a37554b5cd2f0d473e0a4_Icon%20(5).svg",
     title: "Manual, Error-Prone Processes",
     description:
       "ServiceNow ITSM automated workflows reduce manual workloads and accelerate service resolution so your team can focus on higher-value initiatives.",
   },
   {
     id: "visibility",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375528e4c952c3185bc2_Frame%203465873%20(3).svg",
     title: "Risk of Downtime and Service Disruptions",
     description:
       "ServiceNow ITSM provides a structured process for incidents and problems to help quickly address and resolve issues and minimize downtime.",
   },
   {
     id: "compliance",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375540fedc94b02e783b_Frame%203465874%20(3).svg",
     title: "Scaling IT with Business Growth",
     description:
       "ServiceNow ITSM spans everything from foundational IT functions to advanced service management, evolving seamlessly with your business.",
@@ -440,28 +440,28 @@ export const itsmChallenges: ChallengeItem[] = [
 export const itamChallenges: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68621faeb77e9bc415fd4cfe_Frame%2032%20(51).svg",
     title: "Asset Sprawl and Wasted Resources",
     description:
       "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68621faed81d6f11f44e9d35_Frame%2032%20(52).svg",
     title: "Compliance and License Management",
     description:
       "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68621fae26ee7d55e51b829e_Frame%2032%20(53).svg",
     title: "Costly Asset Lifecycle Management",
     description:
       "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68621fae3cebce52e4399b6e_Frame%2032%20(54).svg",
     title: "Lack of Asset Visibility and Utilization Insights",
     description:
       "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
@@ -471,28 +471,28 @@ export const itamChallenges: ChallengeItem[] = [
 export const itomChallenges: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623c6b760421706884d68b_Frame%2032%20(51).svg",
     title: "Fragmented IT Environments and Lack of Visibility",
     description:
       "Traditional environments often lack extensive visibility, making it difficult to identify issues or manage resources.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623c6b3c1cb23c4bc0cea9_Icon%20(6).svg",
     title: "Manual IT Operations",
     description:
       "Repetitive and error-prone tasks drain IT resources and slow down response times to service disruptions or outages.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623c6b75f1889a9c7ac1be_Frame%203465873%20(4).svg",
     title: "Scaling IT with Business Growth",
     description:
       "As organizations grow, scaling IT infrastructure becomes increasingly complex without centralization.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623c6be78100a24c8527ff_Frame%203465874%20(4).svg",
     title: "Proactive Problem Identification and Resolution",
     description:
       "Without proper tools, issues often go unnoticed until they cause disruption, leading to costly downtime.",
@@ -501,28 +501,28 @@ export const itomChallenges: ChallengeItem[] = [
 export const irmChallenges: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686225e3328aabfc079ca200_Frame%2032%20(53).svg",
     title: "Siloed Risk and Compliance Processes",
     description:
       "Many organizations struggle with fragmented risk and compliance practices, leading to inefficiencies and a lack of visibility. ServiceNow IRM centralizes and standardizes these processes, improving coordination and providing a unified view of enterprise risk..",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686225e4c698a6960c99dafe_Frame%2032%20(54).svg",
     title: "Manual Risk Management and Compliance",
     description:
       "Traditional methods of managing risk and compliance are often resource-intensive, time-consuming, and prone to errors. IRM automates routine tasks, enabling teams to identify, assess, and mitigate risks more efficiently.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686225e32293e0967d2bd363_Frame%2032%20(55).svg",
     title: "Inability to Proactively Manage Risks",
     description:
       "Without real-time insights and proactive monitoring, organizations may only respond to risks after they become issues. ServiceNow IRM provides predictive analytics and monitoring capabilities, allowing teams to address potential risks before they impact operations.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686225e391a85953244c81cd_Frame%2032%20(56).svg",
     title: "Complex Regulatory Compliance Requirements",
     description:
       "With evolving regulations, staying compliant can be challenging and costly. IRM helps organizations streamline compliance tracking, assess regulatory impact, and maintain a continuous state of compliance with minimal effort.",
@@ -531,28 +531,28 @@ export const irmChallenges: ChallengeItem[] = [
 export const csmChallenges: ChallengeItem[] = [
   {
     id: "downtime",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160de03c4ac6ec109e992_Frame%2032%20(13).svg",
     title: "Fragmented Customer Data Silos and Systems",
     description:
       "Enhance service delivery by integrating customer data and workflows into a single platform.",
   },
   {
     id: "efficiency",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dee18a46ef44b82141_Icon%20(3).svg",
     title: "Slow Resolution Times",
     description:
       "Resolve cases faster with automated workflows so agents can focus on client interactions.",
   },
   {
     id: "visibility",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160de894fb1d40523959a_Frame%203465873%20(2).svg",
     title: "Absence of Proactive Service",
     description:
       "Anticipate challenges and proactively address them with built-in AI and predictive analytics.",
   },
   {
     id: "compliance",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5b8e0a6a6bbe5d1a946_Frame%203465874.svg",
     title: "Scaling Customer Service with Business Growth",
     description:
       "Scale at the speed of light to address your company's growing needs and shifting customer demands.",
@@ -561,28 +561,28 @@ export const csmChallenges: ChallengeItem[] = [
 export const hrsdChallenges: ChallengeItem[] = [
   {
     id: "downtime",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826e95de37a0649c4fbca4f_Frame%2032.svg",
     title: "HR Case Management",
     description:
       "HR Cases store detailed information about an employee’s HR request or inquiry. Instead of exchanging multiple emails or phone calls, all relevant details are securely captured within the HR Case form for streamlined management.",
   },
   {
     id: "efficiency",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5b832b3e32edfb72714_Icon%20(1).svg",
     title: "Employee Document Management",
     description:
       "The Employee Document Management application provides a central location for storing and managing all electronic employee documents, which can be transferred into the Document Management system manually or automatically.",
   },
   {
     id: "visibility",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5b80b0fceb1f84c4908_Frame%203465873.svg",
     title: "Employee Forums",
     description:
       "Employee Forums help employees connect, engage, and collaborate with other employees. Employees can receive fast responses to their issues by posting questions, reviewing blogs or videos, and searching for past discussions.",
   },
   {
     id: "compliance",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5b8e0a6a6bbe5d1a946_Frame%203465874.svg",
     title: "Virtual Agent",
     description:
       "Uses natural language understanding to deliver tailored and correct responses to employee inquiries through a conversational experience. With Predictive Intelligence, HR cases created via email can be automatically categorized.",
@@ -591,28 +591,28 @@ export const hrsdChallenges: ChallengeItem[] = [
 export const secOpsChallenges: ChallengeItem[] = [
   {
     id: "siloed",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623407261a9bc6da2c17d7_Frame%2032%20(51).svg",
     title: "Siloed Security and IT Teams",
     description:
       "In many organizations, security and IT teams work in isolation, resulting in delayed responses and a lack of coordination. SecOps bridges these silos, enabling seamless collaboration to reduce response times and improve overall security posture",
   },
   {
     id: "manual",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686234070a6b9fa56927fd41_Frame%2032%20(52).svg",
     title: "Manual Incident Response Processes",
     description:
       "Traditional incident response processes are often time-consuming and involve manual steps, leading to delayed resolutions and increased risk. SecOps automates repetitive tasks, freeing up resources and allowing security teams to focus on critical incidents.",
   },
   {
     id: "overwhelming",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623407f18fa60602b1ef19_Frame%2032%20(53).svg",
     title: "Overwhelming Volume of Security Alerts",
     description:
       "With the growing number of security tools and alerts, security teams are often overwhelmed, which can lead to alert fatigue. ServiceNow SecOps prioritizes alerts based on threat level, reducing noise and ensuring that high-priority threats are addressed quickly.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686234072f6b9caabe96e87f_Frame%2032%20(54).svg",
     title: "Difficulty in Threat Intelligence Integration",
     description:
       "Integrating threat intelligence from various sources can be challenging, impacting the accuracy and speed of threat detection. ServiceNow SecOps consolidates threat intelligence within a single platform, allowing for rapid, data-driven responses to emerging threats.",
@@ -621,28 +621,28 @@ export const secOpsChallenges: ChallengeItem[] = [
 export const fsmChallenges: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231605774fdb0b7c59273_Frame%2032%20(51).svg",
     title: "Inefficient Scheduling and Dispatching",
     description:
       "Traditional scheduling can lead to delays, overbooked technicians, and resource inefficiencies. FSM’s intelligent scheduling automates assignments based on skills, availability, and location, optimizing resource allocation.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231607aa637916bb320d6_Frame%2032%20(52).svg",
     title: "Limited Visibility into Field Operations",
     description:
       "Organizations often lack real-time insight into technician locations and job status, making managing and adjusting field operations challenging. FSM provides real-time visibility, enabling managers to monitor and adapt schedules as needed.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231609ce7caa52f253b96_Frame%2032%20(53).svg",
     title: "Complex Coordination for Multi-Stage Workflows",
     description:
       "Field services frequently involve multi-step workflows that require close coordination across teams. FSM simplifies workflow management, automating multi-stage tasks and facilitating seamless hand-offs.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623160e78100a24c7e749a_Frame%2032%20(54).svg",
     title: "Maintaining Service Quality",
     description:
       "Ensuring that field service meets quality standards is challenging, especially for geographically distributed teams. FSM enforces consistent processes and provides tools for tracking performance, improving service quality.",
@@ -651,28 +651,28 @@ export const fsmChallenges: ChallengeItem[] = [
 export const wsdChallenges: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862371fb77e9bc41509deab_Frame%2032%20(51).svg",
     title: "Fragmented Workplace Management Systems",
     description:
       "Without insight into resource use, space use, and service performance, organizations struggle to improve their workspaces. WSD gives real-time data to boost resource use and lower costs.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862371f37b25410c6aead8b_Frame%2032%20(52).svg",
     title: "Manual, Time-Consuming Processes",
     description:
       "Many workplace tasks, like room booking still rely on manual workflows that waste time and slow productivity. WSD automates these tasks, speeding up responses and improving service efficiency.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862371f15ff17cd3cf758a4_Frame%2032%20(53).svg",
     title: "Inconsistent Employee Experience",
     description:
       "Disconnected tools and limited visibility into resources can impact employee experience. WSD provides a unified, easy-to-use platform for all workplace services, ensuring employees can access what they need.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862371fa4634a9b29d4f893_Frame%2032%20(54).svg",
     title: "Limited Visibility",
     description:
       "Without insight into resource use, space occupancy, and service performance, organizations struggle to optimize their workspaces. WSD delivers real-time analytics to improve resource allocation and cut costs.",
@@ -682,56 +682,56 @@ export const wsdChallenges: ChallengeItem[] = [
 export const itsmCapabilities: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755a671c90bf030d95b_Frame%2032%20(26).svg",
     title: "Incident Management",
     description:
       "Efficiently manage and resolve IT issues to restore normal service operations.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755c4fff945f84cd49c_Frame%2032%20(27).svg",
     title: "Change Management",
     description:
       "Ensure controlled and smooth implementation of IT changes with minimal impact.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a37556e21d41424df69ed_Frame%2032%20(28).svg",
     title: "Service Catalog",
     description:
       "A centralized platform automates IT service requests for more efficiency.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a37552a490981b28e81ca_Frame%2032%20(29).svg",
     title: "Configuration Management (CMDB)",
     description:
       "Maintain a single source of truth for your enterprise IT infrastructure and services.",
   },
   {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755407518f7e37cf05d_Frame%2032%20(30).svg",
     title: "Problem Management",
     description:
       "Identify and handle root causes of repeat incidents to minimize service disruptions.",
   },
   {
     id: "rm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755a671c90bf030d95f_Frame%2032%20(31).svg",
     title: "Request Management",
     description:
       "Simplify service requests with standardized workflows and approvals.",
   },
   {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755617322f52fbe6ffa_Frame%2032%20(32).svg",
     title: "Knowledge Management",
     description:
       "Share and reuse knowledge to resolve issues faster and enhance user experience.",
   },
   {
     id: "amc",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755f4753525f93c3590_Icon%20(4).svg",
     title: "Asset Management Core",
     description:
       "Make informed decisions with real-time visibility into assets across the enterprise.",
@@ -740,84 +740,84 @@ export const itsmCapabilities: ChallengeItem[] = [
 export const itomCapabilities: ChallengeItem[] = [
   {
     id: "event",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad5a56999a416fd24c9_Frame%2032%20(51).svg",
     title: "Event Management",
     description:
       "Monitor and correlate events from IT infrastructure, identifying issues before they impact service delivery.",
   },
   {
     id: "orchestration",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad58d158d543b245806_Frame%2032%20(52).svg",
     title: "Orchestration",
     description:
       "Automate manual, repetitive tasks to improve the speed and accuracy of incident response and service provisioning.",
   },
   {
     id: "cloud",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad5ffd1f6551080fd5e_Frame%2032%20(53).svg",
     title: "Cloud Management",
     description:
       "Simplify cloud management with visibility and control across public, private, and hybrid environments.",
   },
   {
     id: "discovery",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad5da6d00c342846bcd_Frame%2032%20(54).svg",
     title: "Discovery",
     description:
       "Automatically identify and map all IT assets across your environment, providing a full view of your infrastructure.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad56c19d845e371264a_Frame%2032%20(55).svg",
     title: "Service Mapping",
     description:
       "Visualize service dependencies and quickly identify the underlying root cause of disruptions, minimizing downtime.",
   },
   {
     id: "IM",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad540558de4936eb451_Frame%2032%20(56).svg",
     title: "Infrastructure Monitoring",
     description:
       "Continuously monitor infrastructure health, performance, and availability for proactive issue response.",
   },
   {
     id: "CMDB",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad5a1c99ec38add6748_Frame%2032%20(57).svg",
     title: "CMDB (Configuration Management Database)",
     description:
       "Maintain an up-to-date inventory of your IT assets and configurations, providing a single source of truth for all systems and services.",
   },
   {
     id: "CM",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad437b25410c6b0d85b_Frame%2032%20(58).svg",
     title: "Certificate Management",
     description:
       "Certificate management in ITOM includes the handling, tracking, renewal, and monitoring of digital certificates in IT infrastructure.",
   },
   {
     id: "ACC",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad5dc394e09ab756283_Frame%2032%20(59).svg",
     title: "Agent Client Collector",
     description:
       "The Agent Client Collector (ACC) in ITOM is a lightweight agent installed on endpoints, servers, or devices to facilitate data collection and enable operational workflows.",
   },
   {
     id: "SRM",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad53cebce52e447c243_Frame%2032%20(60).svg",
     title: "Service Reliability Management",
     description:
       "Service Reliability Management (SRM) in ITOM focuses on ensuring that IT services meet agreed-upon performance, availability, and reliability standards.",
   },
   {
     id: "MI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad5aae5146018eb14d4_Frame%2032%20(61).svg",
     title: "Metric Intelligence",
     description:
       "Metric Intelligence in ITOM is the process of collecting, analysing, and using metrics from IT systems for monitoring, troubleshooting, and optimization.",
   },
   {
     id: "CA",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623ad58ef9b871c85e86c1_Frame%2032%20(62).svg",
     title: "Cloud Accelerate",
     description:
       "Cloud Accelerate in ITOM Cloud Accelerate in ITOM signifies a suite of sophisticated tools, capabilities, and frameworks engineered to optimize and streamline cloud operations.",
@@ -826,54 +826,54 @@ export const itomCapabilities: ChallengeItem[] = [
 export const hrsdCapabilities: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826e8154d980dee938d03da_Frame%2032.svg",
     title: "Employee Center Pro",
     description:
       "Unified service portal that provides a modern interface for the employee.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5297c5278494a5d254d_Frame%2032%20(1).svg",
     title: "HR Knowledge Management",
     description:
       "Ensure HR Knowledge helps employees find answers to their questions.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826e815cccf026ae13b9695_Frame%2032%20(1).svg",
     title: "HR Catalog",
     description:
       "The HR Catalog in Employee Center Pro, displays the HR Services an employee can request from HR.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68272152709f6fa4970a7938_Frame%2032.svg",
     title: "HR Dashboards and Reports",
     description:
       "HR Dashboards show performance metrics and employee satisfaction ratings, while the Reports module allows viewing and creating reports.",
   },
    {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826e8153c75a59ac7138074_Frame%2032%20(2).svg",
     title: "HR Integrations",
     description:
       "Pull employee data from an external HCM system and push updates back.",
   }, {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826e8151c58e72b6fb21e01_Frame%2032%20(3).svg",
     title: "Performance Analytics",
     description:
       "HR Performance Analytics content packs create widgets to track KPI trends",
   }, {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826e815141402915ccdca12_Frame%2032%20(4).svg",
     title: "Employee Journey Management",
     description:
       "Employee Journey Management enhances each employee’s unique experiences through their career.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5299bd943a086d98301_Icon.svg",
     title: "HR Surveys",
     description:
       "HR Surveys allow employees to rate their satisfaction with HR case resolution and provide feedback on HR processes.",
@@ -882,86 +882,88 @@ export const hrsdCapabilities: ChallengeItem[] = [
 export const csmCapabilities: ChallengeItem[] = [
   {
     id: "cm",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160ec9e0f15c79d1cd88b_Frame%2032%20(6).svg",
     title: "Case Management",
     description:
       "Refine processes to direct requests quickly and effectively.",
   },
   {
     id: "km",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae5297c5278494a5d254d_Frame%2032%20(1).svg",
     title: "Knowledge Management",
     description:
       "Relevant information for faster analysis and better experience.",
   },
   {
     id: "omni",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dec8175e906d8d7c6e_Frame%2032%20(8).svg",
     title: "Omnichannel Engagement",
     description:
       "Deliver a consistent experience over the phone and email.",
   },
   {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160debfd9a81d89b91153_Frame%2032%20(9).svg",
     title: "Proactive Operations for Customer Service",
     description:
       "Leverage insights to stop problems before they are reported.",
   },
   {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160deaeef9922d6de0352_Frame%2032%20(10).svg",
     title: "Customer Self-Service",
     description:
       "Empower clients with the knowledge base, virtual agent, and self-service portal..",
   },
    {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160de486bab92457f3081_Frame%2032%20(11).svg",
     title: "Field Service Management",
     description:
       "Use intelligent scheduling to manage resources and schedule.",
   },
    {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd3932839f2d6a4c60_Frame%2032%20(12).svg",
     title: "Workforce Optimization",
     description:
       "Increase productivity with real-time resource allocation and skill routing.",
   },
   {
     id: "pbm",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160defb176b623b2e8778_Icon%20(2).svg",
     title: "Performance Analytics",
     description:
       "Track metrics to drive improvement and customer satisfaction.",
   },
 ];
+
+
 export const irmCustomerBenefits: ChallengeItem[] = [
   {
     id: "erv",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862268715ff17cd3ced5f21_Frame%2032%20(51).svg",
     title: "Enhanced Risk Visibility and Control",
     description:
       "By centralizing risk and compliance data, ServiceNow IRM provides comprehensive visibility, enabling organizations to better understand and control their risk landscape.",
   },
   {
     id: "iew",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862268755338741c4d65fcd_Icon%20(6).svg",
     title: "Improved Efficiency with Automated Workflows",
     description:
       "IRM automates key risk management processes, freeing up resources and allowing teams to focus on strategic initiatives rather than manual compliance tasks.",
   },
   {
     id: "ddpm",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68622687ad211f5fc819ca78_Frame%203465873%20(4).svg",
     title: "Data-Driven, Proactive Decision Makin",
     description:
       "With real-time risk insights and predictive analytics, IRM allows organizations to make informed, proactive decisions that align with their risk tolerance and business objectives.",
   },
   {
     id: "streamlined",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686226876ba127b9f01e07e3_Frame%203465874%20(4).svg",
     title: "Streamlined Compliance Management",
     description:
       "ServiceNow IRM simplifies regulatory compliance with continuous monitoring, automated assessments, and real-time compliance tracking, reducing the risk of non-compliance and associated penalties.",
@@ -970,28 +972,28 @@ export const irmCustomerBenefits: ChallengeItem[] = [
 export const secopsCustomerBenefits: ChallengeItem[] = [
   {
     id: "actr",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686234a93b18b514fbd5ce2c_Frame%2032%20(51).svg",
     title: "Accelerated Threat Response",
     description:
       "By automating incident response and prioritizing threats based on risk, SecOps helps security teams respond faster, minimizing the potential impact of attacks.",
   },
   {
     id: "collab",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686234aa51f54f6dc09d466e_Icon%20(6).svg",
     title: "Enhanced Collaboration between Security and IT",
     description:
       "ServiceNow SecOps connects security and IT teams, fostering collaboration to manage and resolve security incidents more effectively.",
   },
   {
     id: "ctv",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686234a826ee7d55e52646b0_Frame%203465873%20(4).svg",
     title: "Reduced Alert Fatigue",
     description:
       "With intelligent alert prioritization, SecOps helps teams focus on the most critical threats, reducing noise and improving focus on high-risk incidents.",
   },
   {
     id: "ctv",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686234a851aad8dcfc624852_Frame%203465874%20(4).svg",
     title: "Comprehensive Threat Visibility",
     description:
       "ServiceNow SecOps consolidates threat intelligence and integrates with existing security tools, giving teams a holistic view of security incidents and enabling faster, data-driven decision-making.",
@@ -1000,28 +1002,28 @@ export const secopsCustomerBenefits: ChallengeItem[] = [
 export const fsmCustomerBenefits: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862323791a8595324533a22_Frame%2032%20(51).svg",
     title: "Increased First-Time Fix Rate",
     description:
       "By matching tasks with the right technicians and providing relevant job details upfront, FSM helps increase first-time fix rates, reducing the need for repeat visits.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231fe26ee7d55e524c904_Icon%20(6).svg",
     title: "Optimized Resource Utilization",
     description:
       "FSM’s intelligent scheduling and dispatching maximize the productivity of field resources, reducing downtime and ensuring optimal resource allocation.",
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231fe70aa68bc215d3064_Frame%203465873%20(4).svg",
     title: "Enhanced Customer Satisfaction",
     description:
       "With faster response times, real-time updates, and higher service quality, FSM improves the customer experience and strengthens trust in your organization’s field services.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231fe495e7b44f0202fe9_Frame%203465874%20(4).svg",
     title: "Improved Field Visibility and Control",
     description:
       "FSM’s real-time tracking and reporting tools provide insights into field operations, helping organizations make data-driven decisions and optimize workflows.",
@@ -1031,28 +1033,28 @@ export const fsmCustomerBenefits: ChallengeItem[] = [
 export const wsdCustomerBenefits: ChallengeItem[] = [
   {
     id: "asaw",
-    icon: "AlertTriangle",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686237cc5264180d04f66e53_Frame%2032%20(51).svg",
     title: "Improved Employee Experience and Satisfaction",
     description:
       "By offering one easy-to-use platform for workplace services, WSD improves access and ease, boosting employee satisfaction and engagement.",
   },
   {
     id: "CLM",
-    icon: "Settings",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686231fe26ee7d55e524c904_Icon%20(6).svg",
     title: "Increased Operational Efficiency",
     description:
       "WSD automates routine workplace processes, allowing facility teams to manage requests more efficiently and focus on higher-impact initiatives."
   },
   {
     id: "CALM",
-    icon: "Target",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686237ccfdc7bcd0adbf34e0_Frame%203465873%20(4).svg",
     title: "Optimized Space Utilization and Resource Allocation",
     description:
       "With insights into space use and asset usage, WSD helps organizations make data-driven decisions to optimize resources and improve workplace efficiency.",
   },
   {
     id: "LAVUI",
-    icon: "Shield",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686237ccac23a465a55b3896_Frame%203465874%20(4).svg",
     title: "Data-Driven Workplace Management",
     description:
       "WSD’s reports and analytics provide real-time insights into workplace trends, helping facility teams track performance, and improve services.",
@@ -1069,49 +1071,49 @@ export interface ConsiderationItem {
 // Export as 'considerations' to match the import in Considerations component
 export const considerations: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8f67b0a432169f88b1_Frame%2032%20(44).svg",
     title: "Stakeholder Alignment",
     description:
       "Engage executives and key stakeholders early to align expectations, define success criteria, and secure sponsorship for the SPM journey.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8f86ccc21ad05e3629_Frame%2032%20(45).svg",
     title: "Portfolio Strategy and Governance",
     description:
       "Establish clear prioritization, funding models, and decision frameworks to ensure work delivers measurable strategic value.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b9079e1334ba53675a0_Frame%2032%20(46).svg",
     title: "Data Quality and Integration",
     description:
       "Plan for high‑quality data, taxonomy standards, and integrations with core systems to enable accurate insights and automation.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8f53b40f35f123916a_Frame%2032%20(47).svg",
     title: "Customization vs. Out-of-the-Box Configuration",
     description:
       "Balance customization and utilizing out-of-the-box options to prevent unnecessary complexity and maintain compatibility for future upgrades.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8f407518f7e38837a0_Frame%2032%20(48).svg",
     title: "Resource Management and Capacity Planning",
     description:
       "Utilize resource management tools to monitor availability, assess skills, gauge demand, and facilitate efficient capacity planning.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8fe4c22ea616c1c19f_Frame%2032%20(49).svg",
     title: "User Training and Adoption",
     description:
       "Train end-users, particularly those in key roles, and supply support materials to facilitate successful adoption of the platform.",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8f3a91ffcdc2171192_Frame%2032%20(50).svg",
     title: "Continuous Improvement and Feedback Loops",
     description:
       "Regularly evaluate ServiceNow SPM by gathering user feedback, tracking KPIs, and refining processes to meet evolving business needs.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a4b8f8bc56d769efd6eb0_Frame%2032%20(51).svg",
     title: "Risk and Issue Management",
     description:
       "Define risk tracking, management, and mitigation within the platform to ensure projects stay on course and remain aligned.",
@@ -1124,48 +1126,48 @@ export const spmconsiderations = considerations;
 // ITSM-specific considerations
 export const itsmConsiderations: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea291004ab3722c89efd_Frame%2032.svg",
     title: "Defining Clear Objectives",
     description:
       "What is driving the adoption of ITSM, and what are the expected key results?",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae657342cbd3edf2001b4_Frame%2032%20(2).svg",
     title: "Process Alignment",
     description:
       "Are your IT processes aligned with ITIL best practices? What are the gaps?",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea29c7966adbb7942621_Frame%2032%20(1).svg",
     title: "Governance Model",
     description: "Do you have a governance structure to maintain the platform?",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a37553d56b320344ff322_Frame%2032%20(34).svg",
     title: "Business Impact Analysis",
     description:
       "How will adopting ServiceNow ITSM impact the various departments or business groups?",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea284b0f43076e18ae2e_Frame%2032%20(3).svg",
     title: "Data Accuracy",
     description:
       "Do you have accurate data to create an efficient and effective CMDB?.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a37550f6985e838599717_Frame%2032%20(35).svg",
     title: "Scalability",
     description:
       "Do you need to consider scalability to support your organization’s growth?",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755325ea25d12c59b16_Frame%2032%20(36).svg",
     title: "Integration Needs",
     description:
       "Do you have third-party tools or legacy systems that need integration with ServiceNow?",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3755f588f3486c27e413_Frame%2032%20(37).svg",
     title: "User Training",
     description:
       "Do you need end-users and IT staff training to adopt and effectively use ITSM?",
@@ -1173,49 +1175,49 @@ export const itsmConsiderations: ConsiderationItem[] = [
 ];
 export const hrsdConsiderations: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea291004ab3722c89efd_Frame%2032.svg",
     title: "Defining Clear Objectives",
     description:
       "What drives ServiceNow HRSD adoption, and what improvements do you aim for in HR operations?",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae657342cbd3edf2001b4_Frame%2032%20(2).svg",
     title: "Process Alignment",
     description:
       "Do your HR processes follow industry best practices? What inefficiencies need fixing?",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea29c7966adbb7942621_Frame%2032%20(1).svg",
     title: "Governance Model",
     description:
       "Does your HRSD platform have a governance framework for maintenance and growth?",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea289cb0fcc3a6667f89_Frame%2032%20(2).svg",
     title: "Business Impact Analysis",
     description:
       "What effects do you expect on compliance, HR productivity, and employee experience?",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea284b0f43076e18ae2e_Frame%2032%20(3).svg",
     title: "Data Accuracy",
     description:
       "Do you have accurate employee data for HR case management, onboarding, and other services?",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea28023207ac37ed4f2b_Frame%2032%20(4).svg",
     title: "Scalability",
     description:
       "Do you need to consider long-term scalability to support your organization’s growth?",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea286ecdab27b08e1c2e_Frame%2032%20(5).svg",
     title: "Integration Needs",
     description:
       "Do you currently have third-party tools or legacy systems that need integration with ServiceNow?",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea283476ea323ae78396_Frame%2032%20(6).svg",
     title: "User Training",
     description:
       "Do you require end-users and HR staff training to adopt and effectively use HRSD?",
@@ -1223,49 +1225,49 @@ export const hrsdConsiderations: ConsiderationItem[] = [
 ];
 export const itamOfferings: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68622475b9f60d52626b7721_Frame%2032%20(51).svg",
     title: "Hardware Asset Management (HAM)",
     description:
       "Track and manage hardware assets from acquisition through disposal. HAM provides visibility into asset location, usage, condition, and value, ensuring optimal utilization and planning for future asset needs.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686224753cebce52e43b8fcb_Icon%20(6).svg",
     title: "Software Asset Management (SAM)",
     description:
       "Manage software licenses, usage, and compliance with ServiceNow’s SAM tools. SAM helps you control software costs, stay compliant with vendor agreements, and reduce the risk of license audits.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862247515ff17cd3cec7e6b_Frame%203465873%20(4).svg",
     title: "Cloud Insights",
     description:
       "Gain visibility into cloud-based resources and optimize cloud spending. Cloud Insights within ITAM helps you track cloud usage, identify cost-saving opportunities, and prevent over-provisioning..",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686224753b18b514fbccd8c7_Frame%203465874%20(4).svg",
     title: "Contract Management",
     description:
       "Maintain and track contracts related to assets, such as maintenance agreements and vendor contracts. Contract Management enables you to monitor renewal dates, compliance terms, and spend against contracts to avoid unnecessary expenses..",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862247570aa68bc2155d6db_Frame%2032%20(52).svg",
     title: "Asset Request Management",
     description:
       "Simplify and streamline asset requests through a self-service portal. Asset Request Management ensures that users receive the right assets quickly while maintaining oversight of asset allocation.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68622475261a9bc6da23e62a_Icon%20(7).svg",
     title: "Configuration Management Database (CMDB) Integration",
     description:
       "Integrate ITAM with the CMDB to keep an accurate, real-time record of asset dependencies and relationships. CMDB integration ensures that all asset data is up-to-date and linked to relevant services, improving visibility and management..",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862247516fcc21f1e8da422_Frame%203465873%20(5).svg",
     title: "Depreciation and Financial Management",
     description:
       "Track the financial impact of asset usage and calculate depreciation accurately. ITAM's financial management features provide insights into the total cost of ownership and asset value over time.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68622475bc26fca84c4e4079_Frame%203465874%20(5).svg",
     title: "Asset Disposal Management",
     description:
       "Automate end-of-life processes for assets, ensuring secure, compliant disposal. Asset Disposal Management helps mitigate security risks, maintain environmental compliance, and streamline the disposal process.",
@@ -1324,49 +1326,49 @@ export const itomOfferings: ConsiderationItem[] = [
 ];
 export const irmOfferings: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862272373cdea0c17892fdd_Frame%2032%20(52).svg",
     title: "Risk Management",
     description:
       "Identify, assess, and monitor risks across your organization with a centralized risk management solution. Risk Management helps prioritize risks based on impact, providing insights into potential threats and enabling effective risk mitigation.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862272375b096f262a0cf93_Icon%20(7).svg",
     title: "Policy and Compliance Management",
     description:
       "Maintain, update, and enforce policies to ensure regulatory compliance. Policy and Compliance Management enables organizations to automate policy distribution, track compliance, and monitor the effectiveness of controls.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862272475b096f262a0cfac_Frame%203465873%20(5).svg",
     title: "Audit Management",
     description:
       "Streamline audit processes with a centralized platform for planning, conducting, and reporting audits. Audit Management helps organizations reduce audit preparation time and improve audit accuracy and effectiveness.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862272397fa785824653b00_Frame%203465874%20(5).svg",
     title: "Vendor Risk Management (VRM)",
     description:
       "Identify and mitigate risks associated with third-party vendors. Vendor Risk Management assesses vendor compliance, tracks performance, and provides a framework for managing vendor-related risks effectively.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68622723ad211f5fc81a0d1c_Frame%2032%20(53).svg",
     title: "Business Continuity Management (BCM)",
     description:
       "Ensure operational resilience with a business continuity plan that addresses potential disruptions. BCM provides a structured approach to disaster recovery, helping organizations remain resilient in the face of unexpected events.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862273e75f1889a9c6ec98a_Icon%20(8).svg",
     title: "Operational Risk Management",
     description:
       "Manage operational risks within a unified platform. Operational Risk Management allows organizations to assess risk exposure across operations and respond quickly to prevent disruptions.",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686227240d52fc2fb3a75ed9_Frame%203465873%20(6).svg",
     title: "Continuous Control Monitoring (CCM)",
     description:
       "Automate the testing and monitoring of controls, ensuring they operate effectively. CCM provides real-time data to help teams identify control weaknesses and address them promptly.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686227234b7de7ee7d25aeec_Frame%203465874%20(6).svg",
     title: "Regulatory Change Management",
     description:
       "Track and respond to regulatory changes with ease. Regulatory Change Management enables organizations to keep up with evolving regulations and ensure that policies and controls remain aligned.",
@@ -1375,49 +1377,49 @@ export const irmOfferings: ConsiderationItem[] = [
 
 export const fsmOfferings: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b0446e9639628c1fc0_Frame%2032%20(51).svg",
     title: "Intelligent Scheduling and Dispatching",
     description:
       "Automate task assignments based on technician skills, location, availability, and workload. Intelligent scheduling ensures that the right resources are in the right place at the right time, improving efficiency.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b008961663aa8339fd_Icon%20(6).svg",
     title: "Mobile Field Service App",
     description:
       "Provide technicians with a mobile-friendly app that offers access to job details, checklists, and relevant knowledge articles. The app lets technicians stay connected, update job status in real-time, and access support when needed.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b00a6b9fa56926ad63_Frame%203465873%20(4).svg",
     title: "Work Order Management",
     description:
       "Streamline work order creation, assignment, and tracking. Work Order Management centralizes field service data, enabling teams to efficiently coordinate tasks, monitor progress, and close work orders.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68621fae26ee7d55e51b829e_Frame%2032%20(53).svg",
     title: "Asset and Inventory Management",
     description:
       "Track and manage field assets and inventory levels in real-time. Asset and Inventory Management helps ensure technicians have the necessary parts and tools on-site, reducing delays and increasing job completion rates.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b0e222be0bc85f7aca_Frame%2032%20(52).svg",
     title: "Customer Communications",
     description:
       "Keep customers informed with automated appointment reminders, real-time updates on technician arrival, and follow-up notifications. Customer Communications improves transparency, enhancing customer satisfaction.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b0e222be0bc85f7aca_Frame%2032%20(52).svg",
     title: "Knowledge and Training Integration",
     description:
       "Provide technicians access to knowledge articles, troubleshooting guides, and training resources. Knowledge and Training Integration ensures technicians have the information they need to solve issues effectively on the first visit.",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b01a3d05540ff568db_Frame%203465873%20(5).svg",
     title: "Service Level Agreement (SLA) Tracking",
     description:
       "Monitor and enforce SLAs to meet customer expectations. SLA Tracking enables teams to prioritize tasks based on urgency and ensure that field service aligns with agreed-upon performance standards.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686232b17875f71b0349746d_Frame%203465874%20(5).svg",
     title: "Performance Analytics and Reporting",
     description:
       "Measure field service performance with dashboards and reports on key metrics such as first-time fix rate, job completion time, and customer satisfaction. Performance Analytics provides insights for continuous improvement.",
@@ -1426,55 +1428,55 @@ export const fsmOfferings: ConsiderationItem[] = [
 
 export const wsdOfferings: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623882b961453c1e040d6c_Frame%2032%20(51).svg",
     title: "Workplace Reservation Management",
     description:
       "Enable employees to book rooms, desks, and other shared spaces with ease. Workplace Reservation Management shows real-time availability, making it simple to find and reserve what they need.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686238825008fda238556582_Icon%20(6).svg",
     title: "Employee Service Center",
     description:
       "Give employees a single self-service portal for all workplace requests, from room bookings to maintenance. The Employee Service Center streamlines access and ensures a consistent experience.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623882399d3d68e663fb24_Frame%203465873%20(4).svg",
     title: "Move Management",
     description:
       "Coordinate employee relocations and seating plans with efficiency. Move Management simplifies the relocation process and ensures a smooth transition with minimal disruption.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686238827aa637916bb6b244_Frame%203465874%20(4).svg",
     title: "Space Management",
     description:
       "Gain visibility into workspace usage and occupancy with real-time data on office space utilization. Space Management helps organizations optimize layouts, identify underused areas, and reduce operational costs",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686238820c396bf55089d437_Frame%2032%20(52).svg",
     title: "Facilities and Maintenance Management",
     description:
       "Automate facility requests and simplify maintenance flow to ensure quick responses and issue resolution. Facilities and Maintenance Management improves service and supports a proactive approach to workplace operations.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623882e1c01aef51fe638a_Icon%20(7).svg",
     title: "Workplace Safety Management",
     description:
       "Ensure a safe work environment by managing safety protocols, tracking compliance, and addressing health and safety requests. Workplace Safety Management enables organizations to maintain a safe, compliant workplace.",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623882c1b8eecc043acd5c_Frame%203465873%20(5).svg",
     title: "Visitor Management",
     description:
       "Simplify the visitor experience with a fast, streamlined check-in process. Visitor Management helps track guest information, ensures security protocols are being met, and provides a more welcoming experience for visitors.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686238825264180d04f6c9ae_Frame%203465874%20(5).svg",
     title: "Mobile Workplace App",
     description:
       "Provide employees with mobile access to workplace services, allowing them to make reservations, request services, and receive updates on the go. The Mobile Workplace App enhances accessibility and supports flexible work arrangements.",
   },
    {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623882446e9639628fb2d7_Frame%203465873%20(6).svg",
     title: "Analytics and Reporting for Workplace Services",
     description:
       "Monitor key metrics such as occupancy rates, service request volumes, and response times. Analytics and Reporting provide actionable insights to improve service quality and optimize resource allocation.",
@@ -1482,49 +1484,49 @@ export const wsdOfferings: ConsiderationItem[] = [
 ];
 export const secopsOfferings: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623558a49835296c7caaaa_Frame%2032%20(51).svg",
     title: "Security Incident Response (SIR)",
     description:
       "Streamline and automate the entire security incident lifecycle, from detection to resolution. SIR enables rapid investigation, prioritization, and response to incidents, improving overall efficiency.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623558760421706880ce5c_Icon%20(6).svg",
     title: "Vulnerability Response (VR)",
     description:
       "Identify, prioritize, and remediate vulnerabilities across your environment. Vulnerability Response integrates with IT asset management and threat intelligence sources to enable risk-based prioritization and timely remediation.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862355875f1889a9c76a257_Frame%203465874%20(4).svg",
     title: "Threat Intelligence",
     description:
       "Aggregate and analyze threat intelligence from multiple sources in one platform. ServiceNow Threat Intelligence enriches security incidents with relevant data, enabling teams to respond faster and more effectively.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862355875f1889a9c76a257_Frame%203465874%20(4).svg",
     title: "Security Orchestration, Automation, and Response (SOAR)",
     description:
       "Leverage automation and orchestration capabilities to streamline incident response workflows. SOAR enables your team to automate common tasks, such as data enrichment, containment, and remediation, reducing the need for manual intervention.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623558b961453c1e023995_Frame%2032%20(52).svg",
     title: "Risk Management Integration",
     description:
       "Integrate SecOps with ServiceNow Risk Management to assess and manage security risks within a broader risk framework. This integration ensures that security initiatives are aligned with organizational risk management strategies.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623558ab82ec27beee2081_Icon%20(7).svg",
     title: "Configuration Management Database (CMDB) Integration",
     description:
       "Link SecOps with the CMDB to understand the relationships between security incidents and assets. CMDB integration provides context on affected assets and services, enabling faster impact analysis and response.",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6862355890b2d4401f687b6b_Frame%203465873%20(5).svg",
     title: "Threat Hunting",
     description:
       "Enable proactive threat detection through custom threat hunting capabilities. ServiceNow’s threat hunting tools help identify potential threats before they evolve into critical incidents.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/686235589ce7caa52f27a983_Frame%203465874%20(5).svg",
     title: "Performance Analytics for Security",
     description:
       "Track and measure the performance of security operations with real-time dashboards and reporting. Performance Analytics provides visibility into incident response times, vulnerability closure rates, and overall security posture.",
@@ -1532,49 +1534,49 @@ export const secopsOfferings: ConsiderationItem[] = [
 ];
 export const csmConsiderations: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea291004ab3722c89efd_Frame%2032.svg",
     title: "Defining Objectives",
     description:
       "cTransform customer service and define success metrics with established goals.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/682ae657342cbd3edf2001b4_Frame%2032%20(2).svg",
     title: "Understanding Customer Journeys",
     description:
       "Map customer interactions to find challenges and areas for improvement.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd3e64bb4b8d3d9fa3_Frame%2032%20(14).svg",
     title: "Integration with Existing Systems",
     description:
       "Ensure seamless ServiceNow CSM integration with your tools.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd6a857d55586708cc_Frame%2032%20(15).svg",
     title: "Data Quality and Accuracy",
     description:
       "Assess data quality for efficient, individualized service delivery.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/6826ea284b0f43076e18ae2e_Frame%2032%20(3).svg",
     title: "Scalability",
     description:
       "Identify future business needs and plan platform development accordingly.",
   },
   {
-    icon: "/icons/training.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd22f2edede0686233_Frame%2032%20(16).svg",
     title: "Employee Training",
     description:
       "Ensure employees are adequately trained to leverage the power of platform in serving customer.",
   },
   {
-    icon: "/icons/improvement.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160e09b8fe77bee40df15_Frame%2032%20(18).svg",
     title: "Compliance and Security",
     description:
       "Identify compliance requirements and ensure legal adherence during development.",
   },
   {
-    icon: "/icons/risk.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd4309981e72fa579b_Frame%2032%20(17).svg",
     title: "Omnichannel Strategy",
     description:
       "Plan and create communication strategies to leverage the full power of omnichannel.",
@@ -1582,31 +1584,31 @@ export const csmConsiderations: ConsiderationItem[] = [
 ];
 export const itomConsiderations: ConsiderationItem[] = [
   {
-    icon: "/icons/stakeholder.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623d25ffd1f65510824eae_Frame%2032%20(51).svg",
     title: "Alignment with ITIL Best Practices",
     description:
       "Ensure your IT operations align with ITIL (Information Technology Infrastructure Library) standards to achieve maximum benefits.",
   },
   {
-    icon: "/icons/strategy.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623d2516381b9f41e87aed_Icon%20(6).svg",
     title: "Cloud Strategy",
     description:
       "Assess your organization’s cloud usage and ensure ServiceNow ITOM integrates effectively with public, private, or hybrid cloud environments.",
   },
   {
-    icon: "/icons/data.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623d25910ece62eb87ac63_Frame%203465873%20(4).svg",
     title: "Scalability",
     description:
       "As your organization expands, ensure the ITOM solution can effectively scale to handle increased complexity and additional infrastructure components.",
   },
   {
-    icon: "/icons/customization.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623d25575eb6d6405234b1_Frame%203465874%20(4).svg",
     title: "Integration with Existing Tools",
     description:
       "Identify third-party tools or legacy systems that are required to integrate with ServiceNow ITOM to ensure a seamless flow of data.",
   },
   {
-    icon: "/icons/resource.png",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68623d25a2e535d57f00299f_Icon%20(7).svg",
     title: "User Adoption and Training",
     description:
       "Equip your teams with the proper knowledge and training to effectively use ITOM features for faster troubleshooting and better decision-making.",

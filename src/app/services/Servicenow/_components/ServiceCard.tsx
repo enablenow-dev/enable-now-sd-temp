@@ -39,7 +39,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
           style={{ backfaceVisibility: 'hidden' }}
         >
           <Image 
-            src='https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3ea0b80811f58c5bc247_Frame%2032%20(44).svg'
+            src={icon}
             alt={title}
             width={50}
             height={50}
