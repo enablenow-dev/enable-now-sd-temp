@@ -92,8 +92,8 @@ function page() {
       </motion.div>
       <motion.div variants={itemVariants}>
         <FAQSection 
-          title="Frequently Asked Questions"
-          subtitle=""
+          title="Our Approach to ServiceNow HR Service Delivery"
+          subtitle="Our approach to ServiceNow HRSD implementation combines deep ability in HR transformation, a focus on employee experience, and alignment with your organizational culture, all guided by ServiceNow’s NowCreate method. We collaborate closely with your HR and leadership teams to ensure the platform enhances service delivery, empowers employees, and drives measurable outcomes. Here’s how we deliver success:"
           faqs={hrsdfaqs}
         />
       </motion.div>

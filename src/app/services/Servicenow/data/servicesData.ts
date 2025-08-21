@@ -314,34 +314,28 @@ export const itomBenefits: BenefitItem[] = [
   },
 ];
 
-export const hsrdBenefits: BenefitItem[] = [
+export const hrsdBenefits: BenefitItem[] = [
   {
-    title: "Efficiency that Drives Growth",
+    title: "Automate HR Interactions",
     description:
-      "Automate routine tasks and enable your IT team to prioritize strategic projects.",
+      "Automate routine processes by routing requests to the right person and department with automatic grouping.",
     imageSrc:
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e7930bfb64f45eab0_group-people-working-team.png",
   },
   {
-    title: "Enhanced End-User Experience",
+    title: "Manage, Track and Prioritize HR Work",
     description:
-      "Transform IT into a proactive, responsive function with quality service.",
+      "Utilize a single platform for all HR services. Deliver a consistent and engaging employee experience. Track, manage, and prioritize work.",
     imageSrc: "/images/services-details.jpg",
   },
   {
-    title: "Data-Driven Insights for Continuous Improvement",
+    title: "Employee Center Pro.",
     description:
-      "Real-time reporting and analytics optimize resources and drive improvement.",
+      "Give employees a single, unified system to engage with HR. Easily submit, manage, and track the status of requests.",
     imageSrc:
       "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e6d9f2a101e11a252_medium-shot-people-sticking-post-its.png",
   },
-  {
-    title: "Cost Savings through Operational Efficiency",
-    description:
-      "Reduce manual workload to optimize service delivery with high service quality.",
-    imageSrc:
-      "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a3c9e04268b8df2579206_colleagues-work(2).png",
-  },
+
 ];
 export const csmBenefits: BenefitItem[] = [
   {
@@ -568,30 +562,30 @@ export const hrsdChallenges: ChallengeItem[] = [
   {
     id: "downtime",
     icon: "AlertTriangle",
-    title: "Minimizing Service Downtime",
+    title: "HR Case Management",
     description:
-      "Reduce unplanned outages and restore services quickly to maintain business continuity.",
+      "HR Cases store detailed information about an employee’s HR request or inquiry. Instead of exchanging multiple emails or phone calls, all relevant details are securely captured within the HR Case form for streamlined management.",
   },
   {
     id: "efficiency",
     icon: "Settings",
-    title: "Operational Efficiency",
+    title: "Employee Document Management",
     description:
-      "Streamline IT processes and eliminate manual tasks to improve team productivity.",
+      "The Employee Document Management application provides a central location for storing and managing all electronic employee documents, which can be transferred into the Document Management system manually or automatically.",
   },
   {
     id: "visibility",
     icon: "Target",
-    title: "Service Visibility and Control",
+    title: "Employee Forums",
     description:
-      "Gain complete visibility into IT services and infrastructure for better decision making.",
+      "Employee Forums help employees connect, engage, and collaborate with other employees. Employees can receive fast responses to their issues by posting questions, reviewing blogs or videos, and searching for past discussions.",
   },
   {
     id: "compliance",
     icon: "Shield",
-    title: "Compliance and Governance",
+    title: "Virtual Agent",
     description:
-      "Ensure IT operations meet regulatory requirements and internal governance standards.",
+      "Uses natural language understanding to deliver tailored and correct responses to employee inquiries through a conversational experience. With Predictive Intelligence, HR cases created via email can be automatically categorized.",
   },
 ];
 export const secOpsChallenges: ChallengeItem[] = [
@@ -628,30 +622,30 @@ export const fsmChallenges: ChallengeItem[] = [
   {
     id: "asaw",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Inefficient Scheduling and Dispatching",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "Traditional scheduling can lead to delays, overbooked technicians, and resource inefficiencies. FSM’s intelligent scheduling automates assignments based on skills, availability, and location, optimizing resource allocation.",
   },
   {
     id: "CLM",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Limited Visibility into Field Operations",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "Organizations often lack real-time insight into technician locations and job status, making managing and adjusting field operations challenging. FSM provides real-time visibility, enabling managers to monitor and adapt schedules as needed.",
   },
   {
     id: "CALM",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Complex Coordination for Multi-Stage Workflows",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "Field services frequently involve multi-step workflows that require close coordination across teams. FSM simplifies workflow management, automating multi-stage tasks and facilitating seamless hand-offs.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Maintaining Service Quality",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "Ensuring that field service meets quality standards is challenging, especially for geographically distributed teams. FSM enforces consistent processes and provides tools for tracking performance, improving service quality.",
   },
 ];
 export const wsdChallenges: ChallengeItem[] = [
@@ -833,30 +827,56 @@ export const hrsdCapabilities: ChallengeItem[] = [
   {
     id: "asaw",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Employee Center Pro",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "Unified service portal that provides a modern interface for the employee.",
   },
   {
     id: "CLM",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "HR Knowledge Management",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "Ensure HR Knowledge helps employees find answers to their questions.",
   },
   {
     id: "CALM",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "HR Catalog",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "The HR Catalog in Employee Center Pro, displays the HR Services an employee can request from HR.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "HR Dashboards and Reports",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "HR Dashboards show performance metrics and employee satisfaction ratings, while the Reports module allows viewing and creating reports.",
+  },
+   {
+    id: "LAVUI",
+    icon: "Shield",
+    title: "HR Integrations",
+    description:
+      "Pull employee data from an external HCM system and push updates back.",
+  }, {
+    id: "LAVUI",
+    icon: "Shield",
+    title: "Performance Analytics",
+    description:
+      "HR Performance Analytics content packs create widgets to track KPI trends",
+  }, {
+    id: "LAVUI",
+    icon: "Shield",
+    title: "Employee Journey Management",
+    description:
+      "Employee Journey Management enhances each employee’s unique experiences through their career.",
+  },
+  {
+    id: "LAVUI",
+    icon: "Shield",
+    title: "HR Surveys",
+    description:
+      "HR Surveys allow employees to rate their satisfaction with HR case resolution and provide feedback on HR processes.",
   },
 ];
 export const csmCapabilities: ChallengeItem[] = [
@@ -981,30 +1001,30 @@ export const fsmCustomerBenefits: ChallengeItem[] = [
   {
     id: "asaw",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Increased First-Time Fix Rate",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "By matching tasks with the right technicians and providing relevant job details upfront, FSM helps increase first-time fix rates, reducing the need for repeat visits.",
   },
   {
     id: "CLM",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Optimized Resource Utilization",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "FSM’s intelligent scheduling and dispatching maximize the productivity of field resources, reducing downtime and ensuring optimal resource allocation.",
   },
   {
     id: "CALM",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Enhanced Customer Satisfaction",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "With faster response times, real-time updates, and higher service quality, FSM improves the customer experience and strengthens trust in your organization’s field services.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Improved Field Visibility and Control",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "FSM’s real-time tracking and reporting tools provide insights into field operations, helping organizations make data-driven decisions and optimize workflows.",
   },
 ];
 
@@ -1153,51 +1173,51 @@ export const itsmConsiderations: ConsiderationItem[] = [
 export const hrsdConsiderations: ConsiderationItem[] = [
   {
     icon: "/icons/stakeholder.png",
-    title: "Service Strategy Alignment",
+    title: "Defining Clear Objectives",
     description:
-      "Align ITSM implementation with business objectives and ensure IT services support organizational goals and priorities.",
+      "What drives ServiceNow HRSD adoption, and what improvements do you aim for in HR operations?",
   },
   {
     icon: "/icons/strategy.png",
-    title: "Process Standardization",
+    title: "Process Alignment",
     description:
-      "Establish standardized ITIL-based processes for incident, problem, change, and request management across the organization.",
+      "Do your HR processes follow industry best practices? What inefficiencies need fixing?",
   },
   {
     icon: "/icons/data.png",
-    title: "CMDB Data Quality",
+    title: "Governance Model",
     description:
-      "Ensure accurate and up-to-date configuration management database with proper CI relationships and data governance.",
+      "Does your HRSD platform have a governance framework for maintenance and growth?",
   },
   {
     icon: "/icons/customization.png",
-    title: "Workflow Automation Balance",
+    title: "Business Impact Analysis",
     description:
-      "Balance automation with human oversight to maintain service quality while improving efficiency and response times.",
+      "What effects do you expect on compliance, HR productivity, and employee experience?",
   },
   {
     icon: "/icons/resource.png",
-    title: "Team Skills and Capacity",
+    title: "Data Accuracy",
     description:
-      "Assess current team capabilities and plan for skill development to effectively manage and operate ITSM processes.",
+      "Do you have accurate employee data for HR case management, onboarding, and other services?",
   },
   {
     icon: "/icons/training.png",
-    title: "User Adoption and Training",
+    title: "Scalability",
     description:
-      "Provide comprehensive training for IT staff and end-users to ensure successful adoption of new ITSM processes and tools.",
+      "Do you need to consider long-term scalability to support your organization’s growth?",
   },
   {
     icon: "/icons/improvement.png",
-    title: "Metrics and KPI Framework",
+    title: "Integration Needs",
     description:
-      "Define clear KPIs and metrics to measure ITSM performance, service quality, and continuous improvement opportunities.",
+      "Do you currently have third-party tools or legacy systems that need integration with ServiceNow?",
   },
   {
     icon: "/icons/risk.png",
-    title: "Change Management Strategy",
+    title: "User Training",
     description:
-      "Implement robust change management processes to minimize service disruption and ensure controlled deployment of changes.",
+      "Do you require end-users and HR staff training to adopt and effectively use HRSD?",
   },
 ];
 export const itamOfferings: ConsiderationItem[] = [
@@ -1355,51 +1375,51 @@ export const irmOfferings: ConsiderationItem[] = [
 export const fsmOfferings: ConsiderationItem[] = [
   {
     icon: "/icons/stakeholder.png",
-    title: "Hardware Asset Management (HAM)",
+    title: "Intelligent Scheduling and Dispatching",
     description:
-      "Track and manage hardware assets from acquisition through disposal. HAM provides visibility into asset location, usage, condition, and value, ensuring optimal utilization and planning for future asset needs.",
+      "Automate task assignments based on technician skills, location, availability, and workload. Intelligent scheduling ensures that the right resources are in the right place at the right time, improving efficiency.",
   },
   {
     icon: "/icons/strategy.png",
-    title: "Software Asset Management (SAM)",
+    title: "Mobile Field Service App",
     description:
-      "Manage software licenses, usage, and compliance with ServiceNow’s SAM tools. SAM helps you control software costs, stay compliant with vendor agreements, and reduce the risk of license audits.",
+      "Provide technicians with a mobile-friendly app that offers access to job details, checklists, and relevant knowledge articles. The app lets technicians stay connected, update job status in real-time, and access support when needed.",
   },
   {
     icon: "/icons/data.png",
-    title: "Cloud Insights",
+    title: "Work Order Management",
     description:
-      "Gain visibility into cloud-based resources and optimize cloud spending. Cloud Insights within ITAM helps you track cloud usage, identify cost-saving opportunities, and prevent over-provisioning..",
+      "Streamline work order creation, assignment, and tracking. Work Order Management centralizes field service data, enabling teams to efficiently coordinate tasks, monitor progress, and close work orders.",
   },
   {
     icon: "/icons/customization.png",
-    title: "Contract Management",
+    title: "Asset and Inventory Management",
     description:
-      "Maintain and track contracts related to assets, such as maintenance agreements and vendor contracts. Contract Management enables you to monitor renewal dates, compliance terms, and spend against contracts to avoid unnecessary expenses..",
+      "Track and manage field assets and inventory levels in real-time. Asset and Inventory Management helps ensure technicians have the necessary parts and tools on-site, reducing delays and increasing job completion rates.",
   },
   {
     icon: "/icons/resource.png",
-    title: "Asset Request Management",
+    title: "Customer Communications",
     description:
-      "Simplify and streamline asset requests through a self-service portal. Asset Request Management ensures that users receive the right assets quickly while maintaining oversight of asset allocation.",
+      "Keep customers informed with automated appointment reminders, real-time updates on technician arrival, and follow-up notifications. Customer Communications improves transparency, enhancing customer satisfaction.",
   },
   {
     icon: "/icons/training.png",
-    title: "Configuration Management Database (CMDB) Integration",
+    title: "Knowledge and Training Integration",
     description:
-      "Integrate ITAM with the CMDB to keep an accurate, real-time record of asset dependencies and relationships. CMDB integration ensures that all asset data is up-to-date and linked to relevant services, improving visibility and management..",
+      "Provide technicians access to knowledge articles, troubleshooting guides, and training resources. Knowledge and Training Integration ensures technicians have the information they need to solve issues effectively on the first visit.",
   },
   {
     icon: "/icons/improvement.png",
-    title: "Depreciation and Financial Management",
+    title: "Service Level Agreement (SLA) Tracking",
     description:
-      "Track the financial impact of asset usage and calculate depreciation accurately. ITAM's financial management features provide insights into the total cost of ownership and asset value over time.",
+      "Monitor and enforce SLAs to meet customer expectations. SLA Tracking enables teams to prioritize tasks based on urgency and ensure that field service aligns with agreed-upon performance standards.",
   },
   {
     icon: "/icons/risk.png",
-    title: "Asset Disposal Management",
+    title: "Performance Analytics and Reporting",
     description:
-      "Automate end-of-life processes for assets, ensuring secure, compliant disposal. Asset Disposal Management helps mitigate security risks, maintain environmental compliance, and streamline the disposal process.",
+      "Measure field service performance with dashboards and reports on key metrics such as first-time fix rate, job completion time, and customer satisfaction. Performance Analytics provides insights for continuous improvement.",
   },
 ];
 
@@ -1783,37 +1803,44 @@ export const irmFaqs: FaqItem[] = [
 export const hrsdfaqs: FaqItem[] = [
   {
     id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
+    question: "Discovery and HR-Centric Strategy",
     answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
+      "We begin by understanding your strategic aims, employee pain areas, and HR procedures. We map existing workflows (such as onboarding, case management, and service catalog requests) using workshops and stakeholder interviews, and we create a plan that synchronizes ServiceNow HRSD's capabilities with your HR vision, compliance requirements, and employee experience goals.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
+    question: "Employee Experience-First Design",
     answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
+      "Our experts created a solution to streamline HR communications by setting up user-friendly knowledge bases, HR case management, employee portals, and automation for tasks like leave requests and benefits. To guarantee smooth data flow and a cohesive experience, we give top priority to connections with your payroll systems, HRIS (such as Workday or SAP), and collaboration platforms like Microsoft Teams.",
     imageSrc: "/images/collaboration_image.jpg",
   },
   {
     id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
+    question: "Agile Implementation and Rigorous Testing",
     answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
+      "We configure ServiceNowHRSD modules (Workplace Service Delivery, HR Service Delivery, Employee ServiceCenter) to automate procedures, cut down on manual labor, and guarantee compliance. Key tasks include role-based access controls, omnichannel support (email, chatbots, portal), and HR service catalog creation. Each process and integration are evaluated for accuracy, security, and scalability.",
     imageSrc: "/images/success-stories6.jpg",
   },
   {
     id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
+    question: "Change Management and Role-Based Enablement",
     answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
+      "We drive adoption with specialized training for managers, staff, and HR teams on knowledge base use, case submission, portal navigation, and manager self-service (e.g., performance reviews, team onboarding). Comprehensive FAQs and interactive demos build confidence in the new system.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
+    question: "Launch Excellence and Continuous Improvement",
     answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
+      "We offer hyper care aid during go-live to handle employee and HR inquiries, track case response patterns, and streamline processes. To enhance service delivery and customer happiness, we examine KPIs (such as case resolution time and portal engagement) and make necessary configuration adjustments after launch.",
+    imageSrc: "/images/collaboration_image.jpg",
+  },
+   {
+    id: "long-term-partnership",
+    question: "Ongoing Partnership for HR Evolution",
+    answer:
+      "We help you adapt ServiceNow HRSD as your workforce and HR policies evolve—whether expanding, adding services like wellness programs, or complying with new regulations like GDPR and labor laws. We ensure it remains a valuable tool for enhancing employee engagement and HR efficiency.",
     imageSrc: "/images/collaboration_image.jpg",
   },
 ];
@@ -1917,74 +1944,81 @@ export const secopsfaqs: FaqItem[] = [
 export const csmfaqs: FaqItem[] = [
   {
     id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
+    question: "Solution Design",
     answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
+      "Create a plan for long-term success, integrate systems, and design workflows.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
+    question: "Implementation and Testing",
     answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
+      "To ensure ServiceNow, CSM features satisfy your needs, implement, and test them.",
     imageSrc: "/images/collaboration_image.jpg",
   },
   {
     id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
+    question: "Employee Enablement",
     answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
+      "To increase platform adoption, train managers, agents, and other stakeholders.",
     imageSrc: "/images/success-stories6.jpg",
   },
   {
     id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
+    question: "Go-Live Support and Optimization",
     answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
+      "Support your team with post-launch assistance and optimization suggestions.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
+    question: "Continuous Partnership",
     answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
+      "As you grow, we'll help scale and adjust ServiceNow CSM for continued success.",
     imageSrc: "/images/collaboration_image.jpg",
   },
 ];
 export const fsmfaqs: FaqItem[] = [
   {
     id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
+    question: "Assessment and Requirements Gathering",
     answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
+      "We assess your current field service operations, identify challenges, and understand your goals. This assessment enables us to design a ServiceNow FSM solution tailored to your organization’s needs.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
+    question: "Solution Design and Configuration",
     answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
+      "Based on the assessment, we configure FSM modules, such as Intelligent Scheduling and Work Order Management, to align with your requirements. We customize workflows and features to support seamless coordination between field and back-office teams.",
     imageSrc: "/images/collaboration_image.jpg",
   },
   {
     id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
+    question: "Implementation and Integration",
     answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
+      "Our team oversees the complete implementation process, including integrating FSM with existing CRM, ERP, and other systems. We test each component to ensure reliable performance and compatibility across your IT ecosystem.",
     imageSrc: "/images/success-stories6.jpg",
   },
   {
     id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
+    question: "Technician Training and Knowledge Transfer",
     answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
+      "We provide comprehensive training for field technicians and support staff, covering key FSM features, mobile app usage, and best practices. Training ensures that your team can effectively leverage FSM in daily operations.",
     imageSrc: "/images/services-details.jpg",
   },
   {
-    id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
+    id: "go-live-support",
+    question: "Go-Live and Post-Implementation Support",
     answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
+      "During the go-live phase, we support your team with troubleshooting and guidance. Our post-implementation support ensures that FSM is fully operational, enabling your team to maximize its capabilities from day one.",
+    imageSrc: "/images/collaboration_image.jpg",
+  },
+    {
+    id: "optimization",
+    question: "Ongoing Optimization and Partnership",
+    answer:
+      "As your field service needs evolve, we offer continuous optimization services to adapt FSM capabilities. Our partnership helps you unlock the full potential of FSM, ensuring consistent improvement and alignment with changing business requirements.",
     imageSrc: "/images/collaboration_image.jpg",
   },
 ];
@@ -2046,11 +2080,11 @@ export const spmPortfolio: PortfolioContentItem = {
 };
 
 export const hrsdPortfolio: PortfolioContentItem = {
-  title: "Human Resources Service Delivery (HRSD)",
+  title: "Unlock HR Service Excellence with ServiceNow HRSD",
   paragraph1:
-    "ServiceNow HRSD streamlines HR processes and employee experiences by automating workflows, centralizing services, and enabling faster case resolutions.",
+    "By using ServiceNow HR Service Delivery (HRSD), you're turning HR into a strategic, employee-focused operation rather than merely implementing an HR platform. The automation, hyper automation, and unified service delivery features of ServiceNow HRSD enable businesses to remove HR bottlenecks, improve employee experiences, and cultivate a productive and engaged culture.",
   paragraph2:
-    "Empower your workforce with self-service, AI-driven HR support, and consistent employee engagement while reducing manual HR workload.",
+    "Through the centralization of HR services, including benefits enrollment, onboarding, case management, and workplace requests, ServiceNow HRSD guarantees compliance, provides process visibility, and expands easily to accommodate your workforce's changing demands.",
   imageSrc:
     "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80", // HR / teamwork
 };
@@ -2093,13 +2127,13 @@ export const secopsPortfolio: PortfolioContentItem = {
 };
 
 export const fsmPortfolio: PortfolioContentItem = {
-  title: "Field Service Management (FSM)",
+  title: "Deliver Superior On-Site Service with ServiceNow FSM",
   paragraph1:
-    "ServiceNow FSM enables organizations to optimize field operations, assign tasks efficiently, and provide real-time visibility into field activities.",
+    "ServiceNow FSM enables organizations to streamline field service operations, enhance productivity, and deliver exceptional customer experiences. With automated scheduling, real-time visibility, and mobile-friendly tools, FSM empowers field teams to work efficiently and resolve issues faster.",
   paragraph2:
-    "Deliver exceptional service experiences by empowering field agents with mobile tools, scheduling automation, and predictive insights.",
+    "Let us partner with you to implement and optimize ServiceNow FSM, transforming your field service operations into a reliable, customer-centric function that drives satisfaction and loyalty.",
   imageSrc:
-    "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=1200&q=80", // field engineer on site
+    "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68626b96ba6b7dc6595ca635_group-business-executives-discussing-laptop-their-des(1)%20(2).png", // field engineer on site
 };
 
 export const itamPortfolio: PortfolioContentItem = {
@@ -2120,10 +2154,10 @@ export const irmPortfolio: PortfolioContentItem = {
 };
 
 export const csmPortfolio: PortfolioContentItem = {
-  title: "Customer Service Management (CSM)",
+  title: "Achieve Customer Service Excellence with ServiceNow CSM",
   paragraph1:
-    "ServiceNow CSM enhances customer satisfaction by delivering connected, proactive, and personalized service experiences across all channels.",
-  paragraph2: "",
+    "With ServiceNow CSM, you are not just adopting a tool but embracing a unified, scalable approach to customer service. Transform your customer service operations with automation, visibility, and proactive engagement to improve customer satisfaction, loyalty, and business success.",
+  paragraph2: "Let us partner with you to unlock the full potential of ServiceNow CSM and redefine your customer service experience.",
   imageSrc:
     "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1200&q=80", // customer support team working
 };
@@ -2282,121 +2316,122 @@ export const itomPractices: Practice[] = [
 export const csmBestPractices: Practice[] = [
   {
     id: "alignment",
-    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Portfolio Alignment with Strategic Goals",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd30668fabf808da79_Frame%2032%20(19).svg",
+    title: "Start With High-Impact Use Cases",
     description:
-      "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
+      "Understand the business to develop a comprehensive use case to demonstrate value.",
   },
   {
     id: "agile",
-    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Agile Portfolio Management",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/684160dd7bd03284c2385907_Frame%2032%20(20).svg",
+    title: "Engage Key Stakeholders",
     description:
-      "Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.",
+      "Understand stakeholder needs and challenges for successful solutions delivery."
   },
   {
     id: "financial",
     icon: "",
-    title: "Enhanced Financial Management and Budgeting",
+    title: "Leverage Automation",
     description:
-      "Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.",
+      "Understand processes to enable automation where possible to increase efficiency and reduce cost.",
   },
 
-  {
-    id: "governance",
-    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Automation of Governance and Approval Workflows",
-    description:
-      "Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.",
-  },
+ 
   {
     id: "change",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Change Management and Adoption Strategy",
+    title: "Prioritize Data Quality",
     description:
-      "Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.",
+      "Identify data sources and understand the data quality to ensure quality information for decision-making.",
   },
   {
     id: "risk",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Risk Assessment and Mitigation Frameworks",
+    title: "Emphasize Change Management",
     description:
-      "Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.",
+      "To ensure a smooth adoption process support agents and teams during transitions.",
   },
 
   {
     id: "performance",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Performance Analytics and Reporting",
+    title: "Adopt Agile Implementation",
     description:
-      "Create proactive frameworks that actively identify, evaluate, and reduce risks at the portfolio, program, and project levels to ensure successful results.",
+      "Employ agile techniques to gradually implement and enhance the solution.",
   },
   {
     id: "collaboration",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Cross-Functional Collaboration and Communication",
+    title: "Focus on Continuous Improvement",
     description:
-      "Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.",
-  },
+      "To improve client interactions and procedures, evaluate performance on a regular basis."
+    },
+     {
+    id: "kpi-monitoring",
+    icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
+    title: "Monitor KPIs and Metrics",
+    description:
+      "Monitor KPIs such as case resolution time, initial response time, and customer satisfaction (CSAT)."
+    },
 ];
 export const hrsdBestPractices: Practice[] = [
   {
     id: "alignment",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Portfolio Alignment with Strategic Goals",
+    title: "Start Small, Then Scale",
     description:
-      "Make sure that every project and program closely aligns with the organization's strategic vision, goals, and objectives to enhance overall business success and value.",
+      "Implement basic HRSD modules like Case and Knowledge Management, then advancing to Employee Document Management or Virtual Agent.",
   },
   {
     id: "agile",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Agile Portfolio Management",
+    title: "Engage Stakeholders",
     description:
-      "Implement flexible portfolio management processes that adapt to changing priorities, market conditions, and opportunities, ensuring alignment with organizational goals.",
+      "To guarantee alignment and success, include important HR, IT, and business stakeholders early on and keep in continuous contact throughout the implementation.",
   },
   {
     id: "financial",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Enhanced Financial Management and Budgeting",
+    title: "Focus on User Experience",
     description:
-      "Establish thorough financial oversight procedures that encompass budgeting, forecasting, and cost tracking to manage portfolio finances effectively.",
+      "To increase adoption and user satisfaction, prioritize the overall user experience while creating an easy-to-use self-service site for HR teams and staff.",
   },
 
   {
     id: "governance",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Automation of Governance and Approval Workflows",
+    title: "Automate Routine Tasks",
     description:
-      "Automate approval and governance workflows to simplify decision‑making, reduce administrative burden, and maintain consistent, efficient portfolio management.",
+      "ServiceNow HR Service Delivery enhances the employee experience by automating tasks, equipping HR with service tools, and enabling prompt communication.",
   },
   {
     id: "change",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Change Management and Adoption Strategy",
+    title: "Prioritize Data Quality",
     description:
-      "Create a change plan that enables smooth transitions, addresses resistance, and promotes platform adoption across the organization.",
+      "To support HR operations, keep a clean, trustworthy employee data collection and conduct routine audits of the CMDB to guarantee data accuracy and consistency.",
   },
   {
     id: "risk",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Risk Assessment and Mitigation Frameworks",
+    title: "Adopt Agile Methods",
     description:
-      "Establish proactive frameworks to identify, evaluate, and reduce risks at portfolio, program, and project levels to ensure successful outcomes.",
+      "Implement HRSD modules using an agile, iterative process to enable ongoing enhancements and prompt adjustments to change business requirements.",
   },
 
   {
     id: "performance",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Performance Analytics and Reporting",
+    title: "Emphasize Change Management",
     description:
-      "Create proactive frameworks that actively identify, evaluate, and reduce risks at the portfolio, program, and project levels to ensure successful results.",
+      "To ensure seamless adoption and reduce delays, implement a strong change management strategy to guide IT and HR departments in the transition.",
   },
   {
     id: "collaboration",
     icon: "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/685a375573a97eff846ebdc2_Frame%2032%20(42).svg",
-    title: "Cross-Functional Collaboration and Communication",
+    title: "Perfect HR Service Delivery",
     description:
-      "Foster collaboration among IT, finance, and business units to guarantee smooth portfolio management, effective execution, and alignment with business priorities.",
+      "Track HRSD KPIs like staff satisfaction and case resolution time using performance analytics, then use the results to keep improving procedures.",
   },
 ];
 

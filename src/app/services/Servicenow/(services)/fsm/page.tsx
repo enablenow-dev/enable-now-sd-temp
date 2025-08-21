@@ -85,8 +85,8 @@ function page() {
 
       <motion.div variants={itemVariants}>
         <FAQSection 
-          title="ServiceNow FSM Offerings" 
-          subtitle="ServiceNow FSM includes a range of tools designed to optimize on-site service delivery, improve technician productivity, and enhance the customer experience"
+          title="Our Approach: Tailored ServiceNow FSM Implementation" 
+          subtitle="Our approach to delivering ServiceNow FSM focuses on aligning the platform’s capabilities with your organization’s specific field service goals, ensuring streamlined operations, improved efficiency, and a superior customer experience. Here’s our delivery process"
           faqs={fsmfaqs} 
         />
       </motion.div>

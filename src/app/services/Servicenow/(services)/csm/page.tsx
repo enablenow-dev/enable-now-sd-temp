@@ -98,8 +98,8 @@ function page() {
 
       <motion.div variants={itemVariants}>
         <FAQSection 
-          title="Frequently Asked Questions"
-          subtitle=""
+          title="Our Approach to ServiceNow CSM Delivery"
+          subtitle="Our ServiceNow CSM delivery approach combines industry expertise, attention to detail, and a customer-centric focus. Using the ServiceNow Now Create methodology, we collaborate closely with you to ensure the solution aligns with your business goals."
           faqs={csmfaqs}
         />
       </motion.div>
