@@ -652,30 +652,30 @@ export const wsdChallenges: ChallengeItem[] = [
   {
     id: "asaw",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Fragmented Workplace Management Systems",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "Without insight into resource use, space use, and service performance, organizations struggle to improve their workspaces. WSD gives real-time data to boost resource use and lower costs.",
   },
   {
     id: "CLM",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Manual, Time-Consuming Processes",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "Many workplace tasks, like room booking still rely on manual workflows that waste time and slow productivity. WSD automates these tasks, speeding up responses and improving service efficiency.",
   },
   {
     id: "CALM",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Inconsistent Employee Experience",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "Disconnected tools and limited visibility into resources can impact employee experience. WSD provides a unified, easy-to-use platform for all workplace services, ensuring employees can access what they need.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Limited Visibility",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "Without insight into resource use, space occupancy, and service performance, organizations struggle to optimize their workspaces. WSD delivers real-time analytics to improve resource allocation and cut costs.",
   },
 ];
 
@@ -1032,32 +1032,33 @@ export const wsdCustomerBenefits: ChallengeItem[] = [
   {
     id: "asaw",
     icon: "AlertTriangle",
-    title: "Asset Sprawl and Wasted Resources",
+    title: "Improved Employee Experience and Satisfaction",
     description:
-      "As organizations grow, assets can become difficult to track, leading to underutilization and waste. ServiceNow ITAM helps consolidate asset data in one place, providing complete visibility and control over asset utilization.",
+      "By offering one easy-to-use platform for workplace services, WSD improves access and ease, boosting employee satisfaction and engagement.",
   },
   {
     id: "CLM",
     icon: "Settings",
-    title: "Compliance and License Management",
+    title: "Increased Operational Efficiency",
     description:
-      "Managing software licenses and maintaining compliance with vendor agreements is complex and costly. ITAM’s Software Asset Management (SAM) ensures compliance, reduces audit risks, and prevents overspending on licenses..",
+      "WSD automates routine workplace processes, allowing facility teams to manage requests more efficiently and focus on higher-impact initiatives."
   },
   {
     id: "CALM",
     icon: "Target",
-    title: "Costly Asset Lifecycle Management",
+    title: "Optimized Space Utilization and Resource Allocation",
     description:
-      "Managing assets from procurement to disposal can be labor-intensive without a centralized process. ITAM automates asset tracking and lifecycle management, enabling more efficient procurement, maintenance, and decommissioning.",
+      "With insights into space use and asset usage, WSD helps organizations make data-driven decisions to optimize resources and improve workplace efficiency.",
   },
   {
     id: "LAVUI",
     icon: "Shield",
-    title: "Lack of Asset Visibility and Utilization Insights",
+    title: "Data-Driven Workplace Management",
     description:
-      "Without a clear view of asset status, location, and condition, organizations face increased costs and limited optimization opportunities. ITAM provides real-time insights into asset usage, condition, and value, enabling better decision-making.",
+      "WSD’s reports and analytics provide real-time insights into workplace trends, helping facility teams track performance, and improve services.",
   },
 ];
+
 
 export interface ConsiderationItem {
   icon: string; // Using string for icon names to be more flexible
@@ -1426,51 +1427,57 @@ export const fsmOfferings: ConsiderationItem[] = [
 export const wsdOfferings: ConsiderationItem[] = [
   {
     icon: "/icons/stakeholder.png",
-    title: "Hardware Asset Management (HAM)",
+    title: "Workplace Reservation Management",
     description:
-      "Track and manage hardware assets from acquisition through disposal. HAM provides visibility into asset location, usage, condition, and value, ensuring optimal utilization and planning for future asset needs.",
+      "Enable employees to book rooms, desks, and other shared spaces with ease. Workplace Reservation Management shows real-time availability, making it simple to find and reserve what they need.",
   },
   {
     icon: "/icons/strategy.png",
-    title: "Software Asset Management (SAM)",
+    title: "Employee Service Center",
     description:
-      "Manage software licenses, usage, and compliance with ServiceNow’s SAM tools. SAM helps you control software costs, stay compliant with vendor agreements, and reduce the risk of license audits.",
+      "Give employees a single self-service portal for all workplace requests, from room bookings to maintenance. The Employee Service Center streamlines access and ensures a consistent experience.",
   },
   {
     icon: "/icons/data.png",
-    title: "Cloud Insights",
+    title: "Move Management",
     description:
-      "Gain visibility into cloud-based resources and optimize cloud spending. Cloud Insights within ITAM helps you track cloud usage, identify cost-saving opportunities, and prevent over-provisioning..",
+      "Coordinate employee relocations and seating plans with efficiency. Move Management simplifies the relocation process and ensures a smooth transition with minimal disruption.",
   },
   {
     icon: "/icons/customization.png",
-    title: "Contract Management",
+    title: "Space Management",
     description:
-      "Maintain and track contracts related to assets, such as maintenance agreements and vendor contracts. Contract Management enables you to monitor renewal dates, compliance terms, and spend against contracts to avoid unnecessary expenses..",
+      "Gain visibility into workspace usage and occupancy with real-time data on office space utilization. Space Management helps organizations optimize layouts, identify underused areas, and reduce operational costs",
   },
   {
     icon: "/icons/resource.png",
-    title: "Asset Request Management",
+    title: "Facilities and Maintenance Management",
     description:
-      "Simplify and streamline asset requests through a self-service portal. Asset Request Management ensures that users receive the right assets quickly while maintaining oversight of asset allocation.",
+      "Automate facility requests and simplify maintenance flow to ensure quick responses and issue resolution. Facilities and Maintenance Management improves service and supports a proactive approach to workplace operations.",
   },
   {
     icon: "/icons/training.png",
-    title: "Configuration Management Database (CMDB) Integration",
+    title: "Workplace Safety Management",
     description:
-      "Integrate ITAM with the CMDB to keep an accurate, real-time record of asset dependencies and relationships. CMDB integration ensures that all asset data is up-to-date and linked to relevant services, improving visibility and management..",
+      "Ensure a safe work environment by managing safety protocols, tracking compliance, and addressing health and safety requests. Workplace Safety Management enables organizations to maintain a safe, compliant workplace.",
   },
   {
     icon: "/icons/improvement.png",
-    title: "Depreciation and Financial Management",
+    title: "Visitor Management",
     description:
-      "Track the financial impact of asset usage and calculate depreciation accurately. ITAM's financial management features provide insights into the total cost of ownership and asset value over time.",
+      "Simplify the visitor experience with a fast, streamlined check-in process. Visitor Management helps track guest information, ensures security protocols are being met, and provides a more welcoming experience for visitors.",
   },
   {
     icon: "/icons/risk.png",
-    title: "Asset Disposal Management",
+    title: "Mobile Workplace App",
     description:
-      "Automate end-of-life processes for assets, ensuring secure, compliant disposal. Asset Disposal Management helps mitigate security risks, maintain environmental compliance, and streamline the disposal process.",
+      "Provide employees with mobile access to workplace services, allowing them to make reservations, request services, and receive updates on the go. The Mobile Workplace App enhances accessibility and supports flexible work arrangements.",
+  },
+   {
+    icon: "/icons/risk.png",
+    title: "Analytics and Reporting for Workplace Services",
+    description:
+      "Monitor key metrics such as occupancy rates, service request volumes, and response times. Analytics and Reporting provide actionable insights to improve service quality and optimize resource allocation.",
   },
 ];
 export const secopsOfferings: ConsiderationItem[] = [
@@ -2026,37 +2033,44 @@ export const fsmfaqs: FaqItem[] = [
 export const wsdfaqs: FaqItem[] = [
   {
     id: "vision-goals",
-    question: "Defining Strategic Portfolio Management Vision and Goals",
+    question: "Assessment and Requirement Gathering",
     answer:
-      "Defining Strategic Portfolio Management goals involves aligning projects with strategy, setting clear objectives, and establishing KPIs to ensure portfolio success and value delivery.",
+      "We begin by analyzing your current workplace processes, identifying pain points, and understanding your objectives. This assessment enables us to design a WSD solution tailored to your organization’s needs.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "solution-design",
-    question: "ServiceNow SPM Solution Design and Architecture",
+    question: "Solution Design and Configuration",
     answer:
-      "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
+      "Based on the assessment, we configure core WSD modules like Workplace Reservation, Facilities Management, and Space Management. We tailor workflows to support seamless, efficient operations.",
     imageSrc: "/images/collaboration_image.jpg",
   },
   {
-    id: "agile-delivery",
-    question: "Agile Project Delivery Methodology for SPM Implementation",
+    id: "implementation-testing",
+    question: "Implementation and Integration",
     answer:
-      "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
+      "Our team manages the full implementation process, integrating WSD with existing systems like HR and facility tools to ensure a smooth user experience. We test each component for reliable performance.",
     imageSrc: "/images/success-stories6.jpg",
   },
   {
     id: "integrations",
-    question: "Data Governance, Security, and Compliance in SPM",
+    question: "User Training and Knowledge Transfer",
     answer:
-      "Data governance, security, and compliance in SPM play a crucial role in managing data effectively, meeting regulatory requirements, and establishing strong security measures to protect sensitive information throughout the portfolio management process.",
+      "To ensure successful adoption, we provide targeted training for facilities teams, employees, and administrators. Our training covers WSD functionalities, self-service tools, and best practices, and powering your team.",
     imageSrc: "/images/services-details.jpg",
   },
   {
     id: "optimization",
-    question: "Optimization of Resource and Financial Management in SPM",
+    question: "Go-Live and Support",
     answer:
-      "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
+      "During the go-live phase, we offer support and troubleshooting to ensure a smooth transition. Our post-implementation support helps address any challenges and optimizes WSD functionality for effective workplace service management.",
+    imageSrc: "/images/collaboration_image.jpg",
+  },
+   {
+    id: "continuous-optimization",
+    question: "Continuous Optimization and Partnership",
+    answer:
+      "As your workplace needs evolve, we provide ongoing support and optimization to ensure WSD continues to meet your goals. Our partnership helps unlock WSD’s full potential, boosting efficiency and employee experience.",
     imageSrc: "/images/collaboration_image.jpg",
   },
 ];
@@ -2109,12 +2123,12 @@ export const itomPortfolio: PortfolioContentItem = {
 };
 
 export const wsdPortfolio: PortfolioContentItem = {
-  title: "Workplace Service Delivery (WSD)",
+  title: "Create an Efficient, Employee-Centric Workplace with ServiceNow WSD",
   paragraph1:
-    "ServiceNow WSD simplifies workplace operations by enabling employees to request workplace services, manage facilities, and improve workplace experiences.",
+    "ServiceNow WSD enables organizations to streamline workplace operations, improve efficiency, and enhance the employee experience. With automated workflows, centralized service access, and data-driven insights, WSD helps create a productive, engaging work environment that meets the needs of modern employees. Let us partner with you to implement and optimize ServiceNow WSD, transforming your workplace management and creating a seamless, efficient experience for your employees.",
   paragraph2: "",
   imageSrc:
-    "https://images.unsplash.com/photo-1581091870620-e97d7fa71a79?auto=format&fit=crop&w=1200&q=80", // office workplace / smart workplace
+    "https://cdn.prod.website-files.com/66a7227210b1f117f0821fc1/68626c95eda4df6f9c8784b5_group-business-executives-discussing-laptop-their-des(1)%20(4).png", // office workplace / smart workplace
 };
 
 export const secopsPortfolio: PortfolioContentItem = {

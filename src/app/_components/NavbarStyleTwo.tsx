@@ -61,6 +61,11 @@ const NavbarStyleTwo: React.FC = () => {
       name: "Field Service Management",
       route: "/services/Servicenow/fsm",
       description: "Optimize field operations"
+    },
+    {
+      name: "Workplace Service Delivery",
+      route: "/services/Servicenow/wsd",
+      description: "Optimize field operations"
     }
   ];
 

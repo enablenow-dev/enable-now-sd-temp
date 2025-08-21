@@ -77,15 +77,15 @@ function page() {
       <motion.div variants={itemVariants}>
         <ConsiderationsSection 
           title="ServiceNow WSD Offerings" 
-          subtitle=""
+          subtitle="ServiceNow WSD includes a comprehensive set of tools designed to enhance workplace efficiency, simplify resource management, and create a cohesive employee experience"
           considerations={wsdOfferings} 
         />
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <FAQSection
-          title="Frequently Asked Questions"
-          subtitle=""
+          title="Our Approach: Comprehensive ServiceNow WSD Implementation"
+          subtitle="Our approach to delivering ServiceNow WSD is designed to align the platform’s capabilities with your organization’s unique workplace management needs, ensuring streamlined operations and an enhanced employee experience. Here’s an overview of our delivery process"
           faqs={wsdfaqs}
         />
       </motion.div>
