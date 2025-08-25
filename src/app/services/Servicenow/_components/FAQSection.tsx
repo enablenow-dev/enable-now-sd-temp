@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
 import { FaqItem } from "../data/servicesData";
+import Link from "next/link";
 
 interface FAQSectionProps {
   title: string;
@@ -109,12 +110,14 @@ const FAQSection: React.FC<FAQSectionProps> = ({
         </div>
 
         <div className="flex justify-center mt-16">
+        <Link href="/contact-us">
           <button
             className="bg-[#007ba8] hover:bg-[#006494] text-white px-10 py-4 rounded-md font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             onClick={() => console.log("Contact: LET'S TALK")}
           >
             LET'S TALK
           </button>
+        </Link>
         </div>
       </div>
     </section>
