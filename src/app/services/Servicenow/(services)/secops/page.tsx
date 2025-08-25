@@ -43,7 +43,7 @@ function page() {
     >
       <motion.div variants={itemVariants}>
         <ServiceHero 
-          title="ServiceNow SECOPS" 
+          title="ServiceNow SecOps" 
           subtitle="ServiceNow Security Operations: Proactive Threat Detection and Response" 
           backgroundImage="/images/software1.avif"
         />
