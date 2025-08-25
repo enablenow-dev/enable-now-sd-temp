@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Practice } from '../data/servicesData';
+import Link from 'next/link';
 
 interface BestPracticesProps {
   title?: string;
@@ -67,6 +68,7 @@ const BestPractices: React.FC<BestPracticesProps> = ({
         {/* CTA Button */}
         {ctaText && (
           <div className="flex justify-center mt-20">
+          <Link href="/contact-us">
             <button
               className="relative overflow-hidden text-[#007ba8] hover:text-white font-medium px-8 py-3 rounded-md transition-all duration-300 border-2 border-[#007ba8] hover:bg-[#007ba8] focus:outline-none focus:ring-2 focus:ring-[#007ba8] focus:ring-opacity-50 min-w-[200px] text-lg group"
               onClick={onCtaClick}
@@ -74,6 +76,7 @@ const BestPractices: React.FC<BestPracticesProps> = ({
               <span className="relative z-10">{ctaText}</span>
               <span className="absolute inset-0 bg-[#007ba8] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 rounded-[4px] z-0"></span>
             </button>
+          </Link>
           </div>
         )}
       </div>
