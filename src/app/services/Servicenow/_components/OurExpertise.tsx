@@ -235,7 +235,7 @@ const ServicesExample: React.FC = () => {
             end-to-end solutions that streamline workflows, enhance collaboration, and drive digital transformation.
           </p>
           <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-10">
-            SYSUSA is your trusted partner for harnessing the full potential of ServiceNow. Our expertise, dedication,
+            EnableNow is your trusted partner for harnessing the full potential of ServiceNow. Our expertise, dedication,
             and commitment to excellence will help you achieve your business objectives.
           </p>
          <Link href="/contact-us" >

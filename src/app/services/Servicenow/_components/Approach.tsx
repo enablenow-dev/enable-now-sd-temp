@@ -57,7 +57,7 @@ const Page = () => {
   return (
     <ApproachSection
       heading="Approach"
-      description="SYSUSA ServiceNow's service delivery approach is built upon best practices with quality, reliability, and consistency as its core principles. It encompasses a comprehensive framework that ensures successful implementation, modernization, and ongoing operations and maintenance of ServiceNow solutions. By prioritizing these principles, we have effectively met the evolving needs of our clients while driving business value and innovation."
+      description="EnableNow's ServiceNow's service delivery approach is built upon best practices with quality, reliability, and consistency as its core principles. It encompasses a comprehensive framework that ensures successful implementation, modernization, and ongoing operations and maintenance of ServiceNow solutions. By prioritizing these principles, we have effectively met the evolving needs of our clients while driving business value and innovation."
       items={approachData}
     />
   );

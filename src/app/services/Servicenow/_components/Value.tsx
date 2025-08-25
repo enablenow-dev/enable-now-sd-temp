@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 
 const Value: React.FC = () => {
   return (
@@ -46,12 +47,14 @@ const Value: React.FC = () => {
 
             {/* CTA Button */}
             <div className="pt-4">
+                <Link href="/contact-us" >
                 <button
             className="bg-[#007ba8] hover:bg-[#006ba8] text-gray-50 font-semibold px-8 py-4 rounded-md transition duration-300"
             onClick={() => console.log('Let Us Talk clicked')}
           >
             LET US TALK
           </button>
+                </Link>
             </div>
           </div>
         </div>
