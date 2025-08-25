@@ -12,7 +12,7 @@ const ContactInfo = () => {
             <div className="shrink-0 bg-blue-200 text-[#007BA8] w-[48px] h-[48px] leading-[50px] text-[25px] inline-block text-center rounded-full">
               <i className="bx bxs-map"></i>
             </div>
-            <p>2VRG+952, Athwajan, <br /> Srinagar, Jammu and Kashmir <br /> 191101</p>
+              <p>Headquarters - 30 N GOULD STREET, Suite R, Sheridan, WY 82801<br /> <br />Regional Office - 555 Republic Drive, Suite 450, Plano TX 75074<br /></p>
           </div>
         </div>
 
