@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface BenefitItem {
   title: string;
@@ -53,12 +54,14 @@ const BenefitsSection: React.FC<BenefitsSectionProps> = ({ title, benefits }) =>
         </div>
 
         <div className="flex justify-center mt-12">
+          <Link href="/contact-us" >
           <button
             className="bg-[#007ba8] hover:bg-[#006ba8] text-gray-50 w-80 font-semibold px-8 py-4 rounded-md transition duration-300"
             onClick={() => console.log("Let Us Talk clicked")}
           >
             LET'S TALK
           </button>
+          </Link>
         </div>
       </div>
     </section>
