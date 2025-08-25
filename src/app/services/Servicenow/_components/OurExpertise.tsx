@@ -9,7 +9,7 @@ import {
   Server,
   UserCheck
 } from 'lucide-react';
-
+import Link from 'next/link';
 // Define the service type
 interface ServiceProps {
   title: string;
@@ -17,6 +17,7 @@ interface ServiceProps {
   icon: React.ReactNode;
   variant?: 'light' | 'dark';
   onClick?: () => void;
+  href?: string;
 }
 
 // Individual Service Card Component
@@ -25,9 +26,20 @@ const ServiceCard: React.FC<ServiceProps> = ({
   subtitle,
   icon,
   variant = 'light',
-  onClick
+  onClick,
+  href
 }) => {
   const isLight = variant === 'light';
+
+  const handleClick = () => {
+    if (href) {
+      // For client-side navigation (Next.js router or similar)
+      window.location.href = href;
+    }
+    if (onClick) {
+      onClick();
+    }
+  };
 
   return (
     <div
@@ -38,7 +50,7 @@ const ServiceCard: React.FC<ServiceProps> = ({
           : 'bg-[#007ba8] border-blue-800 hover:border-blue-700'
         }
       `}
-      onClick={onClick}
+      onClick={handleClick}
     >
       <div className={`mb-6 ${isLight ? 'text-[#007ba8]' : 'text-white'}`}>
         <div className="w-12 h-12">{icon}</div>
@@ -78,6 +90,7 @@ interface ServicesGridProps {
     icon: React.ReactNode;
     variant?: 'light' | 'dark';
     onClick?: () => void;
+    href?: string;
   }>;
   className?: string;
 }
@@ -104,6 +117,7 @@ const ServicesGrid: React.FC<ServicesGridProps> = ({ services, className = '' })
             icon={service.icon}
             variant={service.variant}
             onClick={service.onClick}
+            href={service.href}
           />
         ))}
       </div>
@@ -119,7 +133,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(ITSM)',
       icon: <Monitor className="w-full h-full" />,
       variant: 'light' as const,
-      onClick: () => console.log('ITSM clicked')
+      href: "/services/Servicenow/itsm"
     },
     {
       id: 'csm',
@@ -127,7 +141,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(CSM)',
       icon: <Users className="w-full h-full" />,
       variant: 'dark' as const,
-      onClick: () => console.log('CSM clicked')
+      href: "/services/Servicenow/csm"
     },
     {
       id: 'spm',
@@ -135,7 +149,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(SPM)',
       icon: <TrendingUp className="w-full h-full" />,
       variant: 'light' as const,
-      onClick: () => console.log('SPM clicked')
+      href: "/services/Servicenow/spm"
     },
     {
       id: 'ham-sam',
@@ -143,7 +157,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(HAM/SAM)',
       icon: <Settings className="w-full h-full" />,
       variant: 'dark' as const,
-      onClick: () => console.log('HAM/SAM clicked')
+      href: "/services/Servicenow/itam"
     },
     {
       id: 'itom',
@@ -151,7 +165,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(ITOM)',
       icon: <Server className="w-full h-full" />,
       variant: 'light' as const,
-      onClick: () => console.log('ITOM clicked')
+      href: "/services/Servicenow/itom"
     },
     {
       id: 'hrsd',
@@ -159,7 +173,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(HRSD)',
       icon: <UserCheck className="w-full h-full" />,
       variant: 'dark' as const,
-      onClick: () => console.log('HRSD clicked')
+      href: "/services/Servicenow/hrsd"
     },
     {
       id: 'wsd',
@@ -167,7 +181,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(WSD)',
       icon: <Server className="w-full h-full" />,
       variant: 'light' as const,
-      onClick: () => console.log('WSD clicked')
+      href: "/services/Servicenow/wsd"
     },
     {
       id: 'irm',
@@ -175,7 +189,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(IRM)',
       icon: <Server className="w-full h-full" />,
       variant: 'dark' as const,
-      onClick: () => console.log('IRM clicked')
+      href: "/services/Servicenow/irm"
     },
     {
       id: 'secops',
@@ -183,7 +197,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(SecOps)',
       icon: <Server className="w-full h-full" />,
       variant: 'light' as const,
-      onClick: () => console.log('SecOps clicked')
+      href: "/services/Servicenow/secops"
     },
     {
       id: 'fsm',
@@ -191,7 +205,7 @@ const ServicesExample: React.FC = () => {
       subtitle: '(FSM)',
       icon: <Server className="w-full h-full" />,
       variant: 'light' as const,
-      onClick: () => console.log('FSM clicked')
+      href: "/services/Servicenow/fsm"
     }
   ];
 
@@ -224,12 +238,14 @@ const ServicesExample: React.FC = () => {
             SYSUSA is your trusted partner for harnessing the full potential of ServiceNow. Our expertise, dedication,
             and commitment to excellence will help you achieve your business objectives.
           </p>
+         <Link href="/contact-us" >
           <button
             className="bg-[#007ba8] hover:bg-[#006ba8] text-gray-50 font-semibold px-8 py-4 rounded-md transition duration-300"
             onClick={() => console.log('Let Us Talk clicked')}
           >
             LET US TALK
           </button>
+         </Link>
         </div>
       </div>
     </div>

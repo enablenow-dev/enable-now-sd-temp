@@ -1,4 +1,3 @@
-
 import { FunctionComponent } from "react";
 import Link from "next/link";
 import { ArrowRight2 } from "iconsax-react";
@@ -22,50 +21,43 @@ const HeroBanner: FunctionComponent<HeroBannerProps> = ({
         className={`relative pt-[50px] md:pt-[80px] lg:pt-[80px] xl:pt-[100px] pb-[55px] bg-no-repeat bg-cover bg-center h-[650px]`}
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute top-0 left-0 bg-gray-800/70 w-full h-full bg-contain"> </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/60"></div>
         <div className="container lg:max-w-[1500px] mx-auto z-auto">
           <div className="grid place-items-center gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-1 h-full">
             <div className="text-center relative xl:mt-28 sm:mt-20 lg:mt-20 md:mt-20 2xl:mt-20">
               <h1
-                className={`${textColor} text-[30px] md:text-[40px] lg:text-[39px] xl:text-[45px] 2xl:text-[50px] leading-[40px] md:leading-[50px] lg:leading-[45px] xl:leading-[55px] 2xl:leading-[60px] font-semibold mb-[10px] sm:mb-[10px]`}
+                className={`${textColor} text-[32px] sm:text-[38px] md:text-[44px] lg:text-[50px] xl:text-[56px] 2xl:text-[64px] leading-tight font-bold mb-4 md:mb-6 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 max-w-5xl mx-auto tracking-tight`}
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="500"
               >
                 {title}
               </h1>
-
               <p
-                className={`${textColor} text-[30px] md:text-[18px] mb-[30px] md:mb-[45px] lg:mb-[30px] xl:mb-[45px] leading-[28px]`}
+                className={`${textColor} text-lg sm:text-xl md:text-2xl lg:text-xl xl:text-2xl leading-relaxed mb-8 md:mb-12 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 max-w-4xl mx-auto font-light opacity-90`}
                 data-aos="fade-up"
-                data-aos-delay="100"
+                data-aos-delay="200"
                 data-aos-duration="500"
-                style={{fontSize : '25px'}}
               >
                 {subTitle}
               </p>
-
               <Link
               href="/contact-us/"
-              className="bg-[#007ba8] text-white text-[14px] font-medium inline-block uppercase rounded-full py-[15px] px-[38px] transition duration-500 ease-in-out hover:text-[15px]"
+              className="group bg-gradient-to-r from-[#007ba8] to-[#0096c7] text-white text-sm font-semibold inline-flex items-center justify-center uppercase rounded-full py-4 px-8 transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-[#007ba8]/25 hover:scale-105 hover:-translate-y-0.5 focus:outline-none focus:ring-4 focus:ring-[#007ba8]/30"
               data-aos="fade-up"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-duration="500"
             >
-              let’s talk{" "}
+              <span className="mr-2">Let's Talk</span>
               <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={20}
+                className="transition-transform duration-300 ease-in-out group-hover:translate-x-1"
+                size={18}
               />
             </Link>
-
-              
             </div>
-
-          
           </div>
         </div>
-        </div>
+      </div>
     </>
   );
 };
