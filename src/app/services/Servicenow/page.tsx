@@ -35,17 +35,13 @@ function page() {
   return (
     <motion.div variants={containerVariants} initial="hidden" animate="visible">
       <HeroBanner
-        title="ServiceNow Services"
-        subTitle="Transforming Workflows: ServiceNow Solutions for a Smarter Enterprise"
-        heroImage="/servicenowbannerimage.jpg"
+        title="ServiceNow: Digital Transformation is not a journey. It is a Mission."
+        subTitle="Unlock your full potential and achieve operational excellence in the digital age with our relentless focus on innovation and customer success."
+        heroImage="/infinity.jpg"
       />
-
       <Value />
-
       <OurExpertise />
-
       <Approach />
-
       <Cta />
     </motion.div>
   );
