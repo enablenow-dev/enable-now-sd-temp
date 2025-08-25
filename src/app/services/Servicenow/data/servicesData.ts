@@ -1691,7 +1691,7 @@ export const itamFaqs: FaqItem[] = [
     answer:
       "Our team manages the end-to-end deployment, including configuring key ITAM modules such as HAM, SAM, and Contract Management. We ensure the CMDB integration is optimized to maintain accurate asset relationships and dependencies.",
     imageSrc:
-      "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // server setup / configuration
+      "https://www.optiproerp.com/wp-content/uploads/The-Difference-Between-Configuration-and-Customization-in-ERP-Implementation.png", // server setup / configuration
   },
   {
     id: "user-training",
@@ -1707,7 +1707,7 @@ export const itamFaqs: FaqItem[] = [
     answer:
       "Our go-live support ensures a smooth transition to ServiceNow ITAM, with continuous guidance as your team begins using the platform. We provide post-implementation support to address any challenges and help optimize performance.",
     imageSrc:
-      "https://images.unsplash.com/photo-1581090700227-4c4ef6f7f0c2?auto=format&fit=crop&w=800&q=80", // IT support team
+      "/livesupport.jpg", // IT support team
   },
   {
     id: "ongoing-optimization",
@@ -1732,14 +1732,14 @@ export const spmFaqs: FaqItem[] = [
     question: "ServiceNow SPM Solution Design and Architecture",
     answer:
       "ServiceNow SPM Solution Design creates a scalable, flexible system that aligns with organizational needs, integrates with existing tools, and optimizes platform performance.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/solutiondesign.jpg",
   },
   {
     id: "agile-delivery",
     question: "Agile Project Delivery Methodology for SPM Implementation",
     answer:
       "Agile Project Delivery for SPM emphasizes iterative sprints, teamwork, and the ongoing delivery of value. This approach ensures flexibility, quicker adaptation, and alignment with changing business priorities.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/agile.jpg",
   },
   {
     id: "integrations",
@@ -1753,14 +1753,14 @@ export const spmFaqs: FaqItem[] = [
     question: "Optimization of Resource and Financial Management in SPM",
     answer:
       "Optimizing resource and economic management in SPM requires effective resource allocation, alignment with organizational goals, and financial forecasting to maintain budget control and enhance portfolio ROI.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/optimization.jpg",
   },
    {
     id: "end-to-end",
     question: "End-to-End Portfolio Lifecycle Management",
     answer:
       "End-to-End Portfolio Lifecycle Management spans from idea generation to execution, focusing on project prioritization, resource optimization, and continuous portfolio reviews to ensure alignment with evolving business objectives and sustained value delivery.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/portfolio.jpg",
   },
 ];
 
@@ -1777,14 +1777,14 @@ export const irmFaqs: FaqItem[] = [
     question: "Solution Design and Configuration",
     answer:
       "Based on our analysis, we design a customized IRM solution. This includes configuring core modules like Risk Management, Compliance, and Vendor Risk Management, and defining workflows to streamline your organization’s risk and compliance practices.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/solutiondesign.jpg",
   },
   {
     id: "agile-delivery",
     question: "Implementation and Integration",
     answer:
       "Our team oversees the complete implementation, ensuring seamless integration with your existing IT ecosystem. We set up key modules, connect with external regulatory sources, and ensure all risk data flows accurately for optimal performance.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/implementation.png",
   },
   {
     id: "integrations",
@@ -1798,14 +1798,14 @@ export const irmFaqs: FaqItem[] = [
     question: "Go-Live and Support",
     answer:
       "We provide full support during the go-live phase, ensuring that all modules function smoothly and users are confident in using the system. Our team remains on standby for troubleshooting and guidance, ensuring a successful transition.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/livesupport2.jpg",
   },
   {
     id: "long-term-partnership",
     question: "Ongoing Optimization and Strategic Partnership",
     answer:
       "As risk management needs evolve, we partner with your organization to optimize and scale ServiceNow IRM. Our continuous support ensures your IRM solution remains agile, effective, and aligned with regulatory changes.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/optimization.jpg",
   },
 ];
 
@@ -1822,35 +1822,35 @@ export const hrsdfaqs: FaqItem[] = [
     question: "Employee Experience-First Design",
     answer:
       "Our experts created a solution to streamline HR communications by setting up user-friendly knowledge bases, HR case management, employee portals, and automation for tasks like leave requests and benefits. To guarantee smooth data flow and a cohesive experience, we give top priority to connections with your payroll systems, HRIS (such as Workday or SAP), and collaboration platforms like Microsoft Teams.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/emplyeeexp.jpg",
   },
   {
     id: "agile-delivery",
     question: "Agile Implementation and Rigorous Testing",
     answer:
       "We configure ServiceNowHRSD modules (Workplace Service Delivery, HR Service Delivery, Employee ServiceCenter) to automate procedures, cut down on manual labor, and guarantee compliance. Key tasks include role-based access controls, omnichannel support (email, chatbots, portal), and HR service catalog creation. Each process and integration are evaluated for accuracy, security, and scalability.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/agile.jpg",
   },
   {
     id: "integrations",
     question: "Change Management and Role-Based Enablement",
     answer:
       "We drive adoption with specialized training for managers, staff, and HR teams on knowledge base use, case submission, portal navigation, and manager self-service (e.g., performance reviews, team onboarding). Comprehensive FAQs and interactive demos build confidence in the new system.",
-    imageSrc: "/images/services-details.jpg",
+    imageSrc: "/changemanagement.jpg",
   },
   {
     id: "optimization",
     question: "Launch Excellence and Continuous Improvement",
     answer:
       "We offer hyper care aid during go-live to handle employee and HR inquiries, track case response patterns, and streamline processes. To enhance service delivery and customer happiness, we examine KPIs (such as case resolution time and portal engagement) and make necessary configuration adjustments after launch.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/launchexc.jpg",
   },
    {
     id: "long-term-partnership",
     question: "Ongoing Partnership for HR Evolution",
     answer:
       "We help you adapt ServiceNow HRSD as your workforce and HR policies evolve—whether expanding, adding services like wellness programs, or complying with new regulations like GDPR and labor laws. We ensure it remains a valuable tool for enhancing employee engagement and HR efficiency.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/partnership.jpg",
   },
 ];
 
@@ -1918,14 +1918,14 @@ export const secopsfaqs: FaqItem[] = [
     question: "Solution Design and Customization",
     answer:
       "Based on our assessment, we design a ServiceNow SecOps solution tailored to your requirements. This includes configuring modules such as Security Incident Response, Vulnerability Response, and Threat Intelligence, and integrating with existing security tools for a cohesive security environment.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/solutiondesign.jpg",
   },
   {
     id: "implementationtesting",
     question: "Implementation and Integration",
     answer:
       "Our team oversees the implementation process, including setting up SecOps modules, integrating with threat intelligence feeds, and connecting to the CMDB. We ensure that all components are tested and optimized for seamless performance.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/implementation.png",
   },
   {
     id: "training",
@@ -1939,14 +1939,14 @@ export const secopsfaqs: FaqItem[] = [
     question: "Go-Live and Ongoing Support",
     answer:
       "We support your team through the go-live process, providing guidance on initial SecOps use and troubleshooting. Our post-implementation support ensures a smooth transition and helps optimize your SecOps environment for ongoing success.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/livesupport2.jpg",
   },
   {
     id: "continuous-optimization",
     question: "Continuous Optimization and Partnership",
     answer:
       "As new security challenges emerge, we remain a strategic partner, offering continuous optimization services to adapt SecOps capabilities. Our partnership helps you stay ahead of threats and ensures that SecOps aligns with your evolving security requirements.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/optimization.jpg",
   },
 ];
 
@@ -1956,35 +1956,35 @@ export const csmfaqs: FaqItem[] = [
     question: "Solution Design",
     answer:
       "Create a plan for long-term success, integrate systems, and design workflows.",
-    imageSrc: "/images/services-details.jpg",
+    imageSrc: "/solutiondesign.jpg",
   },
   {
     id: "solution-design",
     question: "Implementation and Testing",
     answer:
       "To ensure ServiceNow, CSM features satisfy your needs, implement, and test them.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/implementation.png",
   },
   {
     id: "agile-delivery",
     question: "Employee Enablement",
     answer:
       "To increase platform adoption, train managers, agents, and other stakeholders.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/optimization.jpg",
   },
   {
     id: "integrations",
     question: "Go-Live Support and Optimization",
     answer:
       "Support your team with post-launch assistance and optimization suggestions.",
-    imageSrc: "/images/services-details.jpg",
+    imageSrc: "/livesupport2.jpg",
   },
   {
     id: "optimization",
     question: "Continuous Partnership",
     answer:
       "As you grow, we'll help scale and adjust ServiceNow CSM for continued success.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/partnership.jpg",
   },
 ];
 export const fsmfaqs: FaqItem[] = [
@@ -2000,35 +2000,35 @@ export const fsmfaqs: FaqItem[] = [
     question: "Solution Design and Configuration",
     answer:
       "Based on the assessment, we configure FSM modules, such as Intelligent Scheduling and Work Order Management, to align with your requirements. We customize workflows and features to support seamless coordination between field and back-office teams.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/solutiondesign.jpg",
   },
   {
     id: "agile-delivery",
     question: "Implementation and Integration",
     answer:
       "Our team oversees the complete implementation process, including integrating FSM with existing CRM, ERP, and other systems. We test each component to ensure reliable performance and compatibility across your IT ecosystem.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/implementation.png",
   },
   {
     id: "integrations",
     question: "Technician Training and Knowledge Transfer",
     answer:
       "We provide comprehensive training for field technicians and support staff, covering key FSM features, mobile app usage, and best practices. Training ensures that your team can effectively leverage FSM in daily operations.",
-    imageSrc: "/images/services-details.jpg",
+    imageSrc: "/kt.jpg",
   },
   {
     id: "go-live-support",
     question: "Go-Live and Post-Implementation Support",
     answer:
       "During the go-live phase, we support your team with troubleshooting and guidance. Our post-implementation support ensures that FSM is fully operational, enabling your team to maximize its capabilities from day one.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/livesupport.jpg",
   },
     {
     id: "optimization",
     question: "Ongoing Optimization and Partnership",
     answer:
       "As your field service needs evolve, we offer continuous optimization services to adapt FSM capabilities. Our partnership helps you unlock the full potential of FSM, ensuring consistent improvement and alignment with changing business requirements.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/optimization.jpg",
   },
 ];
 
@@ -2045,35 +2045,35 @@ export const wsdfaqs: FaqItem[] = [
     question: "Solution Design and Configuration",
     answer:
       "Based on the assessment, we configure core WSD modules like Workplace Reservation, Facilities Management, and Space Management. We tailor workflows to support seamless, efficient operations.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/solutiondesign.jpg",
   },
   {
     id: "implementation-testing",
     question: "Implementation and Integration",
     answer:
       "Our team manages the full implementation process, integrating WSD with existing systems like HR and facility tools to ensure a smooth user experience. We test each component for reliable performance.",
-    imageSrc: "/images/success-stories6.jpg",
+    imageSrc: "/implementation.png",
   },
   {
     id: "integrations",
     question: "User Training and Knowledge Transfer",
     answer:
       "To ensure successful adoption, we provide targeted training for facilities teams, employees, and administrators. Our training covers WSD functionalities, self-service tools, and best practices, and powering your team.",
-    imageSrc: "/images/services-details.jpg",
+    imageSrc: "/kt.jpg",
   },
   {
     id: "optimization",
     question: "Go-Live and Support",
     answer:
       "During the go-live phase, we offer support and troubleshooting to ensure a smooth transition. Our post-implementation support helps address any challenges and optimizes WSD functionality for effective workplace service management.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/livesupport2.jpg",
   },
    {
     id: "continuous-optimization",
     question: "Continuous Optimization and Partnership",
     answer:
       "As your workplace needs evolve, we provide ongoing support and optimization to ensure WSD continues to meet your goals. Our partnership helps unlock WSD’s full potential, boosting efficiency and employee experience.",
-    imageSrc: "/images/collaboration_image.jpg",
+    imageSrc: "/optimization.jpg",
   },
 ];
 

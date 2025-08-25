@@ -37,7 +37,7 @@ function page() {
       <HeroBanner
         title="ServiceNow Services"
         subTitle="Transforming Workflows: ServiceNow Solutions for a Smarter Enterprise"
-        heroImage="/images/software1.avif"
+        heroImage="/bannerimage.jpg"
       />
 
       <Value />
