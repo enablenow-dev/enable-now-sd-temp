@@ -27,9 +27,10 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "EnableNow Technology Solutions",
   description: "EnableNow empowers you to navigate and thrive in today's intricate business landscape with unmatched expertise and innovation.",
-  icons: {
-    icon: "/agile.jpg",
+   icons: {
+    icon: "/agile.jpg", // ✅ use icons instead of favicon
   },
+  
 };
 
 export default function RootLayout({
