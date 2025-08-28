@@ -64,12 +64,11 @@ const ServicesCard = () => {
           >
             <div className="bg-[#F2F2F8] w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-[15px]">
               <Image
-                src={"/images/Software_code.svg"}
+                src={"/images/home/proposal-development.svg"}
                 alt={"ServiceNow"}
                 width={"48"}
                 height={"48"}
                 className="inline-block"
-                style={{ filter: "hue-rotate(200deg) saturate(130%)" }}
               />
             </div>
 
