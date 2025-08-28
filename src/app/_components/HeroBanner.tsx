@@ -5,7 +5,7 @@ import { ArrowRight2 } from "iconsax-react";
 const HeroBanner = () => {
   return (
     <>
-      <div className="relative bg-[url('/heroBanner.jpeg')] pt-[50px] pb-[150px] md:pt-[150px] lg:pt-[80px] bg-no-repeat bg-cover bg-center h-[600px]">
+      <div className="relative bg-[url('/herobanner.jpeg')] pt-[50px] pb-[150px] md:pt-[150px] lg:pt-[80px] bg-no-repeat bg-cover bg-center h-[600px]">
         {/* Darker overlay for better text visibility */}
         <div className="absolute top-0 left-0 bg-black/50 w-full h-full">
           {" "}
