@@ -139,7 +139,7 @@ export const softwareDevelopmentServices = {
     {
       title: "DevOps Integration",
       description: `Our DevOps Integration services streamline software development processes, fostering collaboration between development and operations teams. By implementing DevOps practices and tools, we automate workflows, accelerate deployment cycles, and enhance overall efficiency. `,
-      image: "/images/software-development-services/devops_image.png",
+      image: "/images/home/software-development.svg",
     },
     {
       title: "Expertise",
