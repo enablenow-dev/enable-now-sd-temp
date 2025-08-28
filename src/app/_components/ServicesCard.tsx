@@ -69,6 +69,7 @@ const ServicesCard = () => {
                 width={"48"}
                 height={"48"}
                 className="inline-block"
+                style={{ filter: "hue-rotate(200deg) saturate(130%)" }}
               />
             </div>
 
