@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Value: React.FC = () => {
   return (
-    <div className="bg-white py-12 md:py-16 lg:py-20">
+    <div className="bg-white pt-12 md:pt-16 lg:pt-20 pb-4 md:pb-6 lg:pb-8">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left side - Image */}
