@@ -264,7 +264,7 @@ const NavbarStyleTwo: React.FC = () => {
                           : "text-gray-800"
                       }`}
                     >
-                      <span className="sm:block md:inline">Software Development Services</span>
+                      <span className="sm:block md:inline">Software Development</span>
                     </Link>
 
                     {/* Strategic IT & Security Consulting - Responsive */}
@@ -279,7 +279,7 @@ const NavbarStyleTwo: React.FC = () => {
                           : "text-gray-800"
                       }`}
                     >
-                      <span className="sm:block md:inline">Strategic IT & Security Consulting</span>
+                      <span className="sm:block md:inline">Strategic Consulting</span>
                     </Link>
                   </div>
                 </div>
